@@ -4,8 +4,9 @@
       <div class="grid gap-8 md:grid-cols-4">
         <div class="space-y-3">
           <div class="flex items-center gap-3">
-            <div class="h-7 w-7 rounded-md bg-primary/90 ring-1 ring-ring/30" />
-            <span class="font-semibold">Codevon</span>
+            <NuxtLink to="/" class="flex items-center">
+              <img src="/logo_codevon_centered.png" alt="codevon" class="h-8 w-auto" />
+            </NuxtLink>
           </div>
           <p class="text-sm text-muted-foreground">
             AI Software Studio. We ship fast, flexibly, and transparently by the hour.
