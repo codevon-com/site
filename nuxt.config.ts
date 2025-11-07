@@ -16,7 +16,12 @@ export default defineNuxtConfig({
     '@nuxt/icon'
   ],
 
+  // Enable static site generation for GitHub Pages
+  ssr: true,
+  
   app: {
+    // Use custom domain as base URL
+    baseURL: '/',
     head: {
       title: 'Codevon — AI Software Studio',
       meta: [
