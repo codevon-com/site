@@ -11,7 +11,7 @@
       </div>
       <div>
         <div class="text-3xl font-semibold">28</div>
-        <div class="text-xs text-muted-foreground">5‑star reviews</div>
+        <div class="text-xs text-muted-foreground">5-star reviews</div>
       </div>
       <div>
         <div class="text-3xl font-semibold">167</div>

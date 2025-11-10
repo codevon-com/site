@@ -3,14 +3,14 @@
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">How we work</h2>
       <p class="mt-3 text-muted-foreground">
-        Designed for flexibility. No fixed‑scope surprises—just outcomes delivered with a founder mindset.
+        Designed for flexibility. No fixed-scope surprises—just outcomes delivered with a founder mindset.
       </p>
     </div>
     <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
       <div class="rounded-xl border border-border/60 p-6">
         <div class="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary/10 font-medium text-primary">01</div>
         <h3 class="font-medium">Connect</h3>
-        <p class="mt-2 text-sm text-muted-foreground">Tell us your vision and constraints. We’ll sanity‑check feasibility and impact.</p>
+        <p class="mt-2 text-sm text-muted-foreground">Tell us your vision and constraints. We’ll sanity-check feasibility and impact.</p>
       </div>
       <div class="rounded-xl border border-border/60 p-6">
         <div class="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary/10 font-medium text-primary">02</div>

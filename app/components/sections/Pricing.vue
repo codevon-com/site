@@ -1,7 +1,7 @@
 <template>
   <section id="pricing" class="mx-auto max-w-screen-xl px-4 py-16 md:py-24">
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Flexible by‑the‑hour pricing</h2>
+      <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Flexible by-the-hour pricing</h2>
       <p class="mt-3 text-muted-foreground">
         Engage a blended senior team by hours. Increase or decrease bandwidth as your product evolves.
       </p>
@@ -16,13 +16,13 @@
       <div class="rounded-xl border border-border/60 p-6">
         <div class="text-sm font-medium">Transparent Hours</div>
         <p class="mt-2 text-sm text-muted-foreground">
-          Time‑boxed sprints, weekly timesheets, and demo‑driven cadence.
+          Time-boxed sprints, weekly timesheets, and demo-driven cadence.
         </p>
       </div>
       <div class="rounded-xl border border-border/60 p-6">
         <div class="text-sm font-medium">Scale With You</div>
         <p class="mt-2 text-sm text-muted-foreground">
-          Ramp up for launches, ramp down for digestion. No long‑term lock‑ins.
+          Ramp up for launches, ramp down for digestion. No long-term lock-ins.
         </p>
       </div>
     </div>

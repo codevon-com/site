@@ -8,7 +8,7 @@
           Make something people want—faster.
         </h2>
         <p class="mt-3 max-w-2xl text-muted-foreground">
-          Book a 30‑minute consult. We’ll shape a lean plan and get your first
+          Book a 30-minute consult. We’ll shape a lean plan and get your first
           milestone shipping next week.
         </p>
         <div class="mt-6 flex flex-wrap items-center gap-3">

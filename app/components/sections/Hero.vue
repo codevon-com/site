@@ -10,7 +10,7 @@
         AI Software Studio • Flexible by-the-hour engagements
       </p>
       <h1 class="mx-auto max-w-4xl text-balance text-4xl font-semibold tracking-tight md:text-6xl">
-        World‑class AI and product engineering,
+        World-class AI and product engineering,
         <span class="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">on your schedule</span>.
       </h1>
       <p class="mx-auto mt-5 max-w-2xl text-pretty text-base text-muted-foreground md:text-lg">

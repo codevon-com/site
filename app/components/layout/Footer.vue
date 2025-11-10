@@ -28,12 +28,6 @@
             <li><a href="#contact" class="text-muted-foreground hover:text-foreground">Book a call</a></li>
           </ul>
         </div>
-        <div>
-          <div class="mb-3 text-sm font-medium">Theme</div>
-          <div class="text-sm text-muted-foreground">
-            Violet brand enabled. Swap in any shadcn theme in <code>app/assets/css/tailwind.css</code>.
-          </div>
-        </div>
       </div>
       <div class="mt-12 flex items-center justify-between border-t border-border/60 pt-6 text-xs text-muted-foreground">
         <span>©2025 Codevon.</span>

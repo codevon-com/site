@@ -1,9 +1,9 @@
 <template>
   <section id="services" class="mx-auto max-w-screen-xl px-4 py-16 md:py-24">
     <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Simple solutions, non‑simple tech</h2>
+      <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Simple solutions, non-simple tech</h2>
       <p class="mt-3 text-muted-foreground">
-        Full‑stack product teams across AI, data, design, and engineering.
+        Full-stack product teams across AI, data, design, and engineering.
       </p>
     </div>
     <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
