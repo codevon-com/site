@@ -30,20 +30,20 @@
       </div>
       <div class="mx-auto mt-10 grid max-w-3xl grid-cols-2 items-center gap-6 text-left md:grid-cols-4">
         <div class="rounded-lg border border-border/60 p-3">
-          <div class="text-2xl font-semibold">5+</div>
-          <div class="text-xs text-muted-foreground">Years building products</div>
-        </div>
-        <div class="rounded-lg border border-border/60 p-3">
-          <div class="text-2xl font-semibold">100%</div>
-          <div class="text-xs text-muted-foreground">Transparent time tracking</div>
-        </div>
-        <div class="rounded-lg border border-border/60 p-3">
-          <div class="text-2xl font-semibold">7 days</div>
-          <div class="text-xs text-muted-foreground">Typical kickoff</div>
+          <div class="text-2xl font-semibold">Fast</div>
+          <div class="text-xs text-muted-foreground">Make it useful asap</div>
         </div>
         <div class="rounded-lg border border-border/60 p-3">
           <div class="text-2xl font-semibold">Flexible</div>
           <div class="text-xs text-muted-foreground">Scale up/down as needed</div>
+        </div>
+        <div class="rounded-lg border border-border/60 p-3">
+          <div class="text-2xl font-semibold">Engineering</div>
+          <div class="text-xs text-muted-foreground">Objectives-driven</div>
+        </div>
+        <div class="rounded-lg border border-border/60 p-3">
+          <div class="text-2xl font-semibold">Consulting</div>
+          <div class="text-xs text-muted-foreground">Tech validation & advisory</div>
         </div>
       </div>
     </div>
