@@ -25,9 +25,9 @@ export default defineNuxtConfig({
     head: {
       title: 'Codevon — AI Software Studio',
       meta: [
-        { name: 'description', content: 'We build world-class AI products and software by the hour. Flexible, transparent, and fast.' },
+        { name: 'description', content: 'We build software and AI products for you. Flexible, transparent, and fast.' },
         { property: 'og:title', content: 'Codevon — AI Software Studio' },
-        { property: 'og:description', content: 'We build world-class AI products and software by the hour. Flexible, transparent, and fast.' },
+        { property: 'og:description', content: 'We build software and AI products for you. Flexible, transparent, and fast.' },
         { property: 'og:type', content: 'website' },
         { name: 'theme-color', content: '#7c3aed' } // violet
       ],
