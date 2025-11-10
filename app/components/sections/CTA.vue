@@ -12,13 +12,13 @@
           milestone shipping next week.
         </p>
         <div class="mt-6 flex flex-wrap items-center gap-3">
-          <a href="mailto:hello@codevon.ai">
+          <a href="mailto:hello@codevon.com">
             <Button size="lg" class="gap-2">
               Contact us
               <Icon name="lucide:arrow-right" class="h-5 w-5" />
             </Button>
           </a>
-          <a href="#services">
+          <a href="/#services">
             <Button size="lg" variant="secondary">Explore services</Button>
           </a>
         </div>

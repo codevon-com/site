@@ -7,7 +7,7 @@
     <Stats />
     <SelectedWork />
     <Team />
-    <CTA />
+    <Contact />
   </main>
 </template>
 

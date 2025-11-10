@@ -18,13 +18,13 @@
         Flexible, transparent, and fast.
       </p>
       <div class="mx-auto mt-8 flex max-w-md items-center justify-center gap-3">
-        <a href="#contact">
+        <a href="/#contact">
           <Button size="lg" class="gap-2">
             Let's make it happen
             <Icon name="lucide:arrow-right" class="h-5 w-5" />
           </Button>
         </a>
-        <a href="#services">
+        <a href="/#services">
           <Button size="lg" variant="secondary">Our services</Button>
         </a>
       </div>

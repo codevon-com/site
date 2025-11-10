@@ -14,7 +14,7 @@
             Starts at 40+ hours / month. We'll shape the exact mix to fit your roadmap.
           </div>
         </div>
-        <a href="#contact">
+        <a href="/#contact">
           <Button class="gap-2">
             Get a tailored plan
             <Icon name="lucide:arrow-right" class="h-4 w-4" />

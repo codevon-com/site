@@ -15,17 +15,18 @@
         <div>
           <div class="mb-3 text-sm font-medium">Links</div>
           <ul class="space-y-2 text-sm">
-            <li><a href="#services" class="text-muted-foreground hover:text-foreground">Services</a></li>
-            <li><a href="#pricing" class="text-muted-foreground hover:text-foreground">Pricing</a></li>
-            <li><a href="#how-we-work" class="text-muted-foreground hover:text-foreground">How we work</a></li>
-            <li><a href="#work" class="text-muted-foreground hover:text-foreground">Work</a></li>
+            <li><a href="/#services" class="text-muted-foreground hover:text-foreground">Services</a></li>
+            <li><a href="/#pricing" class="text-muted-foreground hover:text-foreground">Pricing</a></li>
+            <li><a href="/#how-we-work" class="text-muted-foreground hover:text-foreground">How we work</a></li>
+            <li><a href="/#work" class="text-muted-foreground hover:text-foreground">Work</a></li>
+            <li><a href="/#team" class="text-muted-foreground hover:text-foreground">Team</a></li>
           </ul>
         </div>
         <div>
           <div class="mb-3 text-sm font-medium">Contact</div>
           <ul class="space-y-2 text-sm">
-            <li><a href="mailto:hello@codevon.ai" class="text-muted-foreground hover:text-foreground">hello@codevon.ai</a></li>
-            <li><a href="#contact" class="text-muted-foreground hover:text-foreground">Book a call</a></li>
+            <li><a href="mailto:hello@codevon.com" class="text-muted-foreground hover:text-foreground">hello@codevon.com</a></li>
+            <li><a href="/#contact" class="text-muted-foreground hover:text-foreground">Book a call</a></li>
           </ul>
         </div>
       </div>
