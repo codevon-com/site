@@ -10,7 +10,7 @@
       <div class="rounded-xl border border-border/60 p-6">
         <div class="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary/10 font-medium text-primary">01</div>
         <h3 class="font-medium">Connect</h3>
-        <p class="mt-2 text-sm text-muted-foreground">Tell us your vision and constraints. We’ll sanity-check feasibility and impact.</p>
+        <p class="mt-2 text-sm text-muted-foreground">Tell us your vision and constraints. We'll sanity-check feasibility and impact.</p>
       </div>
       <div class="rounded-xl border border-border/60 p-6">
         <div class="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary/10 font-medium text-primary">02</div>
@@ -20,12 +20,12 @@
       <div class="rounded-xl border border-border/60 p-6">
         <div class="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary/10 font-medium text-primary">03</div>
         <h3 class="font-medium">Engage by hours</h3>
-        <p class="mt-2 text-sm text-muted-foreground">Buy a flexible block of senior hours. Scale up or down as new ideas emerge.</p>
+        <p class="mt-2 text-sm text-muted-foreground">Buy a flexible block of team hours. Scale up or down as new ideas emerge.</p>
       </div>
       <div class="rounded-xl border border-border/60 p-6">
         <div class="mb-3 inline-flex h-8 w-8 items-center justify-center rounded-md bg-primary/10 font-medium text-primary">04</div>
         <h3 class="font-medium">Build & iterate</h3>
-        <p class="mt-2 text-sm text-muted-foreground">Weekly demos, transparent timesheets, and rapid iterations to ship what matters.</p>
+        <p class="mt-2 text-sm text-muted-foreground">Bi-weekly demos, transparent timesheets, and rapid iterations to ship what matters.</p>
       </div>
     </div>
   </section>
