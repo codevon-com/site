@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Flexible by-the-hour pricing</h2>
       <p class="mt-3 text-muted-foreground">
-        Engage a blended senior team by hours. Increase or decrease bandwidth as your product evolves.
+        U$100-U$150/hour, depending on the complexity, team size, and timeline. Increase or decrease bandwidth as your product evolves.
       </p>
     </div>
     <div class="mx-auto mt-8 max-w-2xl rounded-xl border border-border/60 bg-primary/5 p-6">

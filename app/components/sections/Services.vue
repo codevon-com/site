@@ -31,13 +31,13 @@
       </div>
       <div class="group rounded-xl border border-border/60 p-6 transition-colors hover:border-primary/40">
         <div class="mb-3 inline-flex items-center gap-2 text-sm font-medium">
-          <Icon name="lucide:shapes" class="h-5 w-5 text-primary" /> Product Design
+          <Icon name="lucide:lightbulb" class="h-5 w-5 text-primary" /> Strategic Consulting
         </div>
         <ul class="space-y-2 text-sm text-muted-foreground">
-          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> UX research & discovery</li>
-          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> UI & prototyping</li>
-          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> Design systems</li>
-          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> Brand & storytelling</li>
+          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> Technical validation & advisory</li>
+          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> Requirements & UX/UI planning</li>
+          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> Automation discovery & setup</li>
+          <li class="flex items-center gap-2"><Icon name="lucide:check" class="h-4 w-4 text-primary" /> Problem-solving & alternatives</li>
         </ul>
       </div>
     </div>
