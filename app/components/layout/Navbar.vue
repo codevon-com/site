@@ -8,7 +8,7 @@
         <a href="#services" class="text-muted-foreground hover:text-foreground transition-colors">Services</a>
         <a href="#how-we-work" class="text-muted-foreground hover:text-foreground transition-colors">How we work</a>
         <a href="#pricing" class="text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
-        <a href="#work" class="text-muted-foreground hover:text-foreground transition-colors">Work</a>
+        <NuxtLink to="/portfolio" class="text-muted-foreground hover:text-foreground transition-colors">Portfolio</NuxtLink>
         <a href="#contact" class="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
       </nav>
       <div class="flex items-center gap-2">
