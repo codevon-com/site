@@ -6,6 +6,7 @@
     <Pricing />
     <Stats />
     <SelectedWork />
+    <Team />
     <CTA />
   </main>
 </template>
