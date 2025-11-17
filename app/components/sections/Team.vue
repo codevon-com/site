@@ -48,37 +48,37 @@ const teamMembers = [
     name: 'Bueno',
     role: 'Founder',
     image: '/team/bueno.png',
-    experience: 'Founder mindset obsessed with first principles thinking. Questions every requirement to find the simplest path. Believes the best part is no part—ruthlessly eliminates complexity to ship MVPs that validate fast.'
+    experience: 'First principles thinking. Best part is no part. All-rounder. Ex founding team at Leaf'
   },
   {
     name: 'Barbosa',
     role: 'Founder',
     image: '/team/barbosa.png',
-    experience: 'Drives prototype-first philosophy. Obsessed with speed and validation—builds to learn, iterates to win. Champions the "physics is ground truth" approach: what works in reality beats what looks good on paper.'
+    experience: 'Consistent. Always prepared. Detail-oriented. Ex founding team at Leaf'
   },
   {
     name: 'Meyer',
     role: 'Founder',
     image: '/team/meyer.png',
-    experience: "Relentless simplifier. Cuts through noise to deliver working products ASAP. Applies first principles to every problem—strips down to fundamentals, rebuilds only what's essential. MVP is not a phase, it's a discipline."
+    experience: "Hackerboy. Loves to build cool stuff. Ex AWS."
   },
   {
     name: 'Alex',
     role: 'Engineer',
     image: '/team/alex.png',
-    experience: 'Full-stack engineer who ships fast and iterates faster. Embraces the "question every requisite" mindset—challenges assumptions to find elegant solutions. Prototypes are proof, not promises.'
+    experience: 'Full stack engineer. Pragmatic thinking.'
   },
   {
     name: 'Victor',
     role: 'Engineer',
     image: '/team/victor.png',
-    experience: 'Systems thinker who simplifies complexity. Builds with validation in mind—every line of code serves the mission. Believes in rapid prototyping to discover truth through testing, not theorizing.'
+    experience: 'Full stack engineer. Pragmatic thinking.'
   },
   {
     name: 'Kalleo',
     role: 'Engineer',
     image: '/team/kalleo.png',
-    experience: 'Pragmatic builder focused on what matters. Strips features to core value, ships to learn. Thinks from ground up—physics-based reasoning over convention. Fast iteration beats perfect planning.'
+    experience: 'Full stack engineer. Pragmatic thinking.'
   }
 ]
 </script>
