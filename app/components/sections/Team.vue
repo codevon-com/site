@@ -9,22 +9,22 @@
       </p>
     </div>
     
-    <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="mt-12 grid gap-4 lg:gap-12 grid-cols-2 lg:grid-cols-3 lg:px-32">
       <div
         v-for="member in teamMembers"
         :key="member.name"
-        class="group relative overflow-hidden rounded-xl border border-border/60 transition-all duration-300 hover:border-primary/40"
+        class="group relative overflow-hidden rounded-xl border border-border/60 transition-all duration-300 hover:border-primary/80 hover:border-4"
       >
         <div class="aspect-square overflow-hidden bg-muted">
           <img 
             :src="member.image" 
             :alt="member.name"
-            class="h-full w-full object-cover grayscale transition-all duration-500 group-hover:scale-105"
+            class="h-full w-full object-cover grayscale-70 transition-all duration-500 group-hover:scale-105"
           />
         </div>
         
         <!-- Overlay on hover -->
-        <div class="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/90 via-black/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <div class="absolute inset-0 flex flex-col justify-end bg-linear-to-t from-black/90 via-black/90 via-10% to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           <div class="p-6 text-white">
             <p class="text-sm leading-relaxed">
               {{ member.experience }}
