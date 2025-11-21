@@ -38,7 +38,7 @@
         <!-- Project Image -->
         <div class="mt-12">
           <div class="aspect-video w-full overflow-hidden rounded-xl bg-muted shadow-lg">
-            <img 
+            <NuxtImg 
               :src="project.detailImage" 
               :alt="project.title" 
               class="h-full w-full object-cover"
@@ -94,11 +94,6 @@
 </template>
 
 <script setup lang="ts">
-import smartzapImg from './assets/smartzap.png'
-import fintzbotImg from './assets/fintzbot.png'
-import takePicsImg from './assets/takepics.webp'
-import rmaExpressImg from './assets/rmaexpress.png'
-
 const route = useRoute()
 const slug = route.params.slug as string
 
@@ -108,8 +103,8 @@ const projects = {
   'smartzap': {
     title: 'SmartZap',
     description: 'An AI-powered WhatsApp assistant that brings the intelligence of modern LLMs directly into everyday conversations.',
-    image: smartzapImg,
-    detailImage: smartzapImg,
+    image: '/portfolio/smartzap.png',
+    detailImage: '/portfolio/smartzap.png',
     tags: ['AI', 'Automation', 'WhatsApp Bot', 'SaaS'],
     about: [
       'SmartZap turns WhatsApp into a powerful AI assistant by integrating state-of-the-art language models into a simple conversational interface. Instead of switching apps, users can get help directly in the messaging platform they use daily.',
@@ -136,8 +131,8 @@ const projects = {
   'fintz-bot': {
     title: 'Fintz Bot',
     description: 'A smart conversational WhatsApp bot that helps users effortlessly track, organize, and understand their daily expenses.',
-    image: fintzbotImg,
-    detailImage: fintzbotImg,
+    image: '/portfolio/fintzbot.png',
+    detailImage: '/portfolio/fintzbot.png',
     tags: ['Chatbot', 'Fintech', 'Automation'],
     about: [
       'Fintz Bot is an intelligent WhatsApp-based assistant built to simplify personal finance tracking. By leveraging a natural conversational interface, users can register expenses in just a few seconds, without needing to open an app or navigate complex menus.',
@@ -170,8 +165,8 @@ const projects = {
   'take-pics': {
     title: 'TakePics.AI',
     description: 'A platform that generates hyper-realistic AI photos of you and your friends using custom-trained models.',
-    image: takePicsImg,
-    detailImage: takePicsImg,
+    image: '/portfolio/takepics.webp',
+    detailImage: '/portfolio/takepics.webp',
     tags: ['AI', 'Image Generation', 'Consumer App'],
     about: [
       'TakePics.AI is a full AI-driven photo creation platform where users upload their own images to generate a personalized virtual model. With this custom model, users can create ultra-realistic photos of themselves in hundreds of different scenarios, outfits, and styles.',
@@ -204,8 +199,8 @@ const projects = {
   'rma-express': {
     title: 'Automatic RMA Generator',
     description: 'A system that automatically generates Monthly Activity Reports (RMA) from a company’s trial balance.',
-    image: rmaExpressImg,
-    detailImage: rmaExpressImg,
+    image: '/portfolio/rmaexpress.png',
+    detailImage: '/portfolio/rmaexpress.png',
     tags: ['Data Automation', 'Financial Analysis', 'LegalTech'],
     about: [
       'The Automatic RMA Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Activity Report (RMA) used in judicial recovery cases. The RMA is reviewed by a judge to monitor the financial health and operational status of the company.',

@@ -23,7 +23,7 @@
         <NuxtLink to="/portfolio/smartzap" class="group">
           <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
             <div class="aspect-video w-full overflow-hidden bg-muted">
-              <img 
+              <NuxtImg
                 src="./assets/smartzap.png" 
                 alt="SmartZap" 
                 class="h-full w-full object-cover transition-transform group-hover:scale-105"
@@ -57,7 +57,7 @@
         <NuxtLink to="/portfolio/fintz-bot" class="group">
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
-            <img 
+            <NuxtImg
               src="./assets/fintzbot.png"
               alt="Fintz Bot"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
@@ -92,7 +92,7 @@
       <NuxtLink to="/portfolio/take-pics" class="group">
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
-            <img 
+            <NuxtImg
               src="./assets/takepics.webp"
               alt="TakePics.AI"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
@@ -125,7 +125,7 @@
       <NuxtLink to="/portfolio/rma-express" class="group">
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
-            <img 
+            <NuxtImg
               src="./assets/rmaexpress.png"
               alt="Automatic RMA Generator"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
