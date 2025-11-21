@@ -19,293 +19,144 @@
     <section class="py-24">
       <div class="mx-auto max-w-screen-xl px-4">
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <!-- Project 1 -->
-          <NuxtLink to="/portfolio/ai-trading-platform" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=500&fit=crop" 
-                  alt="AI Trading Platform" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle>AI Trading Platform</CardTitle>
-                <CardDescription>
-                  Real-time trading system powered by machine learning algorithms
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">AI</Badge>
-                  <Badge variant="secondary">Python</Badge>
-                  <Badge variant="secondary">Finance</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+          <!-- Project: SmartZap -->
+        <NuxtLink to="/portfolio/smartzap" class="group">
+          <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <div class="aspect-video w-full overflow-hidden bg-muted">
+              <img 
+                src="./assets/smartzap.png" 
+                alt="SmartZap" 
+                class="h-full w-full object-cover transition-transform group-hover:scale-105"
+              />
+            </div>
 
-          <!-- Project 2 -->
-          <NuxtLink to="/portfolio/decentralized-marketplace" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=500&fit=crop" 
-                  alt="Decentralized Marketplace" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle>Decentralized Marketplace</CardTitle>
-                <CardDescription>
-                  NFT marketplace built on Ethereum with smart contracts
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Blockchain</Badge>
-                  <Badge variant="secondary">Web3</Badge>
-                  <Badge variant="secondary">Solidity</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+            <CardHeader>
+              <CardTitle>SmartZap</CardTitle>
+              <CardDescription>
+                AI WhatsApp assistant powered by advanced LLMs
+              </CardDescription>
+            </CardHeader>
 
-          <!-- Project 3 -->
-          <NuxtLink to="/portfolio/healthcare-analytics" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=500&fit=crop" 
-                  alt="Healthcare Analytics" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
+            <CardContent>
+              <div class="flex flex-wrap gap-2">
+                <Badge variant="secondary">AI</Badge>
+                <Badge variant="secondary">WhatsApp Bot</Badge>
+                <Badge variant="secondary">SaaS</Badge>
               </div>
-              <CardHeader>
-                <CardTitle>Healthcare Analytics Dashboard</CardTitle>
-                <CardDescription>
-                  Patient data analytics platform with predictive modeling
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Data Science</Badge>
-                  <Badge variant="secondary">Healthcare</Badge>
-                  <Badge variant="secondary">React</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+            </CardContent>
 
-          <!-- Project 4 -->
-          <NuxtLink to="/portfolio/climate-prediction-model" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&h=500&fit=crop" 
-                  alt="Climate Prediction Model" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
+            <CardFooter>
+              <div class="flex items-center gap-2 text-sm font-medium text-primary">
+                Learn more
+                <Icon name="lucide:arrow-right" class="h-4 w-4" />
               </div>
-              <CardHeader>
-                <CardTitle>Climate Prediction Model</CardTitle>
-                <CardDescription>
-                  Deep learning model for long-term climate forecasting
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">AI</Badge>
-                  <Badge variant="secondary">TensorFlow</Badge>
-                  <Badge variant="secondary">Climate</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+            </CardFooter>
+          </Card>
+        </NuxtLink>
 
-          <!-- Project 5 -->
-          <NuxtLink to="/portfolio/supply-chain-tracker" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=500&fit=crop" 
-                  alt="Supply Chain Tracker" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle>Supply Chain Tracker</CardTitle>
-                <CardDescription>
-                  Blockchain-based supply chain transparency platform
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Blockchain</Badge>
-                  <Badge variant="secondary">IoT</Badge>
-                  <Badge variant="secondary">Logistics</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+        <NuxtLink to="/portfolio/fintz-bot" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <img 
+              src="./assets/fintzbot.png"
+              alt="Fintz Bot"
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
 
-          <!-- Project 6 -->
-          <NuxtLink to="/portfolio/personalized-learning-ai" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=500&fit=crop" 
-                  alt="Personalized Learning AI" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle>Personalized Learning AI</CardTitle>
-                <CardDescription>
-                  Adaptive learning platform using natural language processing
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">AI</Badge>
-                  <Badge variant="secondary">Education</Badge>
-                  <Badge variant="secondary">NLP</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+          <CardHeader>
+            <CardTitle>Fintz Bot</CardTitle>
+            <CardDescription>
+              A smart WhatsApp chatbot that helps you track and organize your daily expenses
+            </CardDescription>
+          </CardHeader>
 
-          <!-- Project 7 -->
-          <NuxtLink to="/portfolio/fraud-detection-system" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=500&fit=crop" 
-                  alt="Fraud Detection System" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle>Fraud Detection System</CardTitle>
-                <CardDescription>
-                  Real-time anomaly detection for financial transactions
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">AI</Badge>
-                  <Badge variant="secondary">Security</Badge>
-                  <Badge variant="secondary">Finance</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">Chatbot</Badge>
+              <Badge variant="secondary">Fintech</Badge>
+              <Badge variant="secondary">Automation</Badge>
+            </div>
+          </CardContent>
 
-          <!-- Project 8 -->
-          <NuxtLink to="/portfolio/smart-city-dashboard" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=800&h=500&fit=crop" 
-                  alt="Smart City Dashboard" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle>Smart City Dashboard</CardTitle>
-                <CardDescription>
-                  IoT-powered urban management and analytics platform
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">IoT</Badge>
-                  <Badge variant="secondary">Data Science</Badge>
-                  <Badge variant="secondary">Urban Tech</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
 
-          <!-- Project 9 -->
-          <NuxtLink to="/portfolio/genomic-data-analyzer" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-              <div class="aspect-video w-full overflow-hidden bg-muted">
-                <img 
-                  src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=500&fit=crop" 
-                  alt="Genomic Data Analyzer" 
-                  class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle>Genomic Data Analyzer</CardTitle>
-                <CardDescription>
-                  High-performance computing platform for genome sequencing
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div class="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Data Science</Badge>
-                  <Badge variant="secondary">Bioinformatics</Badge>
-                  <Badge variant="secondary">Python</Badge>
-                </div>
-              </CardContent>
-              <CardFooter>
-                <div class="flex items-center gap-2 text-sm font-medium text-primary">
-                  Learn more
-                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
-                </div>
-              </CardFooter>
-            </Card>
-          </NuxtLink>
+
+      <NuxtLink to="/portfolio/take-pics" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <img 
+              src="./assets/takepics.webp"
+              alt="TakePics.AI"
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+
+          <CardHeader>
+            <CardTitle>TakePics.AI</CardTitle>
+            <CardDescription>
+              Generate stunning AI photos of yourself with custom models
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">AI</Badge>
+              <Badge variant="secondary">Image Generation</Badge>
+              <Badge variant="secondary">Consumer App</Badge>
+            </div>
+          </CardContent>
+
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
+      <NuxtLink to="/portfolio/rma-express" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <img 
+              src="./assets/rmaexpress.png"
+              alt="Automatic RMA Generator"
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+
+          <CardHeader>
+            <CardTitle>Automatic RMA Generator</CardTitle>
+            <CardDescription>
+              Automated Monthly Activity Reports from trial balance data
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">Data Automation</Badge>
+              <Badge variant="secondary">Financial Analysis</Badge>
+              <Badge variant="secondary">LegalTech</Badge>
+            </div>
+          </CardContent>
+
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
+
+
         </div>
       </div>
     </section>
