@@ -1,28 +1,88 @@
 <template>
-  <section id="pricing" class="mx-auto max-w-screen-xl px-4 py-16 md:py-24">
-    <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Flexible by-the-hour pricing</h2>
-      <p class="mt-3 text-muted-foreground">
-        U$100-U$150/hour, depending on the complexity, team size, and timeline. Increase or decrease bandwidth as your product evolves.
+  <section id="pricing" class="w-full flex flex-col items-center py-16 px-4 md:py-24">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold">
+        Flexible <span class="text-primary">by-the-hour</span> pricing
+      </h2>
+      <p class="text-gray-600 max-w-xl mx-auto mt-4">
+        U$100-U$150/hour, depending on the complexity, team size, and timeline.
+        Increase or decrease bandwidth as your product evolves.
       </p>
     </div>
-    <div class="mx-auto mt-8 max-w-2xl rounded-xl border border-border/60 bg-primary/5 p-6">
-      <div class="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
+
+    <div class="w-full max-w-5xl border rounded-2xl p-10 bg-white shadow-sm">
+      <div class="grid md:grid-cols-2 items-center">
         <div>
-          <div class="text-sm font-medium">Typical Engagement</div>
-          <div class="text-sm text-muted-foreground">
-            Starts at 40+ hours / month. We'll shape the exact mix to fit your roadmap.
+          <h3 class="text-2xl font-semibold mb-6">Typical Engagement</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="text-primary text-xl">✓</span>
+              <p>
+                <strong>40-160 hours/month</strong><br /><span
+                  class="text-gray-600"
+                  >Flexible allocation based on project needs</span
+                >
+              </p>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-primary text-xl">✓</span>
+              <p>
+                <strong>Bi-weekly sprints</strong><br /><span
+                  class="text-gray-600"
+                  >Regular demos and iterations</span
+                >
+              </p>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-primary text-xl">✓</span>
+              <p>
+                <strong>Transparent timesheets</strong><br /><span
+                  class="text-gray-600"
+                  >Know exactly where your investment goes</span
+                >
+              </p>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-primary text-xl">✓</span>
+              <p>
+                <strong>No long-term contracts</strong><br /><span
+                  class="text-gray-600"
+                  >Scale up or pause anytime</span
+                >
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-8 items-stretch w-full">
+          <div
+            class="flex flex-col bg-primary/10 p-6 rounded-xl space-y-2 items-center text-center w-full mx-auto"
+          >
+            <div class="text-start">
+              <div class="text-5xl font-bold text-primary">$100-150</div>
+              <p class="text-gray-600">per hour</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-stretch mx-auto w-full">
+            <a href="/#contact">
+              <button
+                class="bg-primary hover:bg-primary/90 text-white w-full font-medium py-3 px-8 rounded-lg transition"
+              >
+                Schedule a consultation
+              </button>
+            </a>
+            <p class="text-gray-500 text-sm mt-4 w-full text-center">
+              No commitment required. Let's discuss your project first.
+            </p>
           </div>
         </div>
-        <a href="/#contact">
-          <Button class="gap-2">
-            Get a tailored plan
-            <Icon name="lucide:arrow-right" class="h-4 w-4" />
-          </Button>
-        </a>
       </div>
     </div>
   </section>
 </template>
 
+<script setup>
+// No logic needed for this static component
+</script>
 
+<style scoped></style>
