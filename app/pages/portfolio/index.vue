@@ -24,8 +24,8 @@
           <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
             <div class="aspect-video w-full overflow-hidden bg-muted">
               <NuxtImg
-                src="./assets/smartzap.png" 
-                alt="SmartZap" 
+                src="/portfolio/smartzap.png"
+                alt="SmartZap"
                 class="h-full w-full object-cover transition-transform group-hover:scale-105"
               />
             </div>
@@ -33,7 +33,7 @@
             <CardHeader>
               <CardTitle>SmartZap</CardTitle>
               <CardDescription>
-                AI WhatsApp assistant powered by advanced LLMs
+                Like chatgpt but inside WhatsApp
               </CardDescription>
             </CardHeader>
 
@@ -54,46 +54,11 @@
           </Card>
         </NuxtLink>
 
-        <NuxtLink to="/portfolio/fintz-bot" class="group">
-        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
-          <div class="aspect-video w-full overflow-hidden bg-muted">
-            <NuxtImg
-              src="./assets/fintzbot.png"
-              alt="Fintz Bot"
-              class="h-full w-full object-cover transition-transform group-hover:scale-105"
-            />
-          </div>
-
-          <CardHeader>
-            <CardTitle>Fintz Bot</CardTitle>
-            <CardDescription>
-              A smart WhatsApp chatbot that helps you track and organize your daily expenses
-            </CardDescription>
-          </CardHeader>
-
-          <CardContent>
-            <div class="flex flex-wrap gap-2">
-              <Badge variant="secondary">Chatbot</Badge>
-              <Badge variant="secondary">Fintech</Badge>
-              <Badge variant="secondary">Automation</Badge>
-            </div>
-          </CardContent>
-
-          <CardFooter>
-            <div class="flex items-center gap-2 text-sm font-medium text-primary">
-              Learn more
-              <Icon name="lucide:arrow-right" class="h-4 w-4" />
-            </div>
-          </CardFooter>
-        </Card>
-      </NuxtLink>
-
-
       <NuxtLink to="/portfolio/take-pics" class="group">
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
             <NuxtImg
-              src="./assets/takepics.webp"
+              src="/portfolio/takepics.webp"
               alt="TakePics.AI"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
             />
@@ -102,7 +67,7 @@
           <CardHeader>
             <CardTitle>TakePics.AI</CardTitle>
             <CardDescription>
-              Generate stunning AI photos of yourself with custom models
+              Users can generate AI photos of themselves anywhere and with any style
             </CardDescription>
           </CardHeader>
 
@@ -126,8 +91,8 @@
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
             <NuxtImg
-              src="./assets/rmaexpress.png"
-              alt="Automatic RMA Generator"
+              src="/portfolio/rmaexpress.png"
+              alt="Automatic MOR Generator"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
             />
           </div>
@@ -135,7 +100,7 @@
           <CardHeader>
             <CardTitle>Automatic RMA Generator</CardTitle>
             <CardDescription>
-              Automated Monthly Activity Reports from trial balance data
+              Automated Monthly Operating Reports (PDF and Word) from balance sheet data
             </CardDescription>
           </CardHeader>
 

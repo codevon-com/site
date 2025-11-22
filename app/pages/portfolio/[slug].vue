@@ -198,12 +198,12 @@ const projects = {
   },
   'rma-express': {
     title: 'Automatic RMA Generator',
-    description: 'A system that automatically generates Monthly Activity Reports (RMA) from a company’s trial balance.',
+    description: 'A system that automatically generates Monthly Operating Reports (MOR) from a company’s balance sheet.',
     image: '/portfolio/rmaexpress.png',
     detailImage: '/portfolio/rmaexpress.png',
     tags: ['Data Automation', 'Financial Analysis', 'LegalTech'],
     about: [
-      'The Automatic RMA Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Activity Report (RMA) used in judicial recovery cases. The RMA is reviewed by a judge to monitor the financial health and operational status of the company.',
+      'The Automatic MOR Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Operating Report (MOR) used in judicial recovery cases. The MOR is reviewed by a judge to monitor the financial health and operational status of the company.',
       'The tool uses deterministic logic and structured financial rules to interpret accounting data and produce a fully formatted, standardized, and consistent PowerPoint report. This eliminates manual work, reduces errors, and greatly speeds up document preparation.',
       'Built with a strong data-analysis foundation using Python and Pandas, the system ensures accuracy, reliability, and compliance with judicial reporting requirements.'
     ],
@@ -229,7 +229,7 @@ const projects = {
   }
 }
 
-const project = projects[slug as keyof typeof projects] || projects['ai-trading-platform']
+const project = projects[slug as keyof typeof projects]
 
 useSeoMeta({
   title: `${project.title} - Portfolio - Codevon`,
