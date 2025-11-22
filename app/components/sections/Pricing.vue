@@ -16,7 +16,7 @@
           <h3 class="text-2xl font-semibold mb-6">Typical Engagement</h3>
           <ul class="space-y-4">
             <li class="flex items-start gap-3">
-              <span class="text-primary text-xl">✓</span>
+              <span class="text-primary font-semibold text-xl">✓</span>
               <p>
                 <strong>40-160 hours/month</strong><br /><span
                   class="text-gray-600"
@@ -25,7 +25,7 @@
               </p>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-primary text-xl">✓</span>
+              <span class="text-primary font-semibold text-xl">✓</span>
               <p>
                 <strong>Bi-weekly sprints</strong><br /><span
                   class="text-gray-600"
@@ -34,7 +34,7 @@
               </p>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-primary text-xl">✓</span>
+              <span class="text-primary font-semibold text-xl">✓</span>
               <p>
                 <strong>Transparent timesheets</strong><br /><span
                   class="text-gray-600"
@@ -43,7 +43,7 @@
               </p>
             </li>
             <li class="flex items-start gap-3">
-              <span class="text-primary text-xl">✓</span>
+              <span class="text-primary font-semibold text-xl">✓</span>
               <p>
                 <strong>No long-term contracts</strong><br /><span
                   class="text-gray-600"
@@ -56,7 +56,7 @@
 
         <div class="flex flex-col gap-8 items-stretch w-full">
           <div
-            class="flex flex-col bg-primary/10 p-6 rounded-xl space-y-2 items-center text-center w-full mx-auto"
+            class="flex flex-col bg-primary/10 mt-8 p-6 rounded-xl space-y-2 w-full mx-auto"
           >
             <div class="text-start">
               <div class="text-5xl font-bold text-primary">$100-150</div>
