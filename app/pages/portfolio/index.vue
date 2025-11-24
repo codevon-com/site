@@ -98,9 +98,9 @@
           </div>
 
           <CardHeader>
-            <CardTitle>Automatic RMA Generator</CardTitle>
+            <CardTitle>Automatic Operating Reports</CardTitle>
             <CardDescription>
-              Automated Monthly Operating Reports (PDF and Word) from balance sheet data
+              Automated Monthly Operating Reports (PPT and DOC) from balance sheet data
             </CardDescription>
           </CardHeader>
 

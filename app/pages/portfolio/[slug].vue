@@ -197,7 +197,7 @@ const projects = {
     ]
   },
   'rma-express': {
-    title: 'Automatic RMA Generator',
+    title: 'Automatic MORs (Monthly Operating Reports) Generator',
     description: 'A system that automatically generates Monthly Operating Reports (MOR) from a company’s balance sheet.',
     image: '/portfolio/rmaexpress.png',
     detailImage: '/portfolio/rmaexpress.png',
