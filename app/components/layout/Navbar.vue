@@ -2,7 +2,7 @@
   <header class="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
     <div class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4">
       <NuxtLink to="/" class="flex items-center">
-        <img src="/logo_codevon_centered.png" alt="codevon" class="h-8 w-auto" />
+        <NuxtImg src="/logo_codevon_centered.png" alt="codevon" class="h-8 w-auto" />
       </NuxtLink>
       <nav class="hidden items-center gap-6 text-sm md:flex">
         <a href="/#services" class="text-muted-foreground hover:text-foreground transition-colors">Services</a>

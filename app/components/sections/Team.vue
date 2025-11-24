@@ -16,7 +16,7 @@
         class="group relative overflow-hidden rounded-xl border border-border/60 transition-all duration-300 hover:border-primary/80 hover:border-4"
       >
         <div class="aspect-square overflow-hidden bg-muted">
-          <img 
+          <NuxtImg
             :src="member.image" 
             :alt="member.name"
             class="h-full w-full object-cover grayscale-70 transition-all duration-500 group-hover:scale-105"

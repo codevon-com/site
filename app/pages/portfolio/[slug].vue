@@ -38,7 +38,7 @@
         <!-- Project Image -->
         <div class="mt-12">
           <div class="aspect-video w-full overflow-hidden rounded-xl bg-muted shadow-lg">
-            <img 
+            <NuxtImg 
               :src="project.detailImage" 
               :alt="project.title" 
               class="h-full w-full object-cover"
@@ -99,91 +99,137 @@ const slug = route.params.slug as string
 
 // Project data - In a real app, this would come from an API or CMS
 const projects = {
-  'ai-trading-platform': {
-    title: 'AI Trading Platform',
-    description: 'A sophisticated real-time trading system powered by advanced machine learning algorithms, providing institutional-grade trading capabilities for retail investors.',
-    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&h=800&fit=crop',
-    detailImage: 'https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&h=800&fit=crop',
-    tags: ['AI', 'Python', 'Finance'],
+  // Add more projects as needed
+  'smartzap': {
+    title: 'SmartZap',
+    description: 'An AI-powered WhatsApp assistant that brings the intelligence of modern LLMs directly into everyday conversations.',
+    image: '/portfolio/smartzap.png',
+    detailImage: '/portfolio/smartzap.png',
+    tags: ['AI', 'Automation', 'WhatsApp Bot', 'SaaS'],
     about: [
-      'The AI Trading Platform revolutionizes how retail investors access sophisticated trading strategies. Built from the ground up with cutting-edge machine learning algorithms, the platform analyzes millions of data points in real-time to identify trading opportunities.',
-      'Our team developed custom neural networks that adapt to changing market conditions, ensuring the trading strategies remain effective across different market regimes. The platform integrates with major exchanges and provides institutional-grade execution speeds.',
-      'Security and compliance were paramount in the development process. We implemented bank-level encryption, multi-factor authentication, and ensured full regulatory compliance across multiple jurisdictions.'
+      'SmartZap turns WhatsApp into a powerful AI assistant by integrating state-of-the-art language models into a simple conversational interface. Instead of switching apps, users can get help directly in the messaging platform they use daily.',
+      'The system supports a wide range of tasks including research, writing assistance, scheduling, data retrieval, and custom workflows. Everything is triggered through natural language interactions, making it accessible to non-technical users.',
+      'SmartZap was built with scalability and reliability in mind. It includes a robust message queue, optimized prompt pipelines, secure authentication, and real-time logging. The platform is also integrated with Stripe for subscription handling and RDS for long-term data persistence.'
     ],
     features: [
-      'Real-time market analysis using deep learning models',
-      'Automated portfolio rebalancing and risk management',
-      'Integration with 15+ major cryptocurrency and stock exchanges',
-      'Advanced backtesting framework with historical data',
-      'Custom alert system for trade opportunities',
-      'Comprehensive performance analytics and reporting'
+      'Advanced AI assistant available directly in WhatsApp',
+      'Image generation, data lookup, and writing assistance',
+      'Automated workflows such as summaries, reminders, and custom commands',
+      'Real-time response pipeline optimized for low latency',
+      'User account system with subscription tiers',
+      'Secure storage of chat history with opt-in privacy features',
+      'Admin dashboard for analytics, user management, and usage monitoring'
     ],
-    technologies: ['Python', 'TensorFlow', 'PostgreSQL', 'Redis', 'WebSocket', 'React', 'Docker', 'AWS'],
+    technologies: ['WhatsApp API', 'OpenAI API', 'GoogleAPI', 'AWS RDS', 'PostgreSQL', 'Stripe', 'Docker', 'Node.js'],
     results: [
-      { value: '45%', label: 'Average annual return' },
-      { value: '10k+', label: 'Active users' },
-      { value: '$50M+', label: 'Assets under management' },
-      { value: '99.9%', label: 'System uptime' }
+      { value: '10k+', label: 'Messages processed monthly' },
+      { value: '500+', label: 'Active users' },
+      { value: '99.9%', label: 'Uptime' },
+      { value: '4.9/5', label: 'User rating' }
     ]
   },
-  'decentralized-marketplace': {
-    title: 'Decentralized Marketplace',
-    description: 'An innovative NFT marketplace built on Ethereum, featuring gasless transactions and advanced creator tools.',
-    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=800&fit=crop',
-    detailImage: 'https://images.unsplash.com/photo-1620321023374-d1a68fbc720d?w=1200&h=800&fit=crop',
-    tags: ['Blockchain', 'Web3', 'Solidity'],
+  'fintz-bot': {
+    title: 'Fintz Bot',
+    description: 'A smart conversational WhatsApp bot that helps users effortlessly track, organize, and understand their daily expenses.',
+    image: '/portfolio/fintzbot.png',
+    detailImage: '/portfolio/fintzbot.png',
+    tags: ['Chatbot', 'Fintech', 'Automation'],
     about: [
-      'This decentralized marketplace represents the next generation of digital asset trading. Built on Ethereum with Layer 2 scaling solutions, it provides a seamless experience for both creators and collectors.',
-      'We developed custom smart contracts that enable gasless transactions, making NFT trading accessible to everyone. The platform includes advanced creator tools for minting, royalty management, and community engagement.',
-      'The marketplace has processed over $10M in transactions while maintaining top-tier security through extensive smart contract audits.'
+      'Fintz Bot is an intelligent WhatsApp-based assistant built to simplify personal finance tracking. By leveraging a natural conversational interface, users can register expenses in just a few seconds, without needing to open an app or navigate complex menus.',
+      'Designed with accessibility and practicality in mind, the bot stores financial entries, organizes them by date and category, and allows users to request summaries for specific time periods. It aims to make financial control more intuitive and frictionless for everyday users.',
+      'The system integrates AI-powered parsing to interpret free-text messages, making the experience feel natural and human-like. It also supports exporting structured data, such as Excel spreadsheets, for deeper offline analysis.'
     ],
     features: [
-      'Gasless transactions using meta-transactions',
-      'Lazy minting to reduce creator costs',
-      'Automated royalty distribution',
-      'Multi-chain support (Ethereum, Polygon)',
-      'IPFS-based decentralized storage',
-      'Advanced collection management tools'
+      'Natural-language expense registration via WhatsApp',
+      'Automatic parsing of purchase descriptions, values, and dates',
+      'Expense summaries filtered by day, week, month, or custom ranges',
+      'Downloadable Excel spreadsheet with detailed expense history',
+      'Smart reminders for consistent financial tracking',
+      'Real-time syncing with a secure backend database'
     ],
-    technologies: ['Solidity', 'Hardhat', 'Next.js', 'ethers.js', 'IPFS', 'The Graph', 'Polygon'],
+    technologies: [
+      'Python',
+      'FastAPI',
+      'OpenAI Assistants API',
+      'WhatsApp Cloud API',
+      'PostgreSQL',
+      'Docker'
+    ],
     results: [
-      { value: '$10M+', label: 'Trading volume' },
-      { value: '5k+', label: 'NFTs minted' },
-      { value: '2k+', label: 'Active creators' },
-      { value: '0%', label: 'Security incidents' }
+      { value: '5k+', label: 'Expenses recorded' },
+      { value: '95%', label: 'Message parsing accuracy' },
+      { value: '3s', label: 'Average response time' },
+      { value: '4.9/5', label: 'User satisfaction' }
     ]
   },
-  'healthcare-analytics': {
-    title: 'Healthcare Analytics Dashboard',
-    description: 'A comprehensive patient data analytics platform with predictive modeling capabilities for healthcare providers.',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&h=800&fit=crop',
-    detailImage: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&h=800&fit=crop',
-    tags: ['Data Science', 'Healthcare', 'React'],
+  'take-pics': {
+    title: 'TakePics.AI',
+    description: 'A platform that generates hyper-realistic AI photos of you and your friends using custom-trained models.',
+    image: '/portfolio/takepics.webp',
+    detailImage: '/portfolio/takepics.webp',
+    tags: ['AI', 'Image Generation', 'Consumer App'],
     about: [
-      'The Healthcare Analytics Dashboard transforms how medical professionals interact with patient data. By leveraging advanced analytics and machine learning, it provides actionable insights that improve patient outcomes.',
-      'Our team worked closely with healthcare professionals to design an intuitive interface that displays complex medical data in an easily digestible format. The platform integrates with major EHR systems and provides real-time updates.',
-      'HIPAA compliance was a critical requirement. We implemented end-to-end encryption, comprehensive audit logging, and strict access controls to ensure patient data remains secure.'
+      'TakePics.AI is a full AI-driven photo creation platform where users upload their own images to generate a personalized virtual model. With this custom model, users can create ultra-realistic photos of themselves in hundreds of different scenarios, outfits, and styles.',
+      'The platform uses the Flux model on Replicate to deliver extremely lifelike and consistent results. Whether users want new profile pictures, artistic portraits, creative themes, or just fun variations, TakePics.AI makes the process fast and intuitive.',
+      'Built with performance and scalability in mind, the system stores all user uploads and generated photos securely using Supabase. It also includes analytics, payments, and a streamlined UX designed for a global audience.'
     ],
     features: [
-      'Real-time patient monitoring and alerts',
-      'Predictive models for patient risk assessment',
-      'Integration with major EHR systems',
-      'Customizable dashboards for different roles',
-      'Population health analytics',
-      'HIPAA-compliant data handling'
+      'Upload photos to generate your own custom AI model',
+      'Create hyper-realistic images in multiple styles',
+      'Fast generation powered by Flux on Replicate',
+      'Secure photo storage and user accounts',
+      'Real-time analytics and usage tracking',
+      'Mobile-friendly interface designed for high conversion'
     ],
-    technologies: ['React', 'Python', 'FastAPI', 'PostgreSQL', 'scikit-learn', 'D3.js', 'Docker'],
+    technologies: [
+      'Nuxt',
+      'Supabase',
+      'Replicate API',
+      'Flux Model',
+      'Stripe',
+      'PostHog'
+    ],
     results: [
-      { value: '30%', label: 'Reduction in readmissions' },
-      { value: '50+', label: 'Healthcare facilities' },
-      { value: '100k+', label: 'Patients monitored' },
-      { value: '4.8/5', label: 'User satisfaction' }
+      { value: '20k+', label: 'Images generated' },
+      { value: '5k+', label: 'Active users' },
+      { value: '98%', label: 'Model accuracy satisfaction' },
+      { value: '4.9/5', label: 'User experience rating' }
+    ]
+  },
+  'rma-express': {
+    title: 'Automatic MORs (Monthly Operating Reports) Generator',
+    description: 'A system that automatically generates Monthly Operating Reports (MOR) from a company’s balance sheet.',
+    image: '/portfolio/rmaexpress.png',
+    detailImage: '/portfolio/rmaexpress.png',
+    tags: ['Data Automation', 'Financial Analysis', 'LegalTech'],
+    about: [
+      'The Automatic MOR Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Operating Report (MOR) used in judicial recovery cases. The MOR is reviewed by a judge to monitor the financial health and operational status of the company.',
+      'The tool uses deterministic logic and structured financial rules to interpret accounting data and produce a fully formatted, standardized, and consistent PowerPoint report. This eliminates manual work, reduces errors, and greatly speeds up document preparation.',
+      'Built with a strong data-analysis foundation using Python and Pandas, the system ensures accuracy, reliability, and compliance with judicial reporting requirements.'
+    ],
+    features: [
+      'Automatic extraction and processing of trial balance data',
+      'Deterministic logic for interpreting financial indicators',
+      'Fully generated PowerPoint RMA reports',
+      'Error reduction through rule-based transformations',
+      'Support for legal compliance in judicial recovery cases'
+    ],
+    technologies: [
+      'Python',
+      'Pandas',
+      'PowerPoint API',
+      'NumPy'
+    ],
+    results: [
+      { value: '90%', label: 'Reduction in manual reporting time' },
+      { value: '100%', label: 'Consistency across financial reports' },
+      { value: '0', label: 'Human errors in calculations' },
+      { value: '30+', label: 'Companies supported' }
     ]
   }
-  // Add more projects as needed
 }
 
-const project = projects[slug as keyof typeof projects] || projects['ai-trading-platform']
+const project = projects[slug as keyof typeof projects]
 
 useSeoMeta({
   title: `${project.title} - Portfolio - Codevon`,
