@@ -45,9 +45,21 @@
         <!-- Project Image -->
         <div class="mt-12">
           <div
-            class="w-full overflow-hidden rounded-xl bg-muted shadow-lg flex items-center justify-center"
+            :class="[
+              'w-full flex items-center justify-center',
+              project.detailImage?.endsWith('.gif')
+                ? ''
+                : 'overflow-hidden rounded-xl bg-muted shadow-lg',
+            ]"
           >
+            <img
+              v-if="project.detailImage?.endsWith('.gif')"
+              :src="project.detailImage"
+              :alt="project.title"
+              class="max-w-full max-h-96 w-auto h-auto object-contain"
+            />
             <NuxtImg
+              v-else
               :src="project.detailImage"
               :alt="project.title"
               class="w-full h-auto object-contain"
@@ -135,33 +147,25 @@ const projects = {
     tags: ["AI", "Automation", "WhatsApp Bot", "SaaS"],
     about: [
       "SmartZap turns WhatsApp into a powerful AI assistant by integrating state-of-the-art language models into a simple conversational interface. Instead of switching apps, users can get help directly in the messaging platform they use daily.",
-      "The system supports a wide range of tasks including research, writing assistance, scheduling, data retrieval, and custom workflows. Everything is triggered through natural language interactions, making it accessible to non-technical users.",
-      "SmartZap was built with scalability and reliability in mind. It includes a robust message queue, optimized prompt pipelines, secure authentication, and real-time logging. The platform is also integrated with Stripe for subscription handling and RDS for long-term data persistence.",
+      "The platform uses the Gemini API from Google to power the AI assistant, providing a wide range of capabilities including image generation, data lookup, and writing assistance.",
     ],
     features: [
       "Advanced AI assistant available directly in WhatsApp",
       "Image generation, data lookup, and writing assistance",
-      "Automated workflows such as summaries, reminders, and custom commands",
-      "Real-time response pipeline optimized for low latency",
-      "User account system with subscription tiers",
-      "Secure storage of chat history with opt-in privacy features",
-      "Admin dashboard for analytics, user management, and usage monitoring",
     ],
     technologies: [
+      "Python",
       "WhatsApp API",
-      "OpenAI API",
-      "GoogleAPI",
+      "Gemini API",
       "AWS RDS",
       "PostgreSQL",
       "Stripe",
-      "Docker",
-      "Node.js",
+      "Hetzner",
     ],
     results: [
-      { value: "10k+", label: "Messages processed monthly" },
-      { value: "500+", label: "Active users" },
+      { value: "10k+", label: "Messages processed" },
+      { value: "500+", label: "Total users" },
       { value: "99.9%", label: "Uptime" },
-      { value: "4.9/5", label: "User rating" },
     ],
   },
   "fintz-bot": {
@@ -170,33 +174,24 @@ const projects = {
       "A smart conversational WhatsApp bot that helps users effortlessly track, organize, and understand their daily expenses.",
     image: "/portfolio/fintzbot.png",
     detailImage: "/portfolio/fintzbot.png",
-    tags: ["Chatbot", "Fintech", "Automation"],
+    tags: ["Chatbot", "Automation"],
     about: [
       "Fintz Bot is an intelligent WhatsApp-based assistant built to simplify personal finance tracking. By leveraging a natural conversational interface, users can register expenses in just a few seconds, without needing to open an app or navigate complex menus.",
       "Designed with accessibility and practicality in mind, the bot stores financial entries, organizes them by date and category, and allows users to request summaries for specific time periods. It aims to make financial control more intuitive and frictionless for everyday users.",
-      "The system integrates AI-powered parsing to interpret free-text messages, making the experience feel natural and human-like. It also supports exporting structured data, such as Excel spreadsheets, for deeper offline analysis.",
     ],
     features: [
       "Natural-language expense registration via WhatsApp",
       "Automatic parsing of purchase descriptions, values, and dates",
-      "Expense summaries filtered by day, week, month, or custom ranges",
-      "Downloadable Excel spreadsheet with detailed expense history",
-      "Smart reminders for consistent financial tracking",
-      "Real-time syncing with a secure backend database",
     ],
     technologies: [
       "Python",
-      "FastAPI",
-      "OpenAI Assistants API",
-      "WhatsApp Cloud API",
+      "OpenAI API",
+      "WhatsApp API",
       "PostgreSQL",
-      "Docker",
     ],
     results: [
-      { value: "5k+", label: "Expenses recorded" },
       { value: "95%", label: "Message parsing accuracy" },
       { value: "3s", label: "Average response time" },
-      { value: "4.9/5", label: "User satisfaction" },
     ],
   },
   "take-pics": {
@@ -228,10 +223,8 @@ const projects = {
       "PostHog",
     ],
     results: [
-      { value: "20k+", label: "Images generated" },
-      { value: "5k+", label: "Active users" },
+      { value: "1k+", label: "Images generated" },
       { value: "98%", label: "Model accuracy satisfaction" },
-      { value: "4.9/5", label: "User experience rating" },
     ],
   },
   "rma-express": {
@@ -243,8 +236,7 @@ const projects = {
     tags: ["Data Automation", "Financial Analysis", "LegalTech"],
     about: [
       "The Automatic MOR Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Operating Report (MOR) used in judicial recovery cases. The MOR is reviewed by a judge to monitor the financial health and operational status of the company.",
-      "The tool uses deterministic logic and structured financial rules to interpret accounting data and produce a fully formatted, standardized, and consistent PowerPoint report. This eliminates manual work, reduces errors, and greatly speeds up document preparation.",
-      "Built with a strong data-analysis foundation using Python and Pandas, the system ensures accuracy, reliability, and compliance with judicial reporting requirements.",
+      "The tool uses deterministic logic and structured financial rules to interpret accounting data and produce a fully formatted, standardized, and consistent PowerPoint report. This eliminates manual work, reduces errors, and greatly speeds up document preparation."
     ],
     features: [
       "Automatic extraction and processing of trial balance data",
@@ -253,12 +245,10 @@ const projects = {
       "Error reduction through rule-based transformations",
       "Support for legal compliance in judicial recovery cases",
     ],
-    technologies: ["Python", "Pandas", "PowerPoint API", "NumPy"],
+    technologies: ["Python", "Pandas", "NumPy"],
     results: [
       { value: "90%", label: "Reduction in manual reporting time" },
       { value: "100%", label: "Consistency across financial reports" },
-      { value: "0", label: "Human errors in calculations" },
-      { value: "30+", label: "Companies supported" },
     ],
   },
   deepdive: {
@@ -291,6 +281,86 @@ const projects = {
       { value: "95%", label: "Information extraction accuracy" },
       { value: "10x", label: "Faster than manual review" },
       { value: "50+", label: "Documents analyzed" },
+    ],
+  },
+  "meu-novo-cabelo": {
+    title: "Meu Novo Cabelo",
+    description:
+      "An AI-powered platform that transforms your look in 30 seconds by letting you try over 50 hair styles and colors from a single photo.",
+    image: "/portfolio/meunovocabelo.gif",
+    detailImage: "/portfolio/meunovocabelo.gif",
+    tags: ["AI", "Image Generation", "Beauty Tech", "Consumer App"],
+    about: [
+      "Meu Novo Cabelo (My New Hair) is an innovative AI-powered beauty platform that revolutionizes how people experiment with their appearance. Users simply upload a photo and can instantly visualize themselves with over 50 different hair styles, cuts, and color variations in just 30 seconds.",
+      "The platform uses advanced AI image processing to seamlessly apply different hairstyles and hair colors to user photos, creating realistic transformations that help users make confident decisions about their new look before visiting a salon.",
+      "Built with cutting-edge computer vision and generative AI technology, Meu Novo Cabelo provides an intuitive, fast, and accessible way for users to explore their style options, making beauty transformations more accessible and less intimidating.",
+    ],
+    features: [
+      "Upload a photo and transform your look in 30 seconds",
+      "Choose from over 50 hair styles and color variations",
+      "Realistic AI-powered hair transformations",
+      "Instant visualization before making changes",
+      "User-friendly interface designed for accessibility",
+      "Mobile-optimized experience for on-the-go styling",
+    ],
+    technologies: [
+      "Replicate",
+      "Flux",
+      "Nuxt",
+      "Supabase",
+      "Hetzner",
+    ],
+    results: [
+      { value: "50+", label: "Hair styles available" },
+      { value: "30s", label: "Average transformation time" },
+    ],
+  },
+  eletrificado: {
+    title: "Eletrificado",
+    description:
+      "A news platform dedicated to electric vehicles that captures news from multiple sources, improves and translates them using AI, providing the latest updates about the electric car world.",
+    image: "/portfolio/eletrificado.png",
+    detailImage: "/portfolio/eletrificado.png",
+    tags: ["News Platform", "Electric Vehicles", "AI", "Content Aggregation"],
+    about: [
+      "Eletrificado is a specialized news platform focused exclusively on electric vehicles and the electric car industry. The platform automatically captures news articles from various sources across the web, then uses AI to improve, translate, and adapt the content for Portuguese-speaking audiences.",
+      "Using advanced AI and natural language processing, the system enhances the captured articles by improving readability, translating content accurately, and ensuring consistency. This automated process allows the platform to provide a steady stream of high-quality, localized content about electric vehicles without manual translation work.",
+      "Built with modern web technologies, Eletrificado provides a clean, user-friendly interface for browsing electric vehicle news.",
+    ],
+    features: [
+      "AI-powered news capture from multiple sources",
+      "Automatic content improvement and translation using AI",
+      "Latest news about electric vehicles",
+      "Clean and modern user interface",
+    ],
+    technologies: ["Nuxt", "OpenAI API", "Web Scraping", "Vercel", "Stripe"],
+    results: [
+      { value: "100+", label: "News articles published" },
+      { value: "24/7", label: "News updates" },
+    ],
+  },
+  roomremake: {
+    title: "RoomRemake",
+    description:
+      "An AI-powered interior redesigner that transforms rooms by generating multiple design variations from a single photo.",
+    image: "/portfolio/roomremake.png",
+    detailImage: "/portfolio/roomremake.png",
+    tags: ["AI", "Interior Design", "Image Generation", "Consumer App"],
+    about: [
+      "RoomRemake is an innovative AI-powered platform that revolutionizes interior design by allowing users to visualize room transformations instantly. Users simply upload a photo of their room, and the AI generates multiple redesigned variations with different styles, furniture arrangements, and color schemes.",
+      "Built with user experience in mind, RoomRemake provides an intuitive interface where users can compare original and AI-generated designs side by side. The platform makes professional interior design accessible to everyone, eliminating the need for expensive consultations and allowing users to experiment with different looks risk-free.",
+    ],
+    features: [
+      "Upload a room photo and get instant AI-generated redesigns",
+      "Multiple design variations and styles to choose from",
+      "Side-by-side comparison of original and redesigned rooms",
+      "User-friendly interface for easy navigation",
+      "Free trial option for new users",
+    ],
+    technologies: ["Replicate", "Flux", "Nuxt", "Supabase", "Hetzner"],
+    results: [
+      { value: "15+", label: "Design styles available" },
+      { value: "30s", label: "Average generation time" },
     ],
   },
 };

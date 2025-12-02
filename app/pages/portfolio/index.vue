@@ -42,7 +42,7 @@
                 </CardDescription>
               </CardHeader>
 
-              <CardContent>
+              <CardContent class="flex-1">
                 <div class="flex flex-wrap gap-2">
                   <Badge variant="secondary">AI</Badge>
                   <Badge variant="secondary">WhatsApp Bot</Badge>
@@ -50,7 +50,7 @@
                 </div>
               </CardContent>
 
-              <CardFooter>
+              <CardFooter class="mt-auto">
                 <div
                   class="flex items-center gap-2 text-sm font-medium text-primary"
                 >
@@ -81,7 +81,7 @@
                 </CardDescription>
               </CardHeader>
 
-              <CardContent>
+              <CardContent class="flex-1">
                 <div class="flex flex-wrap gap-2">
                   <Badge variant="secondary">AI</Badge>
                   <Badge variant="secondary">Image Generation</Badge>
@@ -89,7 +89,7 @@
                 </div>
               </CardContent>
 
-              <CardFooter>
+              <CardFooter class="mt-auto">
                 <div
                   class="flex items-center gap-2 text-sm font-medium text-primary"
                 >
@@ -119,7 +119,7 @@
                 </CardDescription>
               </CardHeader>
 
-              <CardContent>
+              <CardContent class="flex-1">
                 <div class="flex flex-wrap gap-2">
                   <Badge variant="secondary">Data Automation</Badge>
                   <Badge variant="secondary">Financial Analysis</Badge>
@@ -127,7 +127,7 @@
                 </div>
               </CardContent>
 
-              <CardFooter>
+              <CardFooter class="mt-auto">
                 <div
                   class="flex items-center gap-2 text-sm font-medium text-primary"
                 >
@@ -159,7 +159,7 @@
                 </CardDescription>
               </CardHeader>
 
-              <CardContent>
+              <CardContent class="flex-1">
                 <div class="flex flex-wrap gap-2">
                   <Badge variant="secondary">AI</Badge>
                   <Badge variant="secondary">Document Analysis</Badge>
@@ -167,7 +167,163 @@
                 </div>
               </CardContent>
 
-              <CardFooter>
+              <CardFooter class="mt-auto">
+                <div
+                  class="flex items-center gap-2 text-sm font-medium text-primary"
+                >
+                  Learn more
+                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
+                </div>
+              </CardFooter>
+            </Card>
+          </NuxtLink>
+
+          <NuxtLink to="/portfolio/roomremake" class="group">
+            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+              <div
+                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+              >
+                <NuxtImg
+                  src="/portfolio/roomremake.png"
+                  alt="RoomRemake"
+                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                />
+              </div>
+
+              <CardHeader>
+                <CardTitle>RoomRemake</CardTitle>
+                <CardDescription>
+                  AI-powered interior redesigner that transforms rooms by
+                  generating multiple design variations from a single photo
+                </CardDescription>
+              </CardHeader>
+
+              <CardContent class="flex-1">
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">AI</Badge>
+                  <Badge variant="secondary">Interior Design</Badge>
+                  <Badge variant="secondary">Image Generation</Badge>
+                </div>
+              </CardContent>
+
+              <CardFooter class="mt-auto">
+                <div
+                  class="flex items-center gap-2 text-sm font-medium text-primary"
+                >
+                  Learn more
+                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
+                </div>
+              </CardFooter>
+            </Card>
+          </NuxtLink>
+
+          <NuxtLink to="/portfolio/meu-novo-cabelo" class="group">
+            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+              <div
+                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+              >
+                <NuxtImg
+                  src="/portfolio/meunovocabelo.png"
+                  alt="Meu Novo Cabelo"
+                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                />
+              </div>
+
+              <CardHeader>
+                <CardTitle>Meu Novo Cabelo</CardTitle>
+                <CardDescription>
+                  AI-powered platform that transforms your look in 30 seconds
+                  with over 50 hair styles and colors
+                </CardDescription>
+              </CardHeader>
+
+              <CardContent class="flex-1">
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">AI</Badge>
+                  <Badge variant="secondary">Image Generation</Badge>
+                  <Badge variant="secondary">Beauty Tech</Badge>
+                </div>
+              </CardContent>
+
+              <CardFooter class="mt-auto">
+                <div
+                  class="flex items-center gap-2 text-sm font-medium text-primary"
+                >
+                  Learn more
+                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
+                </div>
+              </CardFooter>
+            </Card>
+          </NuxtLink>
+
+          <NuxtLink to="/portfolio/eletrificado" class="group">
+            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+              <div
+                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+              >
+                <NuxtImg
+                  src="/portfolio/eletrificado.png"
+                  alt="Eletrificado"
+                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                />
+              </div>
+
+              <CardHeader>
+                <CardTitle>Eletrificado</CardTitle>
+                <CardDescription>
+                  News platform that captures, improves and translates electric
+                  vehicle news from multiple sources using AI
+                </CardDescription>
+              </CardHeader>
+
+              <CardContent class="flex-1">
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">News Platform</Badge>
+                  <Badge variant="secondary">Electric Vehicles</Badge>
+                  <Badge variant="secondary">AI</Badge>
+                </div>
+              </CardContent>
+
+              <CardFooter class="mt-auto">
+                <div
+                  class="flex items-center gap-2 text-sm font-medium text-primary"
+                >
+                  Learn more
+                  <Icon name="lucide:arrow-right" class="h-4 w-4" />
+                </div>
+              </CardFooter>
+            </Card>
+          </NuxtLink>
+
+          <NuxtLink to="/portfolio/fintz-bot" class="group">
+            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+              <div
+                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+              >
+                <NuxtImg
+                  src="/portfolio/fintzbot.png"
+                  alt="Fintz Bot"
+                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                />
+              </div>
+
+              <CardHeader>
+                <CardTitle>Fintz Bot</CardTitle>
+                <CardDescription>
+                  Smart conversational WhatsApp bot that helps users track,
+                  organize, and understand their daily expenses
+                </CardDescription>
+              </CardHeader>
+
+              <CardContent class="flex-1">
+                <div class="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Chatbot</Badge>
+                  <Badge variant="secondary">Fintech</Badge>
+                  <Badge variant="secondary">Automation</Badge>
+                </div>
+              </CardContent>
+
+              <CardFooter class="mt-auto">
                 <div
                   class="flex items-center gap-2 text-sm font-medium text-primary"
                 >
