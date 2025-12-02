@@ -27,7 +27,7 @@
                   Catalunya Private Equity
                 </p>
               </div>
-              <a href="/portfolio/catalunya">
+              <a href="/portfolio/deepdive">
                 <Button size="sm" variant="secondary" class="gap-2 cursor-pointer font-normal">
                   Read more about this project
                   <Icon name="lucide:arrow-right" class="h-4 w-4" />

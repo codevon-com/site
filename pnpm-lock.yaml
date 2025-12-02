@@ -68,6 +68,16 @@ importers:
       vue-router:
         specifier: ^4.6.3
         version: 4.6.3(vue@3.5.24(typescript@5.9.3))
+    devDependencies:
+      '@oxc-minify/binding-linux-x64-gnu':
+        specifier: ^0.101.0
+        version: 0.101.0
+      '@oxc-parser/binding-linux-x64-gnu':
+        specifier: ^0.101.0
+        version: 0.101.0
+      '@oxc-transform/binding-linux-x64-gnu':
+        specifier: ^0.101.0
+        version: 0.101.0
 
 packages:
 
@@ -867,6 +877,12 @@ packages:
     cpu: [s390x]
     os: [linux]
 
+  '@oxc-minify/binding-linux-x64-gnu@0.101.0':
+    resolution: {integrity: sha512-HRJxY94+uhrpkFEPNKH3/7THqnRdy4HbkHbRjbZiJ9SH1Lo1joX2wmQZdUUWXDHPMEtzDF4WP9IUtAc8qMIZGA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+
   '@oxc-minify/binding-linux-x64-gnu@0.96.0':
     resolution: {integrity: sha512-UMM1jkns+p+WwwmdjC5giI3SfR2BCTga18x3C0cAu6vDVf4W37uTZeTtSIGmwatTBbgiq++Te24/DE0oCdm1iQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -1016,6 +1032,12 @@ packages:
     cpu: [s390x]
     os: [linux]
 
+  '@oxc-parser/binding-linux-x64-gnu@0.101.0':
+    resolution: {integrity: sha512-owQQTlvFDn496Rcx+aHvxcaVHeX/iQX2zNYB9mh8XywIyO1QLhOVDxNHrFYnbMoXGNnwXnN4CPtpYXPuMS338g==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+
   '@oxc-parser/binding-linux-x64-gnu@0.93.0':
     resolution: {integrity: sha512-UMXsE6c0MIlvtqDe5t5K8qwC6HqNb3wmy8zKxONo42dIx0WAhVV9ydG2Xlznt1/RhD6nLLtHVaq4yWJXRjUxcg==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -1138,6 +1160,12 @@ packages:
     resolution: {integrity: sha512-4djg2vYLGbVeS8YiA2K4RPPpZE4fxTGCX5g/bOMbCYyirDbmBAIop4eOAj8vOA9i1CcWbDtmp+PVJ1dSw7f3IQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
+    os: [linux]
+
+  '@oxc-transform/binding-linux-x64-gnu@0.101.0':
+    resolution: {integrity: sha512-xSiZUfUpjcxWehC1cDOFjk4kHvKEvKLOmIyoYI85e60FCLMe0XcWzfnh3lHxccuhA+Mcu4K1wpTHb4uJ2WcVAQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
     os: [linux]
 
   '@oxc-transform/binding-linux-x64-gnu@0.96.0':
@@ -5784,6 +5812,8 @@ snapshots:
   '@oxc-minify/binding-linux-s390x-gnu@0.96.0':
     optional: true
 
+  '@oxc-minify/binding-linux-x64-gnu@0.101.0': {}
+
   '@oxc-minify/binding-linux-x64-gnu@0.96.0':
     optional: true
 
@@ -5861,6 +5891,8 @@ snapshots:
   '@oxc-parser/binding-linux-s390x-gnu@0.96.0':
     optional: true
 
+  '@oxc-parser/binding-linux-x64-gnu@0.101.0': {}
+
   '@oxc-parser/binding-linux-x64-gnu@0.93.0':
     optional: true
 
@@ -5928,6 +5960,8 @@ snapshots:
 
   '@oxc-transform/binding-linux-s390x-gnu@0.96.0':
     optional: true
+
+  '@oxc-transform/binding-linux-x64-gnu@0.101.0': {}
 
   '@oxc-transform/binding-linux-x64-gnu@0.96.0':
     optional: true
