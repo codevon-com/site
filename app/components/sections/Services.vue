@@ -6,6 +6,15 @@
         Full-stack product teams across AI, data, design, and engineering.
       </p>
     </div>
+    <div class="mt-8 flex justify-center">
+      <NuxtLink to="/portfolio">
+        <Button size="lg" class="gap-2 border-primary/40 bg-primary/10 text-primary hover:bg-primary/20">
+          <Icon name="lucide:briefcase" class="h-5 w-5" />
+          View our portfolio
+          <Icon name="lucide:arrow-right" class="h-5 w-5" />
+        </Button>
+      </NuxtLink>
+    </div>
     <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       <div class="group rounded-xl border border-border/60 p-6 transition-colors hover:border-primary/40">
         <div class="mb-3 inline-flex items-center gap-2 text-sm font-medium">

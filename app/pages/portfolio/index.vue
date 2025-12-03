@@ -4,7 +4,7 @@
     <section
       class="relative border-b border-border/60 bg-gradient-to-b from-background to-muted/20"
     >
-      <div class="mx-auto max-w-screen-xl px-4 py-24 text-center">
+      <div class="mx-auto max-w-screen-xl px-4 py-16 text-center">
         <h1 class="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           We've worked on over 100 projects in the last decade in software, AI,
           data science, and blockchain.
@@ -19,19 +19,21 @@
     </section>
 
     <!-- Projects Grid -->
-    <section class="py-24">
+    <section class="py-20">
       <div class="mx-auto max-w-screen-xl px-4">
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <!-- Project: SmartZap -->
           <NuxtLink to="/portfolio/smartzap" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/smartzap.png"
                   alt="SmartZap"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
@@ -62,14 +64,16 @@
           </NuxtLink>
 
           <NuxtLink to="/portfolio/take-pics" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/takepics.webp"
                   alt="TakePics.AI"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
@@ -100,14 +104,16 @@
             </Card>
           </NuxtLink>
           <NuxtLink to="/portfolio/rma-express" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/rmaexpress.png"
                   alt="Automatic MOR Generator"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
@@ -139,14 +145,16 @@
           </NuxtLink>
 
           <NuxtLink to="/portfolio/deepdive" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/deepdive.png"
                   alt="DeepDive"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
@@ -179,14 +187,16 @@
           </NuxtLink>
 
           <NuxtLink to="/portfolio/roomremake" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/roomremake.png"
                   alt="RoomRemake"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
@@ -218,14 +228,16 @@
           </NuxtLink>
 
           <NuxtLink to="/portfolio/meu-novo-cabelo" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/meunovocabelo.png"
                   alt="Meu Novo Cabelo"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
@@ -257,14 +269,16 @@
           </NuxtLink>
 
           <NuxtLink to="/portfolio/eletrificado" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/eletrificado.png"
                   alt="Eletrificado"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
@@ -296,14 +310,16 @@
           </NuxtLink>
 
           <NuxtLink to="/portfolio/fintz-bot" class="group">
-            <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+            <Card
+              class="h-full overflow-hidden transition-all hover:shadow-lg flex flex-col"
+            >
               <div
-                class="w-full overflow-hidden bg-muted flex items-center justify-center"
+                class="w-full h-48 overflow-hidden bg-white flex items-center justify-center"
               >
                 <NuxtImg
                   src="/portfolio/fintzbot.png"
                   alt="Fintz Bot"
-                  class="w-full h-auto object-contain transition-transform group-hover:scale-105"
+                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
                 />
               </div>
 
