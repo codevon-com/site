@@ -7,10 +7,10 @@
       <div class="relative">
         <div class="mb-8 text-center">
           <h2 class="text-balance text-3xl font-semibold tracking-tight md:text-4xl">
-            Let's work together
+            {{ t('contactSection.title') }}
           </h2>
           <p class="mt-3 text-muted-foreground">
-            Tell us about your project and we'll get back to you within 24 hours.
+            {{ t('contactSection.subtitle') }}
           </p>
         </div>
 
@@ -20,9 +20,9 @@
           class="mx-auto max-w-2xl space-y-6"
         >
           <!-- FormSubmit Configuration -->
-          <input type="hidden" name="_subject" value="New contact from Codevon website" />
+          <input type="hidden" name="_subject" :value="t('contactSection.form.subject')" />
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value="https://codevon.com/#contact" />
+          <input type="hidden" name="_next" :value="t('contactSection.form.next')" />
           
           <!-- Honeypot field to prevent spam -->
           <input type="text" name="_honey" style="display:none" />
@@ -31,7 +31,7 @@
             <!-- Name field (required) -->
             <div>
               <label for="name" class="mb-2 block text-sm font-medium">
-                Name <span class="text-destructive">*</span>
+                {{ t('contactSection.form.name.label') }} <span class="text-destructive">*</span>
               </label>
               <input
                 type="text"
@@ -39,14 +39,14 @@
                 name="name"
                 required
                 class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="John Doe"
+                :placeholder="t('contactSection.form.name.placeholder')"
               />
             </div>
 
             <!-- Email field (required) -->
             <div>
               <label for="email" class="mb-2 block text-sm font-medium">
-                Email <span class="text-destructive">*</span>
+                {{ t('contactSection.form.email.label') }} <span class="text-destructive">*</span>
               </label>
               <input
                 type="email"
@@ -54,7 +54,7 @@
                 name="email"
                 required
                 class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="john@company.com"
+                :placeholder="t('contactSection.form.email.placeholder')"
               />
             </div>
           </div>
@@ -63,28 +63,28 @@
             <!-- Company field (optional) -->
             <div>
               <label for="company" class="mb-2 block text-sm font-medium">
-                Company
+                {{ t('contactSection.form.company.label') }}
               </label>
               <input
                 type="text"
                 id="company"
                 name="company"
                 class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="Acme Inc."
+                :placeholder="t('contactSection.form.company.placeholder')"
               />
             </div>
 
             <!-- Job Title field (optional) -->
             <div>
               <label for="job_title" class="mb-2 block text-sm font-medium">
-                Job Title
+                {{ t('contactSection.form.job.label') }}
               </label>
               <input
                 type="text"
                 id="job_title"
                 name="job_title"
                 class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="CEO"
+                :placeholder="t('contactSection.form.job.placeholder')"
               />
             </div>
           </div>
@@ -92,7 +92,7 @@
           <!-- Message field (required) -->
           <div>
             <label for="message" class="mb-2 block text-sm font-medium">
-              Message <span class="text-destructive">*</span>
+              {{ t('contactSection.form.message.label') }} <span class="text-destructive">*</span>
             </label>
             <textarea
               id="message"
@@ -100,14 +100,14 @@
               required
               rows="6"
               class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-              placeholder="Tell us about your project..."
+              :placeholder="t('contactSection.form.message.placeholder')"
             ></textarea>
           </div>
 
           <!-- Submit button -->
           <div class="flex justify-center">
             <Button type="submit" size="lg" class="gap-2">
-              Send Message
+              {{ t('contactSection.form.submit') }}
               <Icon name="lucide:send" class="h-5 w-5" />
             </Button>
           </div>
@@ -117,3 +117,6 @@
   </section>
 </template>
 
+<script setup lang="ts">
+const { t } = useI18n();
+</script>

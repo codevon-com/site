@@ -7,47 +7,58 @@
     </div>
     <div class="mx-auto max-w-screen-xl px-4 pb-20 pt-16 text-center md:pb-28 md:pt-24">
       <p class="mx-auto mb-4 w-fit rounded-full border border-border/60 bg-background/60 px-3 py-1 text-xs text-muted-foreground backdrop-blur">
-        AI Software Studio
+        {{ t('hero.badge') }}
       </p>
       <h1 class="mx-auto max-w-4xl text-balance text-4xl font-semibold tracking-tight md:text-6xl">
-        We build software and
-        <span class="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">AI products</span>
-        for you.
+        {{ t('hero.titleBefore') }}
+        <span class="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+          {{ t('hero.titleHighlight') }}
+        </span>
+        {{ t('hero.titleAfter') }}
       </h1>
       <p class="mx-auto mt-5 max-w-2xl text-pretty text-base text-muted-foreground md:text-lg">
-        Flexible, transparent, and fast.
+        {{ t('hero.subtitle') }}
       </p>
       <div class="mx-auto mt-8 flex max-w-md items-center justify-center gap-3">
-        <a href="/#contact">
+        <NuxtLink :to="homeHash('contact')">
           <Button size="lg" class="gap-2">
-            Let's make it happen
+            {{ t('hero.primary') }}
             <Icon name="lucide:arrow-right" class="h-5 w-5" />
           </Button>
-        </a>
-        <a href="/#services">
-          <Button size="lg" variant="secondary">Our services</Button>
-        </a>
+        </NuxtLink>
+        <NuxtLink :to="homeHash('services')">
+          <Button size="lg" variant="secondary">
+            {{ t('hero.secondary') }}
+          </Button>
+        </NuxtLink>
       </div>
       <div class="mx-auto mt-10 grid max-w-3xl grid-cols-2 items-center gap-6 text-left md:grid-cols-4">
-        <div class="rounded-lg border border-border/60 p-3">
-          <div class="text-2xl font-semibold">Fast</div>
-          <div class="text-xs text-muted-foreground">Make it useful asap</div>
-        </div>
-        <div class="rounded-lg border border-border/60 p-3">
-          <div class="text-2xl font-semibold">Flexible</div>
-          <div class="text-xs text-muted-foreground">Scale up/down as needed</div>
-        </div>
-        <div class="rounded-lg border border-border/60 p-3">
-          <div class="text-2xl font-semibold">Engineering</div>
-          <div class="text-xs text-muted-foreground">Objectives-driven</div>
-        </div>
-        <div class="rounded-lg border border-border/60 p-3">
-          <div class="text-2xl font-semibold">Consulting</div>
-          <div class="text-xs text-muted-foreground">Tech validation & advisory</div>
+        <div
+          v-for="item in valueItems"
+          :key="item.title"
+          class="rounded-lg border border-border/60 p-3"
+        >
+          <div class="text-2xl font-semibold">{{ item.title }}</div>
+          <div class="text-xs text-muted-foreground">{{ item.desc }}</div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
+<script setup lang="ts">
+const { t, locale, getLocaleMessage } = useI18n();
+const localePath = useLocalePath();
 
+const homeHash = (id: string) => localePath({ path: '/', hash: `#${id}` });
+
+const valueItems = computed(() => {
+  const current = getLocaleMessage(locale.value) as any;
+  const values = (current?.hero?.values as any[]) || [];
+  if (!Array.isArray(values)) return [];
+  return values.map((_, idx) => ({
+    title: t(`hero.values.${idx}.title`),
+    desc: t(`hero.values.${idx}.desc`),
+  }));
+});
+</script>

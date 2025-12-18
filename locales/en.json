@@ -1,0 +1,178 @@
+{
+  "common": { "language": "English" },
+  "nav": {
+    "services": "Services",
+    "how": "How we work",
+    "pricing": "Pricing",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "contact": "Contact",
+    "cta": "Book a call",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "AI Software Studio",
+    "titleBefore": "We build software and",
+    "titleHighlight": "AI products",
+    "titleAfter": "for you.",
+    "subtitle": "Flexible, transparent, and fast.",
+    "primary": "Let's make it happen",
+    "secondary": "Our services",
+    "values": [
+      { "title": "Fast", "desc": "Make it useful asap" },
+      { "title": "Flexible", "desc": "Scale up/down as needed" },
+      { "title": "Engineering", "desc": "Objectives-driven" },
+      { "title": "Consulting", "desc": "Tech validation & advisory" }
+    ]
+  },
+  "cta": {
+    "title": "Make something people want, faster.",
+    "body": "Book a 30-minute consult. We'll shape a lean plan and get your first milestone shipping next week.",
+    "primary": "Contact us",
+    "secondary": "Explore services"
+  },
+  "services": {
+    "title": "Simple solutions, non-simple tech",
+    "subtitle": "Full-stack product teams across AI, data, design, and engineering.",
+    "cta": "View our portfolio",
+    "cards": [
+      {
+        "title": "AI & Data Science",
+        "items": [
+          "LLM apps & AI copilots",
+          "Retrieval, agents, evals",
+          "Data pipelines & analytics",
+          "MLOps & monitoring"
+        ]
+      },
+      {
+        "title": "Product Engineering",
+        "items": [
+          "Web & mobile apps",
+          "API & platform backends",
+          "Systems & devops",
+          "Security & performance"
+        ]
+      },
+      {
+        "title": "Strategic Consulting",
+        "items": [
+          "Technical validation & advisory",
+          "Requirements & UX/UI planning",
+          "Automation discovery & setup",
+          "Problem-solving & alternatives"
+        ]
+      }
+    ]
+  },
+  "how": {
+    "title": "How we work",
+    "subtitle": "Designed for flexibility. No fixed-scope surprises—just outcomes delivered with a founder mindset.",
+    "steps": [
+      { "title": "Connect", "body": "Tell us your vision and constraints. We'll sanity-check feasibility and impact." },
+      { "title": "Roadmap", "body": "We propose a lean milestone plan, team mix, and weekly cadence tailored to your goals." },
+      { "title": "Engage by hours", "body": "Buy a flexible block of team hours. Scale up or down as new ideas emerge." },
+      { "title": "Build & iterate", "body": "Bi-weekly demos, transparent timesheets, and rapid iterations to ship what matters." }
+    ]
+  },
+  "pricing": {
+    "title": "Flexible by-the-hour pricing",
+    "highlight": "by-the-hour",
+    "subtitle": "U$100-U$150/hour, depending on the complexity, team size, and timeline. Increase or decrease bandwidth as your product evolves.",
+    "engagementTitle": "Typical Engagement",
+    "bullets": [
+      { "title": "40-160 hours/month", "desc": "Flexible allocation based on project needs" },
+      { "title": "Bi-weekly sprints", "desc": "Regular demos and iterations" },
+      { "title": "Transparent timesheets", "desc": "Know exactly where your investment goes" },
+      { "title": "No long-term contracts", "desc": "Scale up or pause anytime" }
+    ],
+    "rate": { "value": "$100-150", "unit": "per hour" },
+    "cta": "Schedule a consultation",
+    "note": "No commitment required. Let's discuss your project first."
+  },
+  "stats": {
+    "items": [
+      { "title": "Mindset", "desc": "Make something people want" },
+      { "title": "100%", "desc": "Projects on budget and on time" },
+      { "title": "8 months", "desc": "Avg project lifecycle" },
+      { "title": "Flexible", "desc": "Scale up/down as needed" }
+    ]
+  },
+  "selected": {
+    "title": "Selected Work",
+    "subtitle": "What our clients say about working with us",
+    "quote": "Our market, special situations, is not trivial to understand. What really impressed me was how fast they were able to develop a prototype that was already useful.",
+    "author": "G. Dantas | CTO",
+    "company": "Catalunya Private Equity",
+    "cta": "Read more about this project"
+  },
+  "portfolio": {
+    "back": "Back to Portfolio",
+    "about": "About the Project",
+    "features": "Key Features",
+    "tech": "Technologies Used",
+    "results": "Results",
+    "ctaTitle": "Ready to start your project?",
+    "ctaBody": "Let's discuss how we can help you build something amazing.",
+    "ctaButton": "Get in touch",
+    "seoSuffix": "Portfolio - Codevon"
+  },
+  "portfolioIndex": {
+    "title": "We've worked on over 100 projects in the last decade in software, AI, data science, and blockchain.",
+    "subtitle1": "These are our favorites.",
+    "subtitle2": "Let your imagination run wild.",
+    "learnMore": "Learn more",
+    "seoTitle": "Portfolio - Codevon",
+    "seoDescription": "Explore our portfolio of 100+ projects across software, AI, data science, and blockchain."
+  },
+  "team": {
+    "title": "A team of 10x engineers.",
+    "subtitle": "Learn more about our leadership team.",
+    "members": [
+      { "name": "Bueno", "role": "Founder", "experience": "First principles thinking. Best part is no part. All-rounder. Ex founding team at Leaf", "image": "/team/bueno.png" },
+      { "name": "Barbosa", "role": "Founder", "experience": "Consistent. Always prepared. Detail-oriented. Ex founding team at Leaf", "image": "/team/barbosa.png" },
+      { "name": "Meyer", "role": "Founder", "experience": "Hackerboy. Loves to build cool stuff. Ex AWS.", "image": "/team/meyer.png" },
+      { "name": "Alex", "role": "Engineer", "experience": "Full stack engineer. Pragmatic thinking.", "image": "/team/alex.png" },
+      { "name": "Victor", "role": "Engineer", "experience": "Full stack engineer. Pragmatic thinking.", "image": "/team/victor.png" },
+      { "name": "Kalleo", "role": "Engineer", "experience": "Full stack engineer. Pragmatic thinking.", "image": "/team/kalleo.png" }
+    ]
+  },
+  "contactSection": {
+    "title": "Let's work together",
+    "subtitle": "Tell us about your project and we'll get back to you within 24 hours.",
+    "form": {
+      "name": { "label": "Name", "placeholder": "John Doe" },
+      "email": { "label": "Email", "placeholder": "{'john@company.com'}" },
+      "company": { "label": "Company", "placeholder": "Acme Inc." },
+      "job": { "label": "Job Title", "placeholder": "CEO" },
+      "message": { "label": "Message", "placeholder": "Tell us about your project..." },
+      "submit": "Send Message",
+      "subject": "New contact from Codevon website",
+      "next": "https://codevon.com/#contact"
+    }
+  },
+  "footer": {
+    "tagline": "AI Software Studio. We ship fast, flexibly, and transparently by the hour.",
+    "links": "Links",
+    "contact": "Contact",
+    "linksList": {
+      "services": "Services",
+      "pricing": "Pricing",
+      "how": "How we work",
+      "work": "Work",
+      "team": "Team"
+    },
+    "email": "{'hello@codevon.com'}",
+    "book": "Book a call",
+    "copyright": "©2025 Codevon.",
+    "privacy": "Privacy",
+    "sla": "SLA"
+  },
+  "seo": {
+    "title": "Codevon — AI Software Studio",
+    "description": "We build software and AI products for you. Flexible, transparent, and fast.",
+    "ogTitle": "Codevon — AI Software Studio",
+    "ogDescription": "We build software and AI products for you. Flexible, transparent, and fast."
+  }
+}
+

@@ -1,0 +1,178 @@
+{
+  "common": { "language": "Português (Brasil)" },
+  "nav": {
+    "services": "Serviços",
+    "how": "Como trabalhamos",
+    "pricing": "Planos",
+    "portfolio": "Portfólio",
+    "team": "Time",
+    "contact": "Contato",
+    "cta": "Agendar conversa",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "AI Software Studio",
+    "titleBefore": "Construímos software e",
+    "titleHighlight": "produtos de IA",
+    "titleAfter": "para você.",
+    "subtitle": "Flexível, transparente e rápido.",
+    "primary": "Vamos fazer acontecer",
+    "secondary": "Nossos serviços",
+    "values": [
+      { "title": "Rápido", "desc": "Coloque algo útil no ar logo" },
+      { "title": "Flexível", "desc": "Escale para cima/baixo conforme a demanda" },
+      { "title": "Engenharia", "desc": "Foco em objetivos e resultado" },
+      { "title": "Consultoria", "desc": "Validação técnica e advisory" }
+    ]
+  },
+  "cta": {
+    "title": "Construa algo que as pessoas queiram, mais rápido.",
+    "body": "Agende uma consultoria de 30 minutos. Vamos montar um plano enxuto e entregar seu primeiro marco já na próxima semana.",
+    "primary": "Fale conosco",
+    "secondary": "Ver serviços"
+  },
+  "services": {
+    "title": "Soluções simples, tecnologia não tão simples",
+    "subtitle": "Squads completos em AI, dados, design e engenharia.",
+    "cta": "Ver portfólio",
+    "cards": [
+      {
+        "title": "IA & Data Science",
+        "items": [
+          "Apps de LLM e copilotos",
+          "Retrieval, agentes, evals",
+          "Pipelines de dados e analytics",
+          "MLOps e monitoramento"
+        ]
+      },
+      {
+        "title": "Product Engineering",
+        "items": [
+          "Apps web e mobile",
+          "APIs e backends de plataforma",
+          "Sistemas e devops",
+          "Segurança e performance"
+        ]
+      },
+      {
+        "title": "Consultoria Estratégica",
+        "items": [
+          "Validação técnica e advisory",
+          "Planejamento de requisitos e UX/UI",
+          "Descoberta e setup de automações",
+          "Solução de problemas e alternativas"
+        ]
+      }
+    ]
+  },
+  "how": {
+    "title": "Como trabalhamos",
+    "subtitle": "Feito para flexibilidade. Sem escopo rígido—apenas entregas com mentalidade de fundador.",
+    "steps": [
+      { "title": "Conversa", "body": "Conte visão e restrições. Validamos viabilidade e impacto." },
+      { "title": "Roteiro", "body": "Propomos marcos, time e cadência semanal alinhados aos objetivos." },
+      { "title": "Horas flexíveis", "body": "Bloco de horas de time. Ajuste para cima/baixo conforme surgem ideias." },
+      { "title": "Construir e iterar", "body": "Demos quinzenais, timesheets transparentes e iteração rápida para entregar o que importa." }
+    ]
+  },
+  "pricing": {
+    "title": "Precificação flexível por hora",
+    "highlight": "por hora",
+    "subtitle": "U$100-U$150/hora, conforme complexidade, tamanho de time e prazo. Aumente ou reduza a banda conforme o produto evolui.",
+    "engagementTitle": "Engajamento típico",
+    "bullets": [
+      { "title": "40-160 horas/mês", "desc": "Alocação flexível conforme a necessidade" },
+      { "title": "Sprints quinzenais", "desc": "Demos e iterações regulares" },
+      { "title": "Timesheets transparentes", "desc": "Veja para onde o investimento vai" },
+      { "title": "Sem contratos longos", "desc": "Escale ou pause quando quiser" }
+    ],
+    "rate": { "value": "$100-150", "unit": "por hora" },
+    "cta": "Agendar uma conversa",
+    "note": "Sem compromisso. Vamos entender seu projeto primeiro."
+  },
+  "stats": {
+    "items": [
+      { "title": "Mindset", "desc": "Construa algo que as pessoas queiram" },
+      { "title": "100%", "desc": "Projetos no prazo e no orçamento" },
+      { "title": "8 meses", "desc": "Duração média dos projetos" },
+      { "title": "Flexível", "desc": "Escale para cima/baixo conforme precisar" }
+    ]
+  },
+  "selected": {
+    "title": "Projetos em destaque",
+    "subtitle": "O que nossos clientes dizem sobre trabalhar conosco",
+    "quote": "Nosso mercado, special situations, não é trivial. O que mais impressionou foi a velocidade para entregar um protótipo já útil.",
+    "author": "G. Dantas | CTO",
+    "company": "Catalunya Private Equity",
+    "cta": "Leia mais sobre este projeto"
+  },
+  "portfolio": {
+    "back": "Voltar para Portfólio",
+    "about": "Sobre o projeto",
+    "features": "Principais funcionalidades",
+    "tech": "Tecnologias usadas",
+    "results": "Resultados",
+    "ctaTitle": "Pronto para começar seu projeto?",
+    "ctaBody": "Vamos conversar sobre como podemos ajudar a construir algo incrível.",
+    "ctaButton": "Fale com a gente",
+    "seoSuffix": "Portfólio - Codevon"
+  },
+  "portfolioIndex": {
+    "title": "Trabalhamos em mais de 100 projetos na última década em software, IA, ciência de dados e blockchain.",
+    "subtitle1": "Estes são alguns dos nossos favoritos.",
+    "subtitle2": "Deixe a imaginação correr solta.",
+    "learnMore": "Saiba mais",
+    "seoTitle": "Portfólio - Codevon",
+    "seoDescription": "Explore nosso portfólio com 100+ projetos em software, IA, ciência de dados e blockchain."
+  },
+  "team": {
+    "title": "Um time de engenheiros 10x.",
+    "subtitle": "Conheça nosso time de liderança.",
+    "members": [
+      { "name": "Bueno", "role": "Founder", "experience": "Pensamento de primeiros princípios. O melhor é não ter peça. Generalista. Ex time fundador da Leaf", "image": "/team/bueno.png" },
+      { "name": "Barbosa", "role": "Founder", "experience": "Consistente. Sempre preparado. Detalhista. Ex time fundador da Leaf", "image": "/team/barbosa.png" },
+      { "name": "Meyer", "role": "Founder", "experience": "Hackerboy. Gosta de construir coisas legais. Ex AWS.", "image": "/team/meyer.png" },
+      { "name": "Alex", "role": "Engineer", "experience": "Full stack engineer. Pensamento pragmático.", "image": "/team/alex.png" },
+      { "name": "Victor", "role": "Engineer", "experience": "Full stack engineer. Pensamento pragmático.", "image": "/team/victor.png" },
+      { "name": "Kalleo", "role": "Engineer", "experience": "Full stack engineer. Pensamento pragmático.", "image": "/team/kalleo.png" }
+    ]
+  },
+  "contactSection": {
+    "title": "Vamos trabalhar juntos",
+    "subtitle": "Conte sobre seu projeto e retornamos em até 24 horas.",
+    "form": {
+      "name": { "label": "Nome", "placeholder": "João Silva" },
+      "email": { "label": "Email", "placeholder": "{'joao@empresa.com'}" },
+      "company": { "label": "Empresa", "placeholder": "Acme Inc." },
+      "job": { "label": "Cargo", "placeholder": "CEO" },
+      "message": { "label": "Mensagem", "placeholder": "Conte sobre seu projeto..." },
+      "submit": "Enviar mensagem",
+      "subject": "Novo contato do site Codevon",
+      "next": "https://codevon.com/#contact"
+    }
+  },
+  "footer": {
+    "tagline": "AI Software Studio. Entregamos rápido, com flexibilidade e transparência por hora.",
+    "links": "Links",
+    "contact": "Contato",
+    "linksList": {
+      "services": "Serviços",
+      "pricing": "Planos",
+      "how": "Como trabalhamos",
+      "work": "Projetos",
+      "team": "Time"
+    },
+    "email": "{'hello@codevon.com'}",
+    "book": "Agendar conversa",
+    "copyright": "©2025 Codevon.",
+    "privacy": "Privacidade",
+    "sla": "SLA"
+  },
+  "seo": {
+    "title": "Codevon — AI Software Studio",
+    "description": "Construímos software e produtos de IA para você. Flexível, transparente e rápido.",
+    "ogTitle": "Codevon — AI Software Studio",
+    "ogDescription": "Construímos software e produtos de IA para você. Flexível, transparente e rápido."
+  }
+}
+

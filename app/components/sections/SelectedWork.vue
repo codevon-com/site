@@ -2,9 +2,11 @@
   <section id="work" class="relative overflow-hidden">
     <div class="mx-auto max-w-screen-xl px-4 py-16 md:py-24">
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">Selected Work</h2>
+        <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">
+          {{ t('selected.title') }}
+        </h2>
         <p class="mt-3 text-muted-foreground">
-          What our clients say about working with us
+          {{ t('selected.subtitle') }}
         </p>
       </div>
       <div class="mt-10 flex justify-center">
@@ -13,7 +15,7 @@
           <div class="absolute -bottom-2 -right-2 text-6xl text-primary/20">"</div>
           <div class="relative max-w-3xl">
             <p class="text-lg leading-relaxed text-foreground md:text-xl">
-              Our market, special situations, is not trivial to understand. What really impressed me was how fast they were able to develop a prototype that was already useful.
+              {{ t('selected.quote') }}
             </p>
             <div class="mt-6 flex items-center gap-3">
               <div class="h-px flex-1 bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
@@ -21,18 +23,18 @@
             <div class="mt-6 flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
               <div>
                 <p class="font-medium text-foreground">
-                  G. Dantas | CTO
+                  {{ t('selected.author') }}
                 </p>
                 <p class="mt-1 text-sm text-muted-foreground">
-                  Catalunya Private Equity
+                  {{ t('selected.company') }}
                 </p>
               </div>
-              <a href="/portfolio/deepdive">
+              <NuxtLink :to="localePath('/portfolio/deepdive')">
                 <Button size="sm" variant="secondary" class="gap-2 cursor-pointer font-normal">
-                  Read more about this project
+                  {{ t('selected.cta') }}
                   <Icon name="lucide:arrow-right" class="h-4 w-4" />
                 </Button>
-              </a>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -41,5 +43,8 @@
   </section>
 </template>
 
-
+<script setup lang="ts">
+const { t } = useI18n();
+const localePath = useLocalePath();
+</script>
 

@@ -1,24 +1,24 @@
 <template>
   <section class="mx-auto max-w-screen-xl px-4 py-12">
     <div class="grid gap-6 rounded-2xl border border-border/60 bg-background/60 p-6 backdrop-blur md:grid-cols-4">
-      <div>
-        <div class="text-3xl font-semibold">Mindset</div>
-        <div class="text-xs text-muted-foreground">Make something people want</div>
-      </div>
-      <div>
-        <div class="text-3xl font-semibold">100%</div>
-        <div class="text-xs text-muted-foreground">Projects on budget and on time</div>
-      </div>
-      <div>
-        <div class="text-3xl font-semibold">8 months</div>
-        <div class="text-xs text-muted-foreground">Avg project lifecycle</div>
-      </div>
-      <div>
-        <div class="text-3xl font-semibold">Flexible</div>
-        <div class="text-xs text-muted-foreground">Scale up/down as needed</div>
+      <div v-for="item in stats" :key="item.title">
+        <div class="text-3xl font-semibold">{{ item.title }}</div>
+        <div class="text-xs text-muted-foreground">{{ item.desc }}</div>
       </div>
     </div>
   </section>
 </template>
 
+<script setup lang="ts">
+const { locale, getLocaleMessage, t } = useI18n();
 
+const stats = computed(() => {
+  const current = getLocaleMessage(locale.value) as any;
+  const items = (current?.stats?.items as any[]) || [];
+  const length = Array.isArray(items) ? items.length : 0;
+  return Array.from({ length }).map((_, idx) => ({
+    title: t(`stats.items.${idx}.title`),
+    desc: t(`stats.items.${idx}.desc`)
+  }));
+});
+</script>
