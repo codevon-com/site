@@ -18,7 +18,7 @@ export const projectsPt = {
     results: [
       { value: '10k+', label: 'Mensagens processadas' },
       { value: '500+', label: 'Usuários' },
-      { value: '99.9%', label: 'Uptime' }
+      { value: '99.9%', label: 'Disponibilidade' }
     ]
   },
   'fintz-bot': {
@@ -33,8 +33,8 @@ export const projectsPt = {
       'Focado em acessibilidade e praticidade, o bot armazena lançamentos, organiza por data e categoria e permite pedir resumos por período. Deixa o controle financeiro mais intuitivo.'
     ],
     features: [
-      'Registro de despesas por linguagem natural',
-      'Parser automático de descrição, valor e data'
+      'Registro de despesas em linguagem natural via WhatsApp',
+      'Parsing automático de descrições de compras, valores e datas'
     ],
     technologies: ['Python', 'OpenAI API', 'WhatsApp API', 'PostgreSQL'],
     results: [
@@ -48,11 +48,11 @@ export const projectsPt = {
       'Plataforma que gera fotos hiper-realistas suas e de amigos usando modelos treinados sob medida.',
     image: '/portfolio/takepics.webp',
     detailImage: '/portfolio/takepics.webp',
-    tags: ['IA', 'Geração de Imagem', 'Consumer App'],
+    tags: ['IA', 'Geração de Imagem', 'App de consumo'],
     about: [
       'O TakePics.AI permite enviar fotos para criar um modelo virtual personalizado. Com esse modelo, gera imagens ultra-realistas em centenas de cenários, looks e estilos.',
       'Usa o modelo Flux na Replicate para resultados consistentes e realistas. Seja para novas fotos de perfil ou variações criativas, o fluxo é rápido e intuitivo.',
-      'Pensado para performance e escala, armazena uploads e fotos em Supabase, inclui analytics, pagamentos e UX otimizada para conversão global.'
+      'Pensado para performance e escala, armazena uploads e fotos geradas com segurança no Supabase. Também inclui analytics, pagamentos e uma UX enxuta pensada para um público global.'
     ],
     features: [
       'Envie fotos e crie seu próprio modelo de IA',
@@ -81,9 +81,9 @@ export const projectsPt = {
     features: [
       'Extração e processamento automáticos do balancete',
       'Lógica determinística para interpretar indicadores',
-      'Relatórios RMA em PowerPoint prontos',
+      'Relatórios RMA em PowerPoint gerados automaticamente',
       'Redução de erros com transformações baseadas em regras',
-      'Suporte a conformidade legal em RJ'
+      'Apoio à conformidade legal em casos de recuperação judicial'
     ],
     technologies: ['Python', 'Pandas', 'NumPy'],
     results: [
@@ -99,8 +99,9 @@ export const projectsPt = {
     detailImage: '/portfolio/deepdive.png',
     tags: ['IA', 'Análise de Documentos', 'Processamento de PDF', 'Extração de Dados'],
     about: [
-      'O DeepDive processa PDFs enormes e extrai informações ou resumos sob demanda. Ideal para milhares de páginas que seriam impraticáveis manualmente.',
-      'Usa NLP avançado para manter contexto e precisão em documentos longos, gerando relatórios estruturados com o que importa para decisão.'
+      'O DeepDive é uma aplicação de análise inteligente de documentos criada para lidar com PDFs enormes que seriam impraticáveis de revisar manualmente.',
+      'Em vez de gastar horas procurando páginas específicas, o usuário consegue extrair informações, gerar resumos e obter análises úteis sob demanda.',
+      'Construído com parsing robusto e modelos de linguagem de ponta, mantém contexto e precisão em documentos longos, gerando relatórios estruturados com o que é mais relevante para a tomada de decisão.'
     ],
     features: [
       'Processa PDFs com milhares de páginas',
@@ -123,7 +124,7 @@ export const projectsPt = {
       'Plataforma com IA que transforma seu visual em 30 segundos, testando 50+ estilos e cores a partir de uma foto.',
     image: '/portfolio/meunovocabelo.gif',
     detailImage: '/portfolio/meunovocabelo.gif',
-    tags: ['IA', 'Geração de Imagem', 'Beauty Tech', 'Consumer App'],
+    tags: ['IA', 'Geração de Imagem', 'Beauty Tech', 'App de consumo'],
     about: [
       'O Meu Novo Cabelo permite enviar uma foto e testar 50+ cortes e cores em 30 segundos.',
       'Usa processamento de imagem avançado para aplicar estilos de forma realista, ajudando a decidir antes de ir ao salão.',
@@ -172,13 +173,13 @@ export const projectsPt = {
       'Redesign de interiores com IA: gera variações de design a partir de uma única foto.',
     image: '/portfolio/roomremake.png',
     detailImage: '/portfolio/roomremake.png',
-    tags: ['IA', 'Design de Interiores', 'Geração de Imagem', 'Consumer App'],
+    tags: ['IA', 'Design de Interiores', 'Geração de Imagem', 'App de consumo'],
     about: [
       'Permite visualizar transformações de ambientes instantaneamente. O usuário envia uma foto e recebe variações com estilos, layouts e cores diferentes.',
       'Interface intuitiva para comparar original vs. redesign lado a lado, tornando design profissional mais acessível.'
     ],
     features: [
-      'Envie a foto do ambiente e receba redesigns instantâneos',
+      'Envie a foto do ambiente e receba redesigns instantâneos gerados por IA',
       'Várias variações e estilos',
       'Comparação lado a lado',
       'Interface fácil de usar',

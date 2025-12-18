@@ -3,7 +3,7 @@
   "nav": {
     "services": "Serviços",
     "how": "Como trabalhamos",
-    "pricing": "Planos",
+    "pricing": "Preços",
     "portfolio": "Portfólio",
     "team": "Time",
     "contact": "Contato",
@@ -21,8 +21,8 @@
     "values": [
       { "title": "Rápido", "desc": "Coloque algo útil no ar logo" },
       { "title": "Flexível", "desc": "Escale para cima/baixo conforme a demanda" },
-      { "title": "Engenharia", "desc": "Foco em objetivos e resultado" },
-      { "title": "Consultoria", "desc": "Validação técnica e advisory" }
+      { "title": "Engenharia", "desc": "Orientado a objetivos" },
+      { "title": "Consultoria", "desc": "Validação técnica e aconselhamento" }
     ]
   },
   "cta": {
@@ -33,31 +33,31 @@
   },
   "services": {
     "title": "Soluções simples, tecnologia não tão simples",
-    "subtitle": "Squads completos em AI, dados, design e engenharia.",
+    "subtitle": "Squads completos em IA, dados, design e engenharia.",
     "cta": "Ver portfólio",
     "cards": [
       {
         "title": "IA & Data Science",
         "items": [
           "Apps de LLM e copilotos",
-          "Retrieval, agentes, evals",
-          "Pipelines de dados e analytics",
+          "Retrieval (RAG), agentes e avaliações",
+          "Pipelines de dados e análise",
           "MLOps e monitoramento"
         ]
       },
       {
-        "title": "Product Engineering",
+        "title": "Engenharia de Produto",
         "items": [
           "Apps web e mobile",
           "APIs e backends de plataforma",
-          "Sistemas e devops",
-          "Segurança e performance"
+          "Sistemas e DevOps",
+          "Segurança e desempenho"
         ]
       },
       {
         "title": "Consultoria Estratégica",
         "items": [
-          "Validação técnica e advisory",
+          "Validação técnica e aconselhamento",
           "Planejamento de requisitos e UX/UI",
           "Descoberta e setup de automações",
           "Solução de problemas e alternativas"
@@ -67,10 +67,10 @@
   },
   "how": {
     "title": "Como trabalhamos",
-    "subtitle": "Feito para flexibilidade. Sem escopo rígido—apenas entregas com mentalidade de fundador.",
+    "subtitle": "Feito para flexibilidade. Sem surpresas de escopo fechado — só resultados entregues com mentalidade de fundador.",
     "steps": [
-      { "title": "Conversa", "body": "Conte visão e restrições. Validamos viabilidade e impacto." },
-      { "title": "Roteiro", "body": "Propomos marcos, time e cadência semanal alinhados aos objetivos." },
+      { "title": "Conversa", "body": "Conte sua visão e restrições. Vamos checar a viabilidade e o impacto." },
+      { "title": "Roadmap", "body": "Propomos um plano enxuto de marcos, composição do time e cadência semanal alinhados aos seus objetivos." },
       { "title": "Horas flexíveis", "body": "Bloco de horas de time. Ajuste para cima/baixo conforme surgem ideias." },
       { "title": "Construir e iterar", "body": "Demos quinzenais, timesheets transparentes e iteração rápida para entregar o que importa." }
     ]
@@ -78,7 +78,7 @@
   "pricing": {
     "title": "Precificação flexível por hora",
     "highlight": "por hora",
-    "subtitle": "U$100-U$150/hora, conforme complexidade, tamanho de time e prazo. Aumente ou reduza a banda conforme o produto evolui.",
+    "subtitle": "US$100-US$150/hora, dependendo da complexidade, do tamanho do time e do prazo. Aumente ou reduza a capacidade conforme seu produto evolui.",
     "engagementTitle": "Engajamento típico",
     "bullets": [
       { "title": "40-160 horas/mês", "desc": "Alocação flexível conforme a necessidade" },
@@ -101,7 +101,7 @@
   "selected": {
     "title": "Projetos em destaque",
     "subtitle": "O que nossos clientes dizem sobre trabalhar conosco",
-    "quote": "Nosso mercado, special situations, não é trivial. O que mais impressionou foi a velocidade para entregar um protótipo já útil.",
+    "quote": "Nosso mercado, special situations, não é trivial de entender. O que realmente me impressionou foi a rapidez com que eles conseguiram desenvolver um protótipo que já era útil.",
     "author": "G. Dantas | CTO",
     "company": "Catalunya Private Equity",
     "cta": "Leia mais sobre este projeto"
@@ -129,12 +129,12 @@
     "title": "Um time de engenheiros 10x.",
     "subtitle": "Conheça nosso time de liderança.",
     "members": [
-      { "name": "Bueno", "role": "Founder", "experience": "Pensamento de primeiros princípios. O melhor é não ter peça. Generalista. Ex time fundador da Leaf", "image": "/team/bueno.png" },
-      { "name": "Barbosa", "role": "Founder", "experience": "Consistente. Sempre preparado. Detalhista. Ex time fundador da Leaf", "image": "/team/barbosa.png" },
-      { "name": "Meyer", "role": "Founder", "experience": "Hackerboy. Gosta de construir coisas legais. Ex AWS.", "image": "/team/meyer.png" },
-      { "name": "Alex", "role": "Engineer", "experience": "Full stack engineer. Pensamento pragmático.", "image": "/team/alex.png" },
-      { "name": "Victor", "role": "Engineer", "experience": "Full stack engineer. Pensamento pragmático.", "image": "/team/victor.png" },
-      { "name": "Kalleo", "role": "Engineer", "experience": "Full stack engineer. Pensamento pragmático.", "image": "/team/kalleo.png" }
+      { "name": "Bueno", "role": "Fundador", "experience": "Pensamento de primeiros princípios. Best part is no part. Generalista. Ex-integrante do time fundador da Leaf", "image": "/team/bueno.png" },
+      { "name": "Barbosa", "role": "Fundador", "experience": "Consistente. Sempre preparado. Atento aos detalhes. Ex-integrante do time fundador da Leaf", "image": "/team/barbosa.png" },
+      { "name": "Meyer", "role": "Fundador", "experience": "Hackerboy. Adora construir coisas legais. Ex-AWS.", "image": "/team/meyer.png" },
+      { "name": "Alex", "role": "Engenheiro", "experience": "Engenheiro full stack. Pensamento pragmático.", "image": "/team/alex.png" },
+      { "name": "Victor", "role": "Engenheiro", "experience": "Engenheiro full stack. Pensamento pragmático.", "image": "/team/victor.png" },
+      { "name": "Kalleo", "role": "Engenheiro", "experience": "Engenheiro full stack. Pensamento pragmático.", "image": "/team/kalleo.png" }
     ]
   },
   "contactSection": {
@@ -157,7 +157,7 @@
     "contact": "Contato",
     "linksList": {
       "services": "Serviços",
-      "pricing": "Planos",
+      "pricing": "Preços",
       "how": "Como trabalhamos",
       "work": "Projetos",
       "team": "Time"
