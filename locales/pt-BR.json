@@ -20,7 +20,7 @@
     "secondary": "Nossos serviços",
     "values": [
       { "title": "Rápido", "desc": "Coloque algo útil no ar logo" },
-      { "title": "Flexível", "desc": "Escale para cima/baixo conforme a demanda" },
+      { "title": "Flexível", "desc": "Aumente ou reduza conforme a demanda" },
       { "title": "Engenharia", "desc": "Orientado a objetivos" },
       { "title": "Consultoria", "desc": "Validação técnica e aconselhamento" }
     ]
@@ -71,7 +71,7 @@
     "steps": [
       { "title": "Conversa", "body": "Conte sua visão e restrições. Vamos checar a viabilidade e o impacto." },
       { "title": "Roadmap", "body": "Propomos um plano enxuto de marcos, composição do time e cadência semanal alinhados aos seus objetivos." },
-      { "title": "Horas flexíveis", "body": "Bloco de horas de time. Ajuste para cima/baixo conforme surgem ideias." },
+      { "title": "Horas flexíveis", "body": "Compre um bloco flexível de horas do time. Aumente ou reduza conforme surgem novas ideias." },
       { "title": "Construir e iterar", "body": "Demos quinzenais, timesheets transparentes e iteração rápida para entregar o que importa." }
     ]
   },
@@ -83,7 +83,7 @@
     "bullets": [
       { "title": "40-160 horas/mês", "desc": "Alocação flexível conforme a necessidade" },
       { "title": "Sprints quinzenais", "desc": "Demos e iterações regulares" },
-      { "title": "Timesheets transparentes", "desc": "Veja para onde o investimento vai" },
+      { "title": "Timesheets transparentes", "desc": "Saiba exatamente onde seu investimento é aplicado" },
       { "title": "Sem contratos longos", "desc": "Escale ou pause quando quiser" }
     ],
     "rate": { "value": "$100-150", "unit": "por hora" },
