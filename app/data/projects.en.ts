@@ -1,0 +1,313 @@
+export const projectsEn = {
+  smartzap: {
+    title: 'SmartZap',
+    cardTitle: 'AI Assistant Inside WhatsApp with SmartZap',
+    description:
+      'An AI-powered WhatsApp assistant that brings the intelligence of modern LLMs directly into everyday conversations.',
+    image: '/portfolio/smartzap_logo.webp',
+    detailImage: '/portfolio/smartzap_logo.webp',
+    imageFit: 'contain',
+    tags: ['AI', 'Automation', 'WhatsApp Bot', 'SaaS'],
+    about: [
+      'SmartZap turns WhatsApp into a powerful AI assistant by integrating state-of-the-art language models into a simple conversational interface. Instead of switching apps, users can get help directly in the messaging platform they use daily.',
+      'The platform uses the Gemini API from Google to power the AI assistant, providing a wide range of capabilities including image generation, data lookup, and writing assistance.'
+    ],
+    features: [
+      'Advanced AI assistant available directly in WhatsApp',
+      'Image generation, data lookup, and writing assistance'
+    ],
+    technologies: ['Python', 'WhatsApp API', 'Gemini API', 'AWS RDS', 'PostgreSQL', 'Stripe', 'Hetzner'],
+    results: [
+      { value: '10k+', label: 'Messages processed' },
+      { value: '500+', label: 'Total users' },
+      { value: '99.9%', label: 'Uptime' }
+    ]
+  },
+  'fintz-bot': {
+    title: 'Fintz Bot',
+    description:
+      'A smart conversational WhatsApp bot that helps users effortlessly track, organize, and understand their daily expenses.',
+    image: '/portfolio/fintzbot.png',
+    detailImage: '/portfolio/fintzbot.png',
+    tags: ['Chatbot', 'Automation'],
+    about: [
+      'Fintz Bot is an intelligent WhatsApp-based assistant built to simplify personal finance tracking. By leveraging a natural conversational interface, users can register expenses in just a few seconds, without needing to open an app or navigate complex menus.',
+      'Designed with accessibility and practicality in mind, the bot stores financial entries, organizes them by date and category, and allows users to request summaries for specific time periods. It aims to make financial control more intuitive and frictionless for everyday users.'
+    ],
+    features: ['Natural-language expense registration via WhatsApp', 'Automatic parsing of purchase descriptions, values, and dates'],
+    technologies: ['Python', 'OpenAI API', 'WhatsApp API', 'PostgreSQL'],
+    results: [
+      { value: '95%', label: 'Message parsing accuracy' },
+      { value: '3s', label: 'Average response time' }
+    ]
+  },
+  'take-pics': {
+    title: 'TakePics.AI',
+    description:
+      'A platform that generates hyper-realistic AI photos of you and your friends using custom-trained models.',
+    image: '/portfolio/takepics.webp',
+    detailImage: '/portfolio/takepics.webp',
+    tags: ['AI', 'Image Generation', 'Consumer App'],
+    about: [
+      'TakePics.AI is a full AI-driven photo creation platform where users upload their own images to generate a personalized virtual model. With this custom model, users can create ultra-realistic photos of themselves in hundreds of different scenarios, outfits, and styles.',
+      'The platform uses the Flux model on Replicate to deliver extremely lifelike and consistent results. Whether users want new profile pictures, artistic portraits, creative themes, or just fun variations, TakePics.AI makes the process fast and intuitive.',
+      'Built with performance and scalability in mind, the system stores all user uploads and generated photos securely using Supabase. It also includes analytics, payments, and a streamlined UX designed for a global audience.'
+    ],
+    features: [
+      'Upload photos to generate your own custom AI model',
+      'Create hyper-realistic images in multiple styles',
+      'Fast generation powered by Flux on Replicate',
+      'Secure photo storage and user accounts',
+      'Real-time analytics and usage tracking',
+      'Mobile-friendly interface designed for high conversion'
+    ],
+    technologies: ['Nuxt', 'Supabase', 'Replicate API', 'Flux Model', 'Stripe', 'PostHog'],
+    results: [
+      { value: '1k+', label: 'Images generated' },
+      { value: '98%', label: 'Model accuracy satisfaction' }
+    ]
+  },
+  'rma-express': {
+    title: 'Automatic MORs (Monthly Operating Reports) Generator',
+    cardTitle: 'Automating Monthly Operating Reports at Scale',
+    description: "A system that automatically generates Monthly Operating Reports (MOR) from a company’s balance sheet.",
+    image: '/portfolio/rmaexpress.webp',
+    detailImage: '/portfolio/rmaexpress.webp',
+    tags: ['Data Automation', 'Financial Analysis', 'LegalTech'],
+    about: [
+      'The Automatic MOR Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Operating Report (MOR) used in judicial recovery cases. The MOR is reviewed by a judge to monitor the financial health and operational status of the company.',
+      'The tool uses deterministic logic and structured financial rules to interpret accounting data and produce a fully formatted, standardized, and consistent PowerPoint report. This eliminates manual work, reduces errors, and greatly speeds up document preparation.'
+    ],
+    features: [
+      'Automatic extraction and processing of trial balance data',
+      'Deterministic logic for interpreting financial indicators',
+      'Fully generated PowerPoint RMA reports',
+      'Error reduction through rule-based transformations',
+      'Support for legal compliance in judicial recovery cases'
+    ],
+    technologies: ['Python', 'Pandas', 'NumPy'],
+    results: [
+      { value: '90%', label: 'Reduction in manual reporting time' },
+      { value: '100%', label: 'Consistency across financial reports' }
+    ]
+  },
+  deepdive: {
+    title: 'DeepDive',
+    description:
+      'An AI-powered application that extracts specific information from PDF documents and generates comprehensive reports.',
+    image: '/portfolio/deepdive.png',
+    detailImage: '/portfolio/deepdive.png',
+    tags: ['AI', 'Document Analysis', 'PDF Processing', 'Data Extraction'],
+    about: [
+      'Deepdive is an intelligent document analysis application designed to handle massive PDF documents that would be impractical to review manually. Using advanced AI and natural language processing, the system can process PDFs with thousands of pages and extract specific information, generate summaries, and create detailed reports based on user queries.',
+      'Instead of spending hours searching through pages, users can get useful insights and comprehensive analysis.',
+      'Built with robust document parsing capabilities and state-of-the-art language models, DeepDive can understand context, maintain accuracy across long documents, and generate structured reports that highlight the most relevant information for decision-making.'
+    ],
+    features: [
+      'Process PDFs with thousands of pages efficiently',
+      'AI-powered extraction of specific information based on queries',
+      'Automatic generation of comprehensive reports and summaries',
+      'Context-aware analysis that maintains accuracy across long documents',
+      'Structured data extraction and export capabilities'
+    ],
+    technologies: ['Python', 'OpenRouter API', 'PDF Processing Libraries', 'Document Parsing'],
+    results: [
+      { value: '1000+', label: 'Pages processed per document' },
+      { value: '95%', label: 'Information extraction accuracy' },
+      { value: '10x', label: 'Faster than manual review' },
+      { value: '50+', label: 'Documents analyzed' }
+    ]
+  },
+  'meu-novo-cabelo': {
+    title: 'Meu Novo Cabelo',
+    description:
+      'An AI-powered platform that transforms your look in 30 seconds by letting you try over 50 hair styles and colors from a single photo.',
+    image: '/portfolio/meunovocabelo.gif',
+    detailImage: '/portfolio/meunovocabelo.gif',
+    tags: ['AI', 'Image Generation', 'Beauty Tech', 'Consumer App'],
+    about: [
+      'Meu Novo Cabelo (My New Hair) is an innovative AI-powered beauty platform that revolutionizes how people experiment with their appearance. Users simply upload a photo and can instantly visualize themselves with over 50 different hair styles, cuts, and color variations in just 30 seconds.',
+      'The platform uses advanced AI image processing to seamlessly apply different hairstyles and hair colors to user photos, creating realistic transformations that help users make confident decisions about their new look before visiting a salon.',
+      'Built with cutting-edge computer vision and generative AI technology, Meu Novo Cabelo provides an intuitive, fast, and accessible way for users to explore their style options, making beauty transformations more accessible and less intimidating.'
+    ],
+    features: [
+      'Upload a photo and transform your look in 30 seconds',
+      'Choose from over 50 hair styles and color variations',
+      'Realistic AI-powered hair transformations',
+      'Instant visualization before making changes',
+      'User-friendly interface designed for accessibility',
+      'Mobile-optimized experience for on-the-go styling'
+    ],
+    technologies: ['Replicate', 'Flux', 'Nuxt', 'Supabase', 'Hetzner'],
+    results: [
+      { value: '50+', label: 'Hair styles available' },
+      { value: '30s', label: 'Average transformation time' }
+    ]
+  },
+  eletrificado: {
+    title: 'Eletrificado',
+    description:
+      'A news platform dedicated to electric vehicles that captures news from multiple sources, improves and translates them using AI, providing the latest updates about the electric car world.',
+    image: '/portfolio/eletrificado.png',
+    detailImage: '/portfolio/eletrificado.png',
+    tags: ['News Platform', 'Electric Vehicles', 'AI', 'Content Aggregation'],
+    about: [
+      'Eletrificado is a specialized news platform focused exclusively on electric vehicles and the electric car industry. The platform automatically captures news articles from various sources across the web, then uses AI to improve, translate, and adapt the content for Portuguese-speaking audiences.',
+      'Using advanced AI and natural language processing, the system enhances the captured articles by improving readability, translating content accurately, and ensuring consistency. This automated process allows the platform to provide a steady stream of high-quality, localized content about electric vehicles without manual translation work.',
+      'Built with modern web technologies, Eletrificado provides a clean, user-friendly interface for browsing electric vehicle news.'
+    ],
+    features: [
+      'AI-powered news capture from multiple sources',
+      'Automatic content improvement and translation using AI',
+      'Latest news about electric vehicles',
+      'Clean and modern user interface'
+    ],
+    technologies: ['Nuxt', 'OpenAI API', 'Web Scraping', 'Vercel', 'Stripe'],
+    results: [
+      { value: '100+', label: 'News articles published' },
+      { value: '24/7', label: 'News updates' }
+    ]
+  },
+  roomremake: {
+    title: 'RoomRemake - AI Interior Redesigner',
+    cardTitle: 'One-Click AI Interior Redesign with RoomRemake',
+    description:
+      'A SaaS platform that redesigns interior spaces in seconds using AI-powered style transformation.',
+    image: '/portfolio/roomremake_image.webp',
+    detailImage: '/portfolio/roomremake_image.webp',
+    tags: ['PropTech', 'Generative AI', 'SaaS'],
+    about: [
+      'RoomRemake is an AI interior redesign platform where users upload a room photo, choose a style, and receive a transformed design in seconds.',
+      'The product supports a broad style catalog including Modern, Minimalist, Rustic, Vintage, Tropical, Industrial, Scandinavian, and Luxury, making fast ideation accessible to homeowners, designers, and architects.',
+      'By turning a traditionally slow design process into a one-click workflow, RoomRemake helps users explore options quickly, compare visual directions, and move faster from inspiration to decision.'
+    ],
+    features: [
+      'Upload room photos and generate redesigned interiors in under 30 seconds',
+      'Multiple interior styles available in one workflow',
+      'AI-generated furniture and decoration suggestions for empty rooms',
+      'Downloadable high-quality generated images',
+      'Flexible plans for personal and commercial usage'
+    ],
+    technologies: ['Generative AI', 'Image Processing', 'Web Platform', 'Subscription Billing'],
+    results: [
+      { value: '<30s', label: 'Typical redesign generation time' },
+      { value: '8+', label: 'Design styles available' },
+      { value: '3', label: 'Subscription tiers (Basic, Decor, Architect)' },
+      { value: '1-click', label: 'Interior redesign workflow' }
+    ]
+  },
+  sicredi: {
+    title: 'Sicredi - Investment Reporting Platform',
+    cardTitle: 'Accelerating Sicredi Investment Reporting',
+    description:
+      'A web platform that generates investment performance reports for 130,000 cooperative members in a single click.',
+    image: '/portfolio/sicredi_image.webp',
+    detailImage: '/portfolio/sicredi_image.webp',
+    tags: ['Fintech', 'Data Automation', 'Reporting'],
+    about: [
+      'Sicredi needed to deliver monthly investment performance reports at scale, but the manual workflow was slow and produced inconsistencies in formatting and quality.',
+      'We integrated internal and external data sources into a robust web platform that generates parameterized reports with rich metrics and visual charts on demand.',
+      'The new process improved reliability, standardization, and visual presentation while helping both internal teams and end clients make better investment decisions.'
+    ],
+    features: [
+      'One-click generation of parameterized investment reports',
+      'Integration of internal and external financial data sources',
+      'Consistent report templates with improved visual quality',
+      'Automated data validation for better reliability',
+      'Scalable processing for large cooperative member bases'
+    ],
+    technologies: ['Web Platform', 'Data Pipelines', 'Data Visualization', 'ETL Automation'],
+    results: [
+      { value: '15x', label: 'Faster report generation' },
+      { value: '130k', label: 'Cooperative members served' },
+      { value: 'Higher', label: 'Report consistency and reliability' },
+      { value: 'Better', label: 'Decision support for teams and clients' }
+    ]
+  },
+  catalunya: {
+    title: 'Catalunya - AI Legal Case Analysis',
+    cardTitle: 'AI Legal Analysis for Complex Proceedings',
+    description:
+      'An AI-agent pipeline that analyzes massive legal case files with greater speed, depth, and consistency.',
+    image: '/portfolio/catalunya_logo.webp',
+    detailImage: '/portfolio/catalunya_logo.webp',
+    tags: ['LegalTech', 'AI Agents', 'Process Automation'],
+    about: [
+      'Catalunya handled legal proceedings with more than 5,000 pages per case and many related documents. Manual analysis was slow, incomplete, and error-prone.',
+      'We built an automated pipeline powered by specialized AI agents to transcribe, analyze, curate, review, and summarize key information into a complete report.',
+      'The solution delivered a major productivity leap and enabled scalable, high-quality analysis, which also opened a new and relevant revenue stream for the group.'
+    ],
+    features: [
+      'Specialized multi-agent pipeline for legal document workflows',
+      'Automated transcription, curation, review, and summarization',
+      'Structured output with complete and consistent case reports',
+      'Support for highly complex and correlated legal proceedings',
+      'Scalable framework for growing analysis operations'
+    ],
+    technologies: ['AI Agents', 'LLM Orchestration', 'Document Processing', 'Workflow Automation'],
+    results: [
+      { value: '200x', label: 'Faster case analysis' },
+      { value: 'Higher', label: 'Precision and analytical depth' },
+      { value: 'More', label: 'Assertive decision-making' },
+      { value: 'New', label: 'Relevant revenue source created' }
+    ]
+  },
+  'holder-plus': {
+    title: 'Holder+ - Financial Data Infrastructure',
+    cardTitle: 'Powering Holder+ with Financial Data Pipelines',
+    description:
+      'Data pipelines and source integrations that power Holder+ with reliable market and fundamentals data for thousands of users.',
+    image: '/portfolio/holder_logo.svg',
+    detailImage: '/portfolio/holder_logo.svg',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Data Pipelines', 'Integrations', 'WealthTech'],
+    about: [
+      'Holder+ is a wealth management platform built for portfolio tracking and financial planning, with a customizable and innovative experience in a single place.',
+      'We built the data infrastructure behind the platform, integrating major financial data providers in Brazil to supply critical information such as historical stock and fund prices and fundamentals.',
+      'These pipelines ensure data consistency, freshness, and reliability so Holder+ can deliver a simple global investment monitoring experience at scale for thousands of users.'
+    ],
+    features: [
+      'Robust data pipelines for ingestion, normalization, and validation',
+      'Integrations with major Brazilian financial data sources',
+      'Coverage for historical stock and fund prices',
+      'Fundamentals data processing for richer portfolio analysis',
+      'Reliable data delivery layer to support platform scale'
+    ],
+    technologies: ['Data Pipelines', 'ETL/ELT', 'API Integrations', 'Data Quality Monitoring'],
+    results: [
+      { value: '1000s', label: 'Users supported on the platform' },
+      { value: 'Major', label: 'Brazilian financial sources integrated' },
+      { value: 'Reliable', label: 'Delivery of prices and fundamentals data' },
+      { value: 'Scalable', label: 'Infrastructure for continued platform growth' }
+    ]
+  },
+  aawz: {
+    title: 'AAWZ - Treasury Data Infrastructure for AAWZ Hub',
+    cardTitle: 'Powering AAWZ Hub for Wealth Advisors',
+    description:
+      'Real-time, EOD, and historical treasury bond data pipelines built from official government sources to power AAWZ Hub.',
+    image: '/portfolio/aawz_logo.webp',
+    detailImage: '/portfolio/aawz_logo.webp',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Data Infrastructure', 'Market Data', 'WealthTech'],
+    about: [
+      'AAWZ operates a B2B ecosystem and platform infrastructure for wealth firms, consultancies, and investment advisory operations across Brazil. AAWZ Hub consolidates advisors’ clients’ portfolios in one place.',
+      'We built and maintain the data pipelines that ingest treasury bond market data directly from official government sources, including real-time prices, end-of-day prices, full historical series, interest rates, and benchmarks.',
+      'With this managed integration layer, AAWZ does not need to worry about data-source availability, connector maintenance, or ingestion reliability. We have supported this operation for more than four years.'
+    ],
+    features: [
+      'Direct integration with official government treasury data sources',
+      'Coverage for real-time, EOD, and historical bond prices',
+      'Interest rate and benchmark ingestion for valuation and analytics',
+      'Normalization and reliability layer for downstream platform services',
+      'Managed integration operations to reduce maintenance overhead'
+    ],
+    technologies: ['Data Pipelines', 'API Integrations', 'ETL/ELT', 'Data Quality Monitoring'],
+    results: [
+      { value: '4+ years', label: 'Continuous client partnership' },
+      { value: 'Real-time + EOD', label: 'Treasury pricing coverage' },
+      { value: 'Historical', label: 'Long-range data available for analysis' },
+      { value: 'Lower', label: 'Operational burden on AAWZ internal teams' }
+    ]
+  }
+} as const;

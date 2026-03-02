@@ -2,10 +2,10 @@
   <section id="team" class="mx-auto max-w-screen-xl px-4 py-16 md:py-24">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-semibold tracking-tight md:text-4xl">
-        A team of 10x engineers.
+        {{ t('team.title') }}
       </h2>
       <p class="mt-3 text-muted-foreground">
-        Learn more about our leadership team.
+        {{ t('team.subtitle') }}
       </p>
     </div>
     
@@ -17,7 +17,7 @@
       >
         <div class="aspect-square overflow-hidden bg-muted">
           <NuxtImg
-            :src="member.image" 
+            :src="member.image"
             :alt="member.name"
             class="h-full w-full object-cover grayscale-70 transition-all duration-500 group-hover:scale-105"
           />
@@ -43,43 +43,18 @@
 </template>
 
 <script setup lang="ts">
-const teamMembers = [
-  {
-    name: 'Bueno',
-    role: 'Founder',
-    image: '/team/bueno.png',
-    experience: 'First principles thinking. Best part is no part. All-rounder. Ex founding team at Leaf'
-  },
-  {
-    name: 'Barbosa',
-    role: 'Founder',
-    image: '/team/barbosa.png',
-    experience: 'Consistent. Always prepared. Detail-oriented. Ex founding team at Leaf'
-  },
-  {
-    name: 'Meyer',
-    role: 'Founder',
-    image: '/team/meyer.png',
-    experience: "Hackerboy. Loves to build cool stuff. Ex AWS."
-  },
-  {
-    name: 'Alex',
-    role: 'Engineer',
-    image: '/team/alex.png',
-    experience: 'Full stack engineer. Pragmatic thinking.'
-  },
-  {
-    name: 'Victor',
-    role: 'Engineer',
-    image: '/team/victor.png',
-    experience: 'Full stack engineer. Pragmatic thinking.'
-  },
-  {
-    name: 'Kalleo',
-    role: 'Engineer',
-    image: '/team/kalleo.png',
-    experience: 'Full stack engineer. Pragmatic thinking.'
-  }
-]
+const { t, locale, getLocaleMessage } = useI18n();
+
+const teamMembers = computed(() => {
+  const current = getLocaleMessage(locale.value) as any;
+  const members = (current?.team?.members as any[]) || [];
+  const length = Array.isArray(members) ? members.length : 0;
+  return Array.from({ length }).map((_, idx) => ({
+    name: t(`team.members.${idx}.name`),
+    role: t(`team.members.${idx}.role`),
+    image: t(`team.members.${idx}.image`),
+    experience: t(`team.members.${idx}.experience`)
+  }));
+});
 </script>
 

@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/fonts',
     '@nuxt/eslint',
-    '@nuxt/icon'
+    '@nuxt/icon',
+    '@nuxtjs/i18n'
   ],
 
   // Enable static site generation for GitHub Pages
@@ -31,6 +32,28 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'website' },
         { name: 'theme-color', content: '#7c3aed' } // violet
       ],
+    }
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
+    restructureDir: '.',
+    langDir: 'locales',
+    // Defina NUXT_PUBLIC_SITE_URL em produção; fallback para domínio real
+    baseUrl: 'https://codevon.com',
+    locales: [
+      { code: 'en', iso: 'en-US', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'pt-BR', iso: 'pt-BR', language: 'pt-BR', name: 'Português (Brasil)', file: 'pt-BR.json' }
+    ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root',
+      fallbackLocale: 'en'
+    },
+    experimental: {
+      strictSeo: true
     }
   },
 
