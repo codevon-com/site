@@ -125,7 +125,7 @@
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
             <NuxtImg
-              src="/logo_codevon_centered.png"
+              src="/portfolio/sicredi_image.webp"
               alt="Sicredi Investment Reporting Platform"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
             />
@@ -193,8 +193,8 @@
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
             <NuxtImg
-              src="/logo_codevon_centered.png"
-              alt="RoomRemake Platform for Architects"
+              src="/portfolio/roomremake_image.webp"
+              alt="RoomRemake AI Interior Redesigner"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
             />
           </div>
@@ -202,7 +202,7 @@
           <CardHeader>
             <CardTitle>RoomRemake</CardTitle>
             <CardDescription>
-              Instant style and lighting variations for architectural visualization
+              AI Interior Redesigner that transforms rooms into multiple styles in under 30 seconds
             </CardDescription>
           </CardHeader>
 
@@ -210,7 +210,7 @@
             <div class="flex flex-wrap gap-2">
               <Badge variant="secondary">PropTech</Badge>
               <Badge variant="secondary">Generative AI</Badge>
-              <Badge variant="secondary">Architecture</Badge>
+              <Badge variant="secondary">SaaS</Badge>
             </div>
           </CardContent>
 
@@ -245,6 +245,40 @@
               <Badge variant="secondary">Fintech</Badge>
               <Badge variant="secondary">Data Pipelines</Badge>
               <Badge variant="secondary">Integrations</Badge>
+            </div>
+          </CardContent>
+
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
+
+      <NuxtLink to="/portfolio/aawz" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <NuxtImg
+              src="/portfolio/aawz_logo.webp"
+              alt="AAWZ financial infrastructure platform"
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+
+          <CardHeader>
+            <CardTitle>AAWZ</CardTitle>
+            <CardDescription>
+              Government-source treasury bond data pipelines powering AAWZ Hub for wealth advisors
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">Fintech</Badge>
+              <Badge variant="secondary">Data Infrastructure</Badge>
+              <Badge variant="secondary">Market Data</Badge>
             </div>
           </CardContent>
 

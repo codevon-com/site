@@ -234,8 +234,8 @@ const projects = {
   'sicredi': {
     title: 'Sicredi - Investment Reporting Platform',
     description: 'A web platform that generates investment performance reports for 130,000 cooperative members in a single click.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/sicredi_image.webp',
+    detailImage: '/portfolio/sicredi_image.webp',
     tags: ['Fintech', 'Data Automation', 'Reporting'],
     about: [
       'Sicredi needed to deliver monthly investment performance reports at scale, but the manual workflow was slow and produced inconsistencies in formatting and quality.',
@@ -294,34 +294,34 @@ const projects = {
     ]
   },
   'room-remake': {
-    title: 'RoomRemake - Platform for Architects',
-    description: 'A platform that lets architects instantly change interior styles and facade lighting scenarios with photorealistic output.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
-    tags: ['PropTech', 'Generative AI', 'Architecture'],
+    title: 'RoomRemake - AI Interior Redesigner',
+    description: 'A SaaS platform that redesigns interior spaces in seconds using AI-powered style transformation.',
+    image: '/portfolio/roomremake_image.webp',
+    detailImage: '/portfolio/roomremake_image.webp',
+    tags: ['PropTech', 'Generative AI', 'SaaS'],
     about: [
-      'Architecture clients often request many style variations for the same interior and multiple lighting scenarios for facades. Traditional workflows require dozens of hours for modeling, texture adjustments, and heavy rendering.',
-      'RoomRemake allows architects to switch design styles and lighting conditions with just a few clicks, replacing labor-intensive manual setup with fast photorealistic generation.',
-      'This acceleration improved delivery speed and operational throughput, allowing firms to serve more clients while improving customer satisfaction and conversion rates.'
+      'RoomRemake is an AI interior redesign platform where users upload a room photo, choose a style, and receive a transformed design in seconds.',
+      'The product supports a broad style catalog including Modern, Minimalist, Rustic, Vintage, Tropical, Industrial, Scandinavian, and Luxury, making fast ideation accessible to homeowners, designers, and architects.',
+      'By turning a traditionally slow design process into a one-click workflow, RoomRemake helps users explore options quickly, compare visual directions, and move faster from inspiration to decision.'
     ],
     features: [
-      'Instant interior style variation generation',
-      'Fast facade relighting for day, dusk, and night scenarios',
-      'Photorealistic outputs generated in seconds',
-      'Simplified workflow replacing manual lighting/material setup',
-      'Multi-variation previews for faster client approvals'
+      'Upload room photos and generate redesigned interiors in under 30 seconds',
+      'Multiple interior styles available in one workflow',
+      'AI-generated furniture and decoration suggestions for empty rooms',
+      'Downloadable high-quality generated images',
+      'Flexible plans for personal and commercial usage'
     ],
     technologies: [
       'Generative AI',
       'Image Processing',
       'Web Platform',
-      'Rendering Automation'
+      'Subscription Billing'
     ],
     results: [
-      { value: '100x', label: 'Less time spent on modeling and rendering' },
-      { value: 'Higher', label: 'Client satisfaction' },
-      { value: 'Higher', label: 'New client conversion rate' },
-      { value: 'Faster', label: 'Delivery cycle and team throughput' }
+      { value: '<30s', label: 'Typical redesign generation time' },
+      { value: '8+', label: 'Design styles available' },
+      { value: '3', label: 'Subscription tiers (Basic, Decor, Architect)' },
+      { value: '1-click', label: 'Interior redesign workflow' }
     ]
   },
   'holder-plus': {
@@ -354,6 +354,38 @@ const projects = {
       { value: 'Major', label: 'Brazilian financial sources integrated' },
       { value: 'Reliable', label: 'Delivery of prices and fundamentals data' },
       { value: 'Scalable', label: 'Infrastructure for continued platform growth' }
+    ]
+  },
+  'aawz': {
+    title: 'AAWZ - Treasury Data Infrastructure for AAWZ Hub',
+    description: 'Real-time, EOD, and historical treasury bond data pipelines built from official government sources to power AAWZ Hub.',
+    image: '/portfolio/aawz_logo.webp',
+    detailImage: '/portfolio/aawz_logo.webp',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Data Infrastructure', 'Market Data', 'WealthTech'],
+    about: [
+      'AAWZ operates a B2B ecosystem and platform infrastructure for wealth firms, consultancies, and investment advisory operations across Brazil. AAWZ Hub consolidates advisors\' clients\' portfolios in one place.',
+      'We built and maintain the data pipelines that ingest treasury bond market data directly from official government sources, including real-time prices, end-of-day prices, full historical series, interest rates, and benchmarks.',
+      'With this managed integration layer, AAWZ does not need to worry about data-source availability, connector maintenance, or ingestion reliability. We have supported this operation for more than four years.'
+    ],
+    features: [
+      'Direct integration with official government treasury data sources',
+      'Coverage for real-time, EOD, and historical bond prices',
+      'Interest rate and benchmark ingestion for valuation and analytics',
+      'Normalization and reliability layer for downstream platform services',
+      'Managed integration operations to reduce maintenance overhead'
+    ],
+    technologies: [
+      'Data Pipelines',
+      'API Integrations',
+      'ETL/ELT',
+      'Data Quality Monitoring'
+    ],
+    results: [
+      { value: '4+ years', label: 'Continuous client partnership' },
+      { value: 'Real-time + EOD', label: 'Treasury pricing coverage' },
+      { value: 'Historical', label: 'Long-range data available for analysis' },
+      { value: 'Lower', label: 'Operational burden on AAWZ internal teams' }
     ]
   }
 }
