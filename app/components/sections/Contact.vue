@@ -39,7 +39,7 @@
                 name="name"
                 required
                 class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="John Doe"
+                placeholder="John von Neumann"
               />
             </div>
 
@@ -70,7 +70,7 @@
                 id="company"
                 name="company"
                 class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="Acme Inc."
+                placeholder="Institute for Advanced Study"
               />
             </div>
 
@@ -84,7 +84,7 @@
                 id="job_title"
                 name="job_title"
                 class="w-full rounded-lg border border-border/60 bg-background/60 px-4 py-2.5 backdrop-blur transition-colors placeholder:text-muted-foreground/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="CEO"
+                placeholder="Senior Researcher"
               />
             </div>
           </div>

@@ -19,7 +19,6 @@
             <li><a href="/#pricing" class="text-muted-foreground hover:text-foreground">Pricing</a></li>
             <li><a href="/#how-we-work" class="text-muted-foreground hover:text-foreground">How we work</a></li>
             <li><a href="/#work" class="text-muted-foreground hover:text-foreground">Work</a></li>
-            <li><a href="/#team" class="text-muted-foreground hover:text-foreground">Team</a></li>
           </ul>
         </div>
         <div>
