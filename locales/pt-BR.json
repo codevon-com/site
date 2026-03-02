@@ -141,10 +141,10 @@
     "title": "Vamos trabalhar juntos",
     "subtitle": "Conte sobre seu projeto e retornamos em até 24 horas.",
     "form": {
-      "name": { "label": "Nome", "placeholder": "João Silva" },
-      "email": { "label": "Email", "placeholder": "{'joao@empresa.com'}" },
-      "company": { "label": "Empresa", "placeholder": "Acme Inc." },
-      "job": { "label": "Cargo", "placeholder": "CEO" },
+      "name": { "label": "Nome", "placeholder": "John von Neumann" },
+      "email": { "label": "Email", "placeholder": "{'john@ias.com'}" },
+      "company": { "label": "Empresa", "placeholder": "Institute for Advanced Study" },
+      "job": { "label": "Cargo", "placeholder": "Senior Researcher" },
       "message": { "label": "Mensagem", "placeholder": "Conte sobre seu projeto..." },
       "submit": "Enviar mensagem",
       "subject": "Novo contato do site Codevon",
@@ -164,7 +164,7 @@
     },
     "email": "{'hello@codevon.com'}",
     "book": "Agendar conversa",
-    "copyright": "©2025 Codevon.",
+    "copyright": "©2026 Codevon.",
     "privacy": "Privacidade",
     "sla": "SLA"
   },
