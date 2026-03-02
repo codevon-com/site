@@ -1,10 +1,12 @@
 export const projectsPt = {
   smartzap: {
     title: 'SmartZap',
+    cardTitle: 'Assistente de IA no WhatsApp com SmartZap',
     description:
       'Assistente de WhatsApp com IA que traz o poder dos LLMs para conversas do dia a dia.',
-    image: '/portfolio/smartzap.png',
-    detailImage: '/portfolio/smartzap.png',
+    image: '/portfolio/smartzap_logo.webp',
+    detailImage: '/portfolio/smartzap_logo.webp',
+    imageFit: 'contain',
     tags: ['IA', 'Automação', 'WhatsApp Bot', 'SaaS'],
     about: [
       'O SmartZap transforma o WhatsApp em um assistente poderoso ao integrar modelos de linguagem de ponta em uma interface de conversa simples. Em vez de trocar de app, o usuário recebe ajuda no mensageiro que já usa diariamente.',
@@ -70,9 +72,10 @@ export const projectsPt = {
   },
   'rma-express': {
     title: 'Gerador Automático de RMA (Monthly Operating Reports)',
+    cardTitle: 'Automação de RMAs em Escala',
     description: 'Sistema que gera relatórios operacionais mensais (MOR/RMA) a partir do balancete da empresa.',
-    image: '/portfolio/rmaexpress.png',
-    detailImage: '/portfolio/rmaexpress.png',
+    image: '/portfolio/rmaexpress.webp',
+    detailImage: '/portfolio/rmaexpress.webp',
     tags: ['Automação de Dados', 'Análise Financeira', 'LegalTech'],
     about: [
       'Transforma o balancete em um relatório operacional completo usado em recuperação judicial. O relatório é revisado pelo juiz para acompanhar saúde financeira e operacional.',
@@ -168,28 +171,145 @@ export const projectsPt = {
     ]
   },
   roomremake: {
-    title: 'RoomRemake',
+    title: 'RoomRemake - Redesign de Interiores com IA',
+    cardTitle: 'Redesign de Interiores com IA em Um Clique',
     description:
-      'Redesign de interiores com IA: gera variações de design a partir de uma única foto.',
-    image: '/portfolio/roomremake.png',
-    detailImage: '/portfolio/roomremake.png',
-    tags: ['IA', 'Design de Interiores', 'Geração de Imagem', 'App de consumo'],
+      'Plataforma SaaS que redesenha ambientes internos em segundos com transformação de estilo via IA.',
+    image: '/portfolio/roomremake_image.webp',
+    detailImage: '/portfolio/roomremake_image.webp',
+    tags: ['PropTech', 'IA Generativa', 'SaaS'],
     about: [
-      'Permite visualizar transformações de ambientes instantaneamente. O usuário envia uma foto e recebe variações com estilos, layouts e cores diferentes.',
-      'Interface intuitiva para comparar original vs. redesign lado a lado, tornando design profissional mais acessível.'
+      'RoomRemake permite enviar uma foto do ambiente, escolher um estilo e receber um redesign em segundos.',
+      'A plataforma oferece estilos como Moderno, Minimalista, Rústico, Vintage, Tropical, Industrial, Escandinavo e Luxo, acelerando a exploração visual para clientes e arquitetos.',
+      'O que antes exigia horas de tentativas manuais virou um fluxo simples para comparar direções visuais e decidir mais rápido.'
     ],
     features: [
-      'Envie a foto do ambiente e receba redesigns instantâneos gerados por IA',
-      'Várias variações e estilos',
-      'Comparação lado a lado',
-      'Interface fácil de usar',
-      'Teste grátis para novos usuários'
+      'Upload de fotos e geração de redesigns em menos de 30 segundos',
+      'Múltiplos estilos de interiores no mesmo fluxo',
+      'Sugestões de mobiliário e decoração com IA',
+      'Download de imagens geradas em alta qualidade',
+      'Planos flexíveis para uso pessoal e comercial'
     ],
-    technologies: ['Replicate', 'Flux', 'Nuxt', 'Supabase', 'Hetzner'],
+    technologies: ['IA Generativa', 'Processamento de Imagens', 'Plataforma Web', 'Billing por Assinatura'],
     results: [
-      { value: '15+', label: 'Estilos disponíveis' },
-      { value: '30s', label: 'Tempo médio de geração' }
+      { value: '<30s', label: 'Tempo típico de geração' },
+      { value: '8+', label: 'Estilos disponíveis' },
+      { value: '3', label: 'Planos (Basic, Decor, Architect)' },
+      { value: '1 clique', label: 'Fluxo de redesign' }
+    ]
+  },
+  sicredi: {
+    title: 'Sicredi - Plataforma de Relatórios de Investimentos',
+    cardTitle: 'Acelerando os Relatórios de Investimentos do Sicredi',
+    description:
+      'Plataforma web que gera relatórios de desempenho de investimentos para 130.000 cooperados com um clique.',
+    image: '/portfolio/sicredi_image.webp',
+    detailImage: '/portfolio/sicredi_image.webp',
+    tags: ['Fintech', 'Automação de Dados', 'Reporting'],
+    about: [
+      'O Sicredi precisava entregar relatórios mensais de desempenho em escala, mas o processo manual era lento e inconsistente em formatação e qualidade.',
+      'Integramos fontes internas e externas em uma plataforma robusta, capaz de gerar relatórios parametrizáveis com dados e gráficos em um clique.',
+      'O novo processo elevou confiabilidade, padronização e apresentação visual, apoiando melhores decisões para equipes internas e clientes.'
+    ],
+    features: [
+      'Geração de relatórios parametrizáveis com um clique',
+      'Integração de fontes de dados internas e externas',
+      'Templates padronizados com melhor apresentação',
+      'Validação automática para maior confiabilidade',
+      'Processamento escalável para base massiva de cooperados'
+    ],
+    technologies: ['Plataforma Web', 'Data Pipelines', 'Data Visualization', 'ETL Automation'],
+    results: [
+      { value: '15x', label: 'Mais rápido na geração de relatórios' },
+      { value: '130k', label: 'Cooperados atendidos' },
+      { value: 'Maior', label: 'Consistência e confiabilidade' },
+      { value: 'Melhor', label: 'Suporte à decisão para times e clientes' }
+    ]
+  },
+  catalunya: {
+    title: 'Catalunya - Análise Jurídica com IA',
+    cardTitle: 'Análise Jurídica de Processos Complexos com IA',
+    description:
+      'Pipeline com agentes de IA para analisar processos jurídicos massivos com mais velocidade, profundidade e consistência.',
+    image: '/portfolio/catalunya_logo.webp',
+    detailImage: '/portfolio/catalunya_logo.webp',
+    tags: ['LegalTech', 'Agentes de IA', 'Automação de Processos'],
+    about: [
+      'A Catalunya lida com processos com mais de 5.000 páginas cada e múltiplos documentos correlatos. A análise manual era lenta, incompleta e sujeita a erros.',
+      'Desenvolvemos um pipeline automatizado com agentes especializados para transcrever, analisar, revisar e resumir informações-chave em relatórios completos.',
+      'A solução trouxe grande ganho de produtividade e qualidade, além de abrir uma nova fonte de receita relevante para o grupo.'
+    ],
+    features: [
+      'Pipeline multiagente para fluxos jurídicos complexos',
+      'Transcrição, curadoria, revisão e sumarização automáticas',
+      'Saída estruturada com relatórios completos e consistentes',
+      'Suporte a processos extensos e correlacionados',
+      'Escalabilidade para expansão da operação'
+    ],
+    technologies: ['Agentes de IA', 'Orquestração de LLMs', 'Processamento de Documentos', 'Automação de Workflow'],
+    results: [
+      { value: '200x', label: 'Mais rápido na análise' },
+      { value: 'Maior', label: 'Precisão e profundidade analítica' },
+      { value: 'Mais', label: 'Assertividade na tomada de decisão' },
+      { value: 'Nova', label: 'Fonte de receita relevante' }
+    ]
+  },
+  'holder-plus': {
+    title: 'Holder+ - Infraestrutura de Dados Financeiros',
+    cardTitle: 'Powering Holder+ com Data Pipelines Financeiros',
+    description:
+      'Pipelines e integrações de dados que alimentam a Holder+ com dados de mercado e fundamentos para milhares de usuários.',
+    image: '/portfolio/holder_logo.svg',
+    detailImage: '/portfolio/holder_logo.svg',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Data Pipelines', 'Integrações', 'WealthTech'],
+    about: [
+      'A Holder+ é uma plataforma de gestão e acompanhamento patrimonial com foco em planejamento financeiro e visão consolidada.',
+      'Construímos a infraestrutura de dados da plataforma, integrando grandes provedores financeiros no Brasil para preços históricos de ações e fundos e dados fundamentalistas.',
+      'Com isso, a plataforma ganha consistência, atualização e confiabilidade para operar em escala com milhares de usuários.'
+    ],
+    features: [
+      'Pipelines robustos de ingestão, normalização e validação',
+      'Integrações com grandes fontes de dados financeiros no Brasil',
+      'Cobertura de histórico de preços de ações e fundos',
+      'Processamento de fundamentos para análises mais ricas',
+      'Camada confiável de entrega para suportar escala'
+    ],
+    technologies: ['Data Pipelines', 'ETL/ELT', 'Integrações de API', 'Monitoramento de Qualidade de Dados'],
+    results: [
+      { value: '1000s', label: 'Usuários suportados na plataforma' },
+      { value: 'Principais', label: 'Fontes financeiras brasileiras integradas' },
+      { value: 'Confiável', label: 'Entrega de dados de preços e fundamentos' },
+      { value: 'Escalável', label: 'Infraestrutura para crescimento contínuo' }
+    ]
+  },
+  aawz: {
+    title: 'AAWZ - Infraestrutura de Dados para o AAWZ Hub',
+    cardTitle: 'Powering AAWZ Hub para Assessores de Investimentos',
+    description:
+      'Pipelines de dados de títulos públicos em tempo real, EOD e histórico, com fonte oficial do governo, para alimentar o AAWZ Hub.',
+    image: '/portfolio/aawz_logo.webp',
+    detailImage: '/portfolio/aawz_logo.webp',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Infraestrutura de Dados', 'Market Data', 'WealthTech'],
+    about: [
+      'A AAWZ opera um ecossistema B2B para wealths, consultorias e assessorias. O AAWZ Hub consolida carteiras de clientes em um único lugar.',
+      'Construímos e mantemos os pipelines de dados de títulos públicos direto das fontes oficiais do governo, com preços em tempo real, EOD, histórico completo, taxas de juros e benchmarks.',
+      'Com essa camada gerenciada, a AAWZ elimina preocupações com disponibilidade de fonte, manutenção de conectores e confiabilidade de ingestão. Somos parceiros da operação há mais de 4 anos.'
+    ],
+    features: [
+      'Integração direta com fontes oficiais de dados de títulos públicos',
+      'Cobertura de preços em tempo real, EOD e histórico',
+      'Ingestão de taxas de juros e benchmarks',
+      'Camada de normalização e confiabilidade para serviços downstream',
+      'Operação gerenciada para reduzir esforço interno de manutenção'
+    ],
+    technologies: ['Data Pipelines', 'Integrações de API', 'ETL/ELT', 'Monitoramento de Qualidade de Dados'],
+    results: [
+      { value: '4+ anos', label: 'Parceria contínua' },
+      { value: 'Real-time + EOD', label: 'Cobertura de preços' },
+      { value: 'Histórico', label: 'Séries longas para análise' },
+      { value: 'Menor', label: 'Carga operacional para o time interno' }
     ]
   }
 } as const;
-

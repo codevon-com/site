@@ -32,12 +32,15 @@
                 <NuxtImg
                   :src="item.project.image"
                   :alt="item.project.title"
-                  class="w-full h-full object-cover transition-transform group-hover:scale-105"
+                  :class="[
+                    'w-full h-full transition-transform group-hover:scale-105',
+                    item.project.imageFit === 'contain' ? 'object-contain p-4' : 'object-cover'
+                  ]"
                 />
               </div>
 
               <CardHeader>
-                <CardTitle>{{ item.project.title }}</CardTitle>
+                <CardTitle>{{ item.project.cardTitle || item.project.title }}</CardTitle>
                 <CardDescription>
                   {{ item.project.description }}
                 </CardDescription>
@@ -71,11 +74,15 @@ const { t, locale } = useI18n();
 const localePath = useLocalePath();
 
 const projectOrder = [
+  'sicredi',
+  'catalunya',
+  'aawz',
+  'holder-plus',
+  'roomremake',
   'smartzap',
   'take-pics',
   'rma-express',
   'deepdive',
-  'roomremake',
   'meu-novo-cabelo',
   'eletrificado',
   'fintz-bot',
@@ -102,5 +109,3 @@ useSeoMeta({
   ogDescription: seoDescription,
 });
 </script>
-
-
