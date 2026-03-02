@@ -19,7 +19,6 @@
             <li><NuxtLink :to="homeHash('pricing')" class="text-muted-foreground hover:text-foreground">{{ t('footer.linksList.pricing') }}</NuxtLink></li>
             <li><NuxtLink :to="homeHash('how-we-work')" class="text-muted-foreground hover:text-foreground">{{ t('footer.linksList.how') }}</NuxtLink></li>
             <li><NuxtLink :to="homeHash('work')" class="text-muted-foreground hover:text-foreground">{{ t('footer.linksList.work') }}</NuxtLink></li>
-            <li><NuxtLink :to="homeHash('team')" class="text-muted-foreground hover:text-foreground">{{ t('footer.linksList.team') }}</NuxtLink></li>
           </ul>
         </div>
         <div>

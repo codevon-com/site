@@ -17,9 +17,6 @@
         <NuxtLink :to="localePath('/portfolio')" class="text-muted-foreground transition-colors hover:text-foreground">
           {{ t('nav.portfolio') }}
         </NuxtLink>
-        <NuxtLink :to="homeHash('team')" class="text-muted-foreground transition-colors hover:text-foreground">
-          {{ t('nav.team') }}
-        </NuxtLink>
         <NuxtLink :to="homeHash('contact')" class="text-muted-foreground transition-colors hover:text-foreground">
           {{ t('nav.contact') }}
         </NuxtLink>
