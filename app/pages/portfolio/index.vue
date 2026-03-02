@@ -34,7 +34,7 @@
                   :alt="item.project.title"
                   :class="[
                     'w-full h-full transition-transform group-hover:scale-105',
-                    item.project.imageFit === 'contain' ? 'object-contain p-4' : 'object-cover'
+                    item.project.imageFit === 'contain' ? 'object-contain' : 'object-cover'
                   ]"
                 />
               </div>

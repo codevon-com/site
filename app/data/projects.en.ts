@@ -6,7 +6,6 @@ export const projectsEn = {
       'An AI-powered WhatsApp assistant that brings the intelligence of modern LLMs directly into everyday conversations.',
     image: '/portfolio/smartzap_logo.webp',
     detailImage: '/portfolio/smartzap_logo.webp',
-    imageFit: 'contain',
     tags: ['AI', 'Automation', 'WhatsApp Bot', 'SaaS'],
     about: [
       'SmartZap turns WhatsApp into a powerful AI assistant by integrating state-of-the-art language models into a simple conversational interface. Instead of switching apps, users can get help directly in the messaging platform they use daily.',
@@ -25,6 +24,7 @@ export const projectsEn = {
   },
   'fintz-bot': {
     title: 'Fintz Bot',
+    cardTitle: 'Expense Tracking via WhatsApp with Fintz Bot',
     description:
       'A smart conversational WhatsApp bot that helps users effortlessly track, organize, and understand their daily expenses.',
     image: '/portfolio/fintzbot.png',
@@ -73,6 +73,7 @@ export const projectsEn = {
     description: "A system that automatically generates Monthly Operating Reports (MOR) from a company’s balance sheet.",
     image: '/portfolio/rmaexpress.webp',
     detailImage: '/portfolio/rmaexpress.webp',
+    imageFit: 'contain',
     tags: ['Data Automation', 'Financial Analysis', 'LegalTech'],
     about: [
       'The Automatic MOR Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Operating Report (MOR) used in judicial recovery cases. The MOR is reviewed by a judge to monitor the financial health and operational status of the company.',
@@ -93,6 +94,7 @@ export const projectsEn = {
   },
   deepdive: {
     title: 'DeepDive',
+    cardTitle: 'Extracting Insights from Massive PDFs with AI',
     description:
       'An AI-powered application that extracts specific information from PDF documents and generates comprehensive reports.',
     image: '/portfolio/deepdive.png',
@@ -120,6 +122,7 @@ export const projectsEn = {
   },
   'meu-novo-cabelo': {
     title: 'Meu Novo Cabelo',
+    cardTitle: 'Virtual Hair Makeovers in 30 Seconds with AI',
     description:
       'An AI-powered platform that transforms your look in 30 seconds by letting you try over 50 hair styles and colors from a single photo.',
     image: '/portfolio/meunovocabelo.gif',
@@ -146,6 +149,7 @@ export const projectsEn = {
   },
   eletrificado: {
     title: 'Eletrificado',
+    cardTitle: 'AI-Powered Electric Vehicle News Aggregation',
     description:
       'A news platform dedicated to electric vehicles that captures news from multiple sources, improves and translates them using AI, providing the latest updates about the electric car world.',
     image: '/portfolio/eletrificado.png',
@@ -257,8 +261,8 @@ export const projectsEn = {
     cardTitle: 'Powering Holder+ with Financial Data Pipelines',
     description:
       'Data pipelines and source integrations that power Holder+ with reliable market and fundamentals data for thousands of users.',
-    image: '/portfolio/holder_logo.svg',
-    detailImage: '/portfolio/holder_logo.svg',
+    image: '/portfolio/holderplus.webp',
+    detailImage: '/portfolio/holderplus.webp',
     imageFit: 'contain',
     tags: ['Fintech', 'Data Pipelines', 'Integrations', 'WealthTech'],
     about: [
@@ -288,7 +292,6 @@ export const projectsEn = {
       'Real-time, EOD, and historical treasury bond data pipelines built from official government sources to power AAWZ Hub.',
     image: '/portfolio/aawz_logo.webp',
     detailImage: '/portfolio/aawz_logo.webp',
-    imageFit: 'contain',
     tags: ['Fintech', 'Data Infrastructure', 'Market Data', 'WealthTech'],
     about: [
       'AAWZ operates a B2B ecosystem and platform infrastructure for wealth firms, consultancies, and investment advisory operations across Brazil. AAWZ Hub consolidates advisors’ clients’ portfolios in one place.',

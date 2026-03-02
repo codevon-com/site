@@ -6,7 +6,6 @@ export const projectsPt = {
       'Assistente de WhatsApp com IA que traz o poder dos LLMs para conversas do dia a dia.',
     image: '/portfolio/smartzap_logo.webp',
     detailImage: '/portfolio/smartzap_logo.webp',
-    imageFit: 'contain',
     tags: ['IA', 'Automação', 'WhatsApp Bot', 'SaaS'],
     about: [
       'O SmartZap transforma o WhatsApp em um assistente poderoso ao integrar modelos de linguagem de ponta em uma interface de conversa simples. Em vez de trocar de app, o usuário recebe ajuda no mensageiro que já usa diariamente.',
@@ -25,6 +24,7 @@ export const projectsPt = {
   },
   'fintz-bot': {
     title: 'Fintz Bot',
+    cardTitle: 'Controle de Gastos no WhatsApp com o Fintz Bot',
     description:
       'Bot conversacional no WhatsApp que ajuda a registrar e entender despesas do dia a dia sem esforço.',
     image: '/portfolio/fintzbot.png',
@@ -76,6 +76,7 @@ export const projectsPt = {
     description: 'Sistema que gera relatórios operacionais mensais (MOR/RMA) a partir do balancete da empresa.',
     image: '/portfolio/rmaexpress.webp',
     detailImage: '/portfolio/rmaexpress.webp',
+    imageFit: 'contain',
     tags: ['Automação de Dados', 'Análise Financeira', 'LegalTech'],
     about: [
       'Transforma o balancete em um relatório operacional completo usado em recuperação judicial. O relatório é revisado pelo juiz para acompanhar saúde financeira e operacional.',
@@ -96,6 +97,7 @@ export const projectsPt = {
   },
   deepdive: {
     title: 'DeepDive',
+    cardTitle: 'Extraindo Insights de PDFs Massivos com IA',
     description:
       'Aplicação de IA para extrair informações específicas de PDFs e gerar relatórios completos.',
     image: '/portfolio/deepdive.png',
@@ -123,6 +125,7 @@ export const projectsPt = {
   },
   'meu-novo-cabelo': {
     title: 'Meu Novo Cabelo',
+    cardTitle: 'Transformação de Visual em 30 Segundos com IA',
     description:
       'Plataforma com IA que transforma seu visual em 30 segundos, testando 50+ estilos e cores a partir de uma foto.',
     image: '/portfolio/meunovocabelo.gif',
@@ -148,6 +151,7 @@ export const projectsPt = {
   },
   eletrificado: {
     title: 'Eletrificado',
+    cardTitle: 'Agregação de Notícias sobre Carros Elétricos com IA',
     description:
       'Plataforma de notícias sobre veículos elétricos que captura, melhora e traduz conteúdo via IA, entregando as últimas atualizações.',
     image: '/portfolio/eletrificado.png',
@@ -259,8 +263,8 @@ export const projectsPt = {
     cardTitle: 'Powering Holder+ com Data Pipelines Financeiros',
     description:
       'Pipelines e integrações de dados que alimentam a Holder+ com dados de mercado e fundamentos para milhares de usuários.',
-    image: '/portfolio/holder_logo.svg',
-    detailImage: '/portfolio/holder_logo.svg',
+    image: '/portfolio/holderplus.webp',
+    detailImage: '/portfolio/holderplus.webp',
     imageFit: 'contain',
     tags: ['Fintech', 'Data Pipelines', 'Integrações', 'WealthTech'],
     about: [
@@ -290,7 +294,6 @@ export const projectsPt = {
       'Pipelines de dados de títulos públicos em tempo real, EOD e histórico, com fonte oficial do governo, para alimentar o AAWZ Hub.',
     image: '/portfolio/aawz_logo.webp',
     detailImage: '/portfolio/aawz_logo.webp',
-    imageFit: 'contain',
     tags: ['Fintech', 'Infraestrutura de Dados', 'Market Data', 'WealthTech'],
     about: [
       'A AAWZ opera um ecossistema B2B para wealths, consultorias e assessorias. O AAWZ Hub consolida carteiras de clientes em um único lugar.',
