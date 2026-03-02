@@ -24,7 +24,7 @@
         <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
           <div class="aspect-video w-full overflow-hidden bg-muted">
             <NuxtImg
-              src="/portfolio/rmaexpress.png"
+              src="/portfolio/rmaexpress.webp"
               alt="Automatic MOR Generator"
               class="h-full w-full object-cover transition-transform group-hover:scale-105"
             />

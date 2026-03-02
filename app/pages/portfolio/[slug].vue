@@ -203,8 +203,8 @@ const projects = {
   'rma-express': {
     title: 'Automatic MORs (Monthly Operating Reports) Generator',
     description: 'A system that automatically generates Monthly Operating Reports (MOR) from a company’s balance sheet.',
-    image: '/portfolio/rmaexpress.png',
-    detailImage: '/portfolio/rmaexpress.png',
+    image: '/portfolio/rmaexpress.webp',
+    detailImage: '/portfolio/rmaexpress.webp',
     tags: ['Data Automation', 'Financial Analysis', 'LegalTech'],
     about: [
       'The Automatic MOR Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Operating Report (MOR) used in judicial recovery cases. The MOR is reviewed by a judge to monitor the financial health and operational status of the company.',
