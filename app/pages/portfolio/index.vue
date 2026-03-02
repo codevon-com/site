@@ -24,7 +24,7 @@
           <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
             <div class="aspect-video w-full overflow-hidden bg-muted">
               <NuxtImg
-                src="/portfolio/smartzap.png"
+                src="/portfolio/smartzap_logo.webp"
                 alt="SmartZap"
                 class="h-full w-full object-cover transition-transform group-hover:scale-105"
               />
@@ -121,6 +121,142 @@
         </Card>
       </NuxtLink>
 
+      <NuxtLink to="/portfolio/sicredi" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <NuxtImg
+              src="/logo_codevon_centered.png"
+              alt="Sicredi Investment Reporting Platform"
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+
+          <CardHeader>
+            <CardTitle>Sicredi</CardTitle>
+            <CardDescription>
+              Investment reporting platform for 130,000 cooperative members
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">Fintech</Badge>
+              <Badge variant="secondary">Data Automation</Badge>
+              <Badge variant="secondary">Reporting</Badge>
+            </div>
+          </CardContent>
+
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
+
+      <NuxtLink to="/portfolio/catalunya" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <NuxtImg
+              src="/portfolio/catalunya_logo.webp"
+              alt="Catalunya AI Legal Process Analysis"
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+
+          <CardHeader>
+            <CardTitle>Catalunya</CardTitle>
+            <CardDescription>
+              AI-powered analysis of large and complex legal case files
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">LegalTech</Badge>
+              <Badge variant="secondary">AI Agents</Badge>
+              <Badge variant="secondary">Process Automation</Badge>
+            </div>
+          </CardContent>
+
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
+
+      <NuxtLink to="/portfolio/room-remake" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <NuxtImg
+              src="/logo_codevon_centered.png"
+              alt="RoomRemake Platform for Architects"
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+            />
+          </div>
+
+          <CardHeader>
+            <CardTitle>RoomRemake</CardTitle>
+            <CardDescription>
+              Instant style and lighting variations for architectural visualization
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">PropTech</Badge>
+              <Badge variant="secondary">Generative AI</Badge>
+              <Badge variant="secondary">Architecture</Badge>
+            </div>
+          </CardContent>
+
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
+
+      <NuxtLink to="/portfolio/holder-plus" class="group">
+        <Card class="h-full overflow-hidden transition-all hover:shadow-lg">
+          <div class="aspect-video w-full overflow-hidden bg-muted">
+            <NuxtImg
+              src="/portfolio/holder_logo.svg"
+              alt="Holder+ financial data platform"
+              class="h-full w-full object-contain p-6 transition-transform group-hover:scale-105"
+            />
+          </div>
+
+          <CardHeader>
+            <CardTitle>Holder+</CardTitle>
+            <CardDescription>
+              Data pipelines and integrations powering a wealth management platform with thousands of users
+            </CardDescription>
+          </CardHeader>
+
+          <CardContent>
+            <div class="flex flex-wrap gap-2">
+              <Badge variant="secondary">Fintech</Badge>
+              <Badge variant="secondary">Data Pipelines</Badge>
+              <Badge variant="secondary">Integrations</Badge>
+            </div>
+          </CardContent>
+
+          <CardFooter>
+            <div class="flex items-center gap-2 text-sm font-medium text-primary">
+              Learn more
+              <Icon name="lucide:arrow-right" class="h-4 w-4" />
+            </div>
+          </CardFooter>
+        </Card>
+      </NuxtLink>
+
 
         </div>
       </div>
@@ -134,4 +270,3 @@ useSeoMeta({
   description: 'Explore our portfolio of 100+ projects across software, AI, data science, and blockchain.',
 })
 </script>
-

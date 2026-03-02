@@ -41,7 +41,10 @@
             <NuxtImg 
               :src="project.detailImage" 
               :alt="project.title" 
-              class="h-full w-full object-cover"
+              :class="[
+                'h-full w-full',
+                project.imageFit === 'contain' ? 'object-contain p-6' : 'object-cover'
+              ]"
             />
           </div>
         </div>
@@ -103,8 +106,9 @@ const projects = {
   'smartzap': {
     title: 'SmartZap',
     description: 'An AI-powered WhatsApp assistant that brings the intelligence of modern LLMs directly into everyday conversations.',
-    image: '/portfolio/smartzap.png',
-    detailImage: '/portfolio/smartzap.png',
+    image: '/portfolio/smartzap_logo.webp',
+    detailImage: '/portfolio/smartzap_logo.webp',
+    imageFit: 'contain',
     tags: ['AI', 'Automation', 'WhatsApp Bot', 'SaaS'],
     about: [
       'SmartZap turns WhatsApp into a powerful AI assistant by integrating state-of-the-art language models into a simple conversational interface. Instead of switching apps, users can get help directly in the messaging platform they use daily.',
@@ -226,6 +230,131 @@ const projects = {
       { value: '0', label: 'Human errors in calculations' },
       { value: '30+', label: 'Companies supported' }
     ]
+  },
+  'sicredi': {
+    title: 'Sicredi - Investment Reporting Platform',
+    description: 'A web platform that generates investment performance reports for 130,000 cooperative members in a single click.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    tags: ['Fintech', 'Data Automation', 'Reporting'],
+    about: [
+      'Sicredi needed to deliver monthly investment performance reports at scale, but the manual workflow was slow and produced inconsistencies in formatting and quality.',
+      'We integrated internal and external data sources into a robust web platform that generates parameterized reports with rich metrics and visual charts on demand.',
+      'The new process improved reliability, standardization, and visual presentation while helping both internal teams and end clients make better investment decisions.'
+    ],
+    features: [
+      'One-click generation of parameterized investment reports',
+      'Integration of internal and external financial data sources',
+      'Consistent report templates with improved visual quality',
+      'Automated data validation for better reliability',
+      'Scalable processing for large cooperative member bases'
+    ],
+    technologies: [
+      'Web Platform',
+      'Data Pipelines',
+      'Data Visualization',
+      'ETL Automation'
+    ],
+    results: [
+      { value: '15x', label: 'Faster report generation' },
+      { value: '130k', label: 'Cooperative members served' },
+      { value: 'Higher', label: 'Report consistency and reliability' },
+      { value: 'Better', label: 'Decision support for teams and clients' }
+    ]
+  },
+  'catalunya': {
+    title: 'Catalunya - AI Legal Case Analysis',
+    description: 'An AI-agent pipeline that analyzes massive legal case files with greater speed, depth, and consistency.',
+    image: '/portfolio/catalunya_logo.webp',
+    detailImage: '/portfolio/catalunya_logo.webp',
+    tags: ['LegalTech', 'AI Agents', 'Process Automation'],
+    about: [
+      'Catalunya handled legal proceedings with more than 5,000 pages per case and many related documents. Manual analysis was slow, incomplete, and error-prone.',
+      'We built an automated pipeline powered by specialized AI agents to transcribe, analyze, curate, review, and summarize key information into a complete report.',
+      'The solution delivered a major productivity leap and enabled scalable, high-quality analysis, which also opened a new and relevant revenue stream for the group.'
+    ],
+    features: [
+      'Specialized multi-agent pipeline for legal document workflows',
+      'Automated transcription, curation, review, and summarization',
+      'Structured output with complete and consistent case reports',
+      'Support for highly complex and correlated legal proceedings',
+      'Scalable framework for growing analysis operations'
+    ],
+    technologies: [
+      'AI Agents',
+      'LLM Orchestration',
+      'Document Processing',
+      'Workflow Automation'
+    ],
+    results: [
+      { value: '200x', label: 'Faster case analysis' },
+      { value: 'Higher', label: 'Precision and analytical depth' },
+      { value: 'More', label: 'Assertive decision-making' },
+      { value: 'New', label: 'Relevant revenue source created' }
+    ]
+  },
+  'room-remake': {
+    title: 'RoomRemake - Platform for Architects',
+    description: 'A platform that lets architects instantly change interior styles and facade lighting scenarios with photorealistic output.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    tags: ['PropTech', 'Generative AI', 'Architecture'],
+    about: [
+      'Architecture clients often request many style variations for the same interior and multiple lighting scenarios for facades. Traditional workflows require dozens of hours for modeling, texture adjustments, and heavy rendering.',
+      'RoomRemake allows architects to switch design styles and lighting conditions with just a few clicks, replacing labor-intensive manual setup with fast photorealistic generation.',
+      'This acceleration improved delivery speed and operational throughput, allowing firms to serve more clients while improving customer satisfaction and conversion rates.'
+    ],
+    features: [
+      'Instant interior style variation generation',
+      'Fast facade relighting for day, dusk, and night scenarios',
+      'Photorealistic outputs generated in seconds',
+      'Simplified workflow replacing manual lighting/material setup',
+      'Multi-variation previews for faster client approvals'
+    ],
+    technologies: [
+      'Generative AI',
+      'Image Processing',
+      'Web Platform',
+      'Rendering Automation'
+    ],
+    results: [
+      { value: '100x', label: 'Less time spent on modeling and rendering' },
+      { value: 'Higher', label: 'Client satisfaction' },
+      { value: 'Higher', label: 'New client conversion rate' },
+      { value: 'Faster', label: 'Delivery cycle and team throughput' }
+    ]
+  },
+  'holder-plus': {
+    title: 'Holder+ - Financial Data Infrastructure',
+    description: 'Data pipelines and source integrations that power Holder+ with reliable market and fundamentals data for thousands of users.',
+    image: '/portfolio/holder_logo.svg',
+    detailImage: '/portfolio/holder_logo.svg',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Data Pipelines', 'Integrations', 'WealthTech'],
+    about: [
+      'Holder+ is a wealth management platform built for portfolio tracking and financial planning, with a customizable and innovative experience in a single place.',
+      'We built the data infrastructure behind the platform, integrating major financial data providers in Brazil to supply critical information such as historical stock and fund prices and fundamentals.',
+      'These pipelines ensure data consistency, freshness, and reliability so Holder+ can deliver a simple global investment monitoring experience at scale for thousands of users.'
+    ],
+    features: [
+      'Robust data pipelines for ingestion, normalization, and validation',
+      'Integrations with major Brazilian financial data sources',
+      'Coverage for historical stock and fund prices',
+      'Fundamentals data processing for richer portfolio analysis',
+      'Reliable data delivery layer to support platform scale'
+    ],
+    technologies: [
+      'Data Pipelines',
+      'ETL/ELT',
+      'API Integrations',
+      'Data Quality Monitoring'
+    ],
+    results: [
+      { value: '1000s', label: 'Users supported on the platform' },
+      { value: 'Major', label: 'Brazilian financial sources integrated' },
+      { value: 'Reliable', label: 'Delivery of prices and fundamentals data' },
+      { value: 'Scalable', label: 'Infrastructure for continued platform growth' }
+    ]
   }
 }
 
@@ -236,4 +365,3 @@ useSeoMeta({
   description: project.description,
 })
 </script>
-
