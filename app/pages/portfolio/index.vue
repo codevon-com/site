@@ -31,7 +31,7 @@
           </div>
 
           <CardHeader>
-            <CardTitle>Automatic Operating Reports</CardTitle>
+            <CardTitle>Automating Monthly Operating Reports at Scale</CardTitle>
             <CardDescription>
               Automated Monthly Operating Reports (PPT and DOC) from balance sheet data
             </CardDescription>
@@ -65,7 +65,7 @@
           </div>
 
           <CardHeader>
-            <CardTitle>Sicredi</CardTitle>
+            <CardTitle>Accelerating Sicredi Investment Reporting</CardTitle>
             <CardDescription>
               Investment reporting platform for 130,000 cooperative members
             </CardDescription>
@@ -99,7 +99,7 @@
           </div>
 
           <CardHeader>
-            <CardTitle>Catalunya</CardTitle>
+            <CardTitle>AI Legal Analysis for Complex Proceedings</CardTitle>
             <CardDescription>
               AI-powered analysis of large and complex legal case files
             </CardDescription>
@@ -133,7 +133,7 @@
           </div>
 
           <CardHeader>
-            <CardTitle>AAWZ</CardTitle>
+            <CardTitle>Powering AAWZ Hub for Wealth Advisors</CardTitle>
             <CardDescription>
               Government-source treasury bond data pipelines powering AAWZ Hub for wealth advisors
             </CardDescription>
@@ -167,7 +167,7 @@
           </div>
 
           <CardHeader>
-            <CardTitle>RoomRemake</CardTitle>
+            <CardTitle>One-Click AI Interior Redesign with RoomRemake</CardTitle>
             <CardDescription>
               AI Interior Redesigner that transforms rooms into multiple styles in under 30 seconds
             </CardDescription>
@@ -202,7 +202,7 @@
             </div>
 
             <CardHeader>
-              <CardTitle>SmartZap</CardTitle>
+              <CardTitle>AI Assistant Inside WhatsApp with SmartZap</CardTitle>
               <CardDescription>
                 Like chatgpt but inside WhatsApp
               </CardDescription>
@@ -236,7 +236,7 @@
           </div>
 
           <CardHeader>
-            <CardTitle>AI Photographer - TakePics.ai</CardTitle>
+            <CardTitle>Studio-Quality AI Portraits with TakePics.ai</CardTitle>
             <CardDescription>
               Users can generate AI photos of themselves anywhere and with any style
             </CardDescription>
@@ -270,7 +270,7 @@
           </div>
 
           <CardHeader>
-            <CardTitle>Holder+</CardTitle>
+            <CardTitle>Powering Holder+ with Financial Data Pipelines</CardTitle>
             <CardDescription>
               Data pipelines and integrations powering a wealth management platform with thousands of users
             </CardDescription>
