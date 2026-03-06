@@ -202,6 +202,41 @@ export const projectsPt = {
       { value: '1 clique', label: 'Fluxo de redesign' }
     ]
   },
+  credeal: {
+    title: 'Credeal - Consultoria de Automação Operacional',
+    cardTitle: 'Roadmap de Automação para uma Líder de Notebooks na América Latina',
+    description:
+      'Consultoria focada em oportunidades de automação em RH, comercial, financeiro e BI nas operações da Credeal.',
+    image: '/portfolio/credeal.webp',
+    detailImage: '/portfolio/credeal.webp',
+    imageFit: 'contain',
+    tags: ['Consultoria', 'Automação', 'Integração ERP', 'Operações'],
+    about: [
+      'Trabalhamos com a Credeal, uma das principais fabricantes de notebooks da América Latina, para mapear oportunidades de automação entre diferentes áreas e reduzir gargalos operacionais manuais.',
+      'Um dos principais gargalos identificados estava no RH. Como o turnover tende a ser alto na indústria, a triagem de candidatos, o armazenamento das fichas e a digitação manual das informações em sistemas internos e fluxos governamentais, como o eSocial, consumiam muito tempo.',
+      'Para esse fluxo de RH, propusemos um processo com IA para digitalizar fichas, extrair dados estruturados de documentos e preencher automaticamente formulários internos e externos.',
+      'Um segundo subprojeto foi focado na verificação de cotações. Desenhamos uma nova camada de regras e verificações automáticas para tratar casos mais simples, reduzir análise manual e acelerar aprovações e negativas no fluxo comercial.',
+      'Esse fluxo de cotações saiu de um prazo de dias para cerca de uma hora no caminho melhorado, o que também elevou a conversão ao tornar a resposta muito mais rápida.'
+    ],
+    features: [
+      'Revisão cross-funcional de fluxos operacionais e sistemas',
+      'Digitalização de fichas e extração de dados com IA',
+      'Preenchimento automático de sistemas internos e formulários governamentais como eSocial',
+      'Mapeamento de oportunidades de automação em RH, ERP, BI, suporte, financeiro e comercial',
+      'Verificação de cotações com regras automáticas e triagem de casos simples',
+      'Aprovações, negativas e escalonamento mais rápidos no fluxo comercial',
+      'Avaliação das capacidades nativas dos fornecedores antes de recomendar desenvolvimento customizado',
+      'Roadmap priorizado com quick wins e iniciativas de maior impacto',
+      'Estratégia de integração envolvendo sistemas como CIGAM, Senior, Octadesk, Serasa e BI interno'
+    ],
+    technologies: ['CIGAM', 'Senior', 'Octadesk', 'API Serasa', 'Sistemas de BI', 'Automação de Processos'],
+    results: [
+      { value: '~1h', label: 'Prazo de verificação de cotações no fluxo melhorado' },
+      { value: 'Maior', label: 'Conversão com resposta mais rápida' },
+      { value: 'Muito mais rápido', label: 'Processo de triagem e preenchimento no RH' },
+      { value: 'Multiárea', label: 'Roadmap operacional entregue' }
+    ]
+  },
   sicredi: {
     title: 'Sicredi - Plataforma de Relatórios de Investimentos',
     cardTitle: 'Acelerando os Relatórios de Investimentos do Sicredi',

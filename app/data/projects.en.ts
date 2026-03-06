@@ -200,6 +200,41 @@ export const projectsEn = {
       { value: '1-click', label: 'Interior redesign workflow' }
     ]
   },
+  credeal: {
+    title: 'Credeal - Operational Automation Consulting',
+    cardTitle: 'Automation Roadmap for a Leading LATAM Notebook Manufacturer',
+    description:
+      "A consulting engagement focused on HR, commercial, finance, and BI automation opportunities across Credeal's operations.",
+    image: '/portfolio/credeal.webp',
+    detailImage: '/portfolio/credeal.webp',
+    imageFit: 'contain',
+    tags: ['Consulting', 'Automation', 'ERP Integration', 'Operations'],
+    about: [
+      'We worked with Credeal, a leading notebook manufacturer in Latin America, to map cross-functional automation opportunities and reduce manual operational bottlenecks.',
+      'A key bottleneck was HR onboarding. Because turnover is relatively high in the industry, screening candidates, storing application data, and manually re-entering information into internal systems and government workflows such as eSocial consumed significant time.',
+      'For that HR workflow, we proposed an AI-assisted flow to digitize applications, extract structured data from documents, and auto-fill both internal and external forms.',
+      'A second subproject focused on quote verification. We designed a new rules and automatic verification layer to triage straightforward cases, reduce manual review, and accelerate approvals and rejections in the targeted commercial flow.',
+      'That quote workflow moved from a multi-day turnaround to roughly one hour in the improved path, which also increased conversion by making responses meaningfully faster.'
+    ],
+    features: [
+      'Cross-functional review of operational workflows and systems',
+      'AI-assisted digitization of job applications and document data extraction',
+      'Auto-fill workflows for internal systems and government forms such as eSocial',
+      'Automation opportunities mapped across HR, ERP, BI, support, finance, and sales operations',
+      'Rules-based quote verification and automatic triage for straightforward cases',
+      'Faster approvals, rejections, and escalation paths in the commercial workflow',
+      'Assessment of existing vendor capabilities before recommending custom builds',
+      'Prioritized roadmap of quick wins and higher-impact initiatives',
+      'Integration strategy covering systems such as CIGAM, Senior, Octadesk, Serasa, and internal BI tools'
+    ],
+    technologies: ['CIGAM', 'Senior', 'Octadesk', 'Serasa API', 'BI Systems', 'Process Automation'],
+    results: [
+      { value: '~1h', label: 'Quote verification turnaround in the improved flow' },
+      { value: 'Higher', label: 'Conversion through faster response times' },
+      { value: 'Much faster', label: 'HR intake and form-filling workflows' },
+      { value: 'Multi-area', label: 'Operational roadmap delivered' }
+    ]
+  },
   sicredi: {
     title: 'Sicredi - Investment Reporting Platform',
     cardTitle: 'Accelerating Sicredi Investment Reporting',
