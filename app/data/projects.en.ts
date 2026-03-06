@@ -170,6 +170,36 @@ export const projectsEn = {
       { value: 'Modernized', label: 'Document visual design and dynamic layout handling' }
     ]
   },
+  'ai-sdr-proposals': {
+    title: 'AI Proposal and Quoting Agent',
+    cardTitle: 'Autonomous Proposal Generation for Commercial Teams',
+    description:
+      'An AI SDR-style agent built to accelerate, standardize, and personalize commercial proposals after client meetings.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['AI Agent', 'Sales Automation', 'Commercial Ops', 'Proposal Generation'],
+    about: [
+      'We built an autonomous proposal and quoting agent for a client that needed to speed up and standardize post-meeting commercial proposals.',
+      'Before the project, proposal creation was slow, manual, and highly dependent on who prepared it, leading to inconsistent narratives and too much rework from scratch.',
+      'The new agent transformed meeting briefings and transcripts into structured summaries, generated proposal drafts with scope, timeline, and budget guidance when available, and adapted the commercial narrative based on lead type and regional context.'
+    ],
+    features: [
+      'Transformation of meeting briefings and transcripts into structured opportunity summaries',
+      'Standard proposal template with variations by lead type such as public sector, corporations, cooperatives, and associations',
+      'Regional narrative adjustments for different markets and buyer profiles',
+      'Automatic draft generation for scope, timeline, and budget sections when inputs were available',
+      'Project-by-project organization with separated history and files per proposal',
+      'Commercial team enablement so the sales operation could use the agent consistently'
+    ],
+    technologies: ['AI Agent', 'Prompt Engineering', 'Transcript Processing', 'Proposal Automation'],
+    results: [
+      { value: 'Faster', label: 'Post-meeting proposal turnaround' },
+      { value: 'More consistent', label: 'Commercial narrative and structure' },
+      { value: 'Reusable', label: 'Proposal history and organized project context' },
+      { value: 'Adoptable', label: 'Commercial workflow ready for team usage and iteration' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:

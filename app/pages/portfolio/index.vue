@@ -74,6 +74,7 @@ const { t, locale } = useI18n();
 const localePath = useLocalePath();
 
 const projectOrder = [
+  'ai-sdr-proposals',
   'startup-monitoring-platform',
   'google-drive-migration',
   'cartera',

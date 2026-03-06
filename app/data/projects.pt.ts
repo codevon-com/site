@@ -173,6 +173,36 @@ export const projectsPt = {
       { value: 'Modernizado', label: 'Visual do documento e tratamento de conteúdo variável' }
     ]
   },
+  'ai-sdr-proposals': {
+    title: 'Agente de IA para Propostas e Orçamentos',
+    cardTitle: 'Geração Autônoma de Propostas para Times Comerciais',
+    description:
+      'Um agente no estilo AI SDR criado para acelerar, padronizar e personalizar propostas comerciais após reuniões com clientes.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Agente de IA', 'Automação Comercial', 'Ops Comercial', 'Geração de Propostas'],
+    about: [
+      'Construímos um agente autônomo de propostas e orçamentos para um cliente que precisava acelerar e padronizar a produção de propostas comerciais no pós-reunião.',
+      'Antes do projeto, a criação das propostas era lenta, manual e muito dependente de quem executava, o que gerava inconsistência narrativa e retrabalho ao recomeçar do zero.',
+      'O novo agente passou a transformar briefings e transcrições de reuniões em resumos estruturados, gerar rascunhos de proposta com escopo, cronograma e orçamento quando disponível, e adaptar a narrativa comercial de acordo com o tipo de lead e o contexto regional.'
+    ],
+    features: [
+      'Transformação de briefings e transcrições em resumos estruturados da oportunidade',
+      'Template padrão de proposta com variações por tipo de lead, como setor público, corporações, cooperativas e associações',
+      'Ajuste de narrativa comercial por região e perfil de comprador',
+      'Geração automática de rascunhos com escopo, cronograma e orçamento quando houver dados',
+      'Organização por projeto com histórico e arquivos separados por proposta',
+      'Treinamento e enablement do time comercial para uso consistente do agente'
+    ],
+    technologies: ['Agente de IA', 'Prompt Engineering', 'Processamento de Transcrições', 'Automação de Propostas'],
+    results: [
+      { value: 'Mais rápido', label: 'Turnaround de propostas após reuniões' },
+      { value: 'Mais consistente', label: 'Narrativa e estrutura comercial' },
+      { value: 'Reutilizável', label: 'Histórico de propostas e contexto organizado' },
+      { value: 'Aderente', label: 'Fluxo comercial pronto para uso e iteração pelo time' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:
