@@ -110,8 +110,8 @@ export const projectsPt = {
     cardTitle: 'Automatizando a Limpeza de Propriedade no Google Drive com Auditoria',
     description:
       'Uma solução resumível em Google Apps Script que recriou árvores de pastas de terceiros, substituiu arquivos externos por cópias próprias e registrou cada ação para auditoria.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/google_drive_logo.webp',
+    detailImage: '/portfolio/google_drive_logo.webp',
     imageFit: 'contain',
     tags: ['Automação', 'Google Apps Script', 'Google Drive', 'Migração'],
     about: [
@@ -141,8 +141,8 @@ export const projectsPt = {
     cardTitle: 'Revisando e Evoluindo uma Plataforma Feita em Lovable',
     description:
       'Uma consultoria com implementação focada em revisar, modernizar e expandir uma plataforma já existente de monitoramento de startups e seu fluxo de geração de relatórios com IA.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/lovable_logo.webp',
+    detailImage: '/portfolio/lovable_logo.webp',
     imageFit: 'contain',
     tags: ['Consultoria', 'IA', 'Melhoria de Plataforma', 'Reporting'],
     about: [
@@ -324,7 +324,7 @@ export const projectsPt = {
     description:
       'Aplicação de IA para extrair informações específicas de PDFs e gerar relatórios completos.',
     image: '/portfolio/pdf_insights_ai.jpeg',
-    detailImage: '/portfolio/pdf_insights_ai.png',
+    detailImage: '/portfolio/pdf_insights_ai.jpeg',
     tags: ['IA', 'Análise de Documentos', 'Processamento de PDF', 'Extração de Dados'],
     about: [
       'O DeepDive é uma aplicação de análise inteligente de documentos criada para lidar com PDFs enormes que seriam impraticáveis de revisar manualmente.',

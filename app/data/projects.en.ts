@@ -107,8 +107,8 @@ export const projectsEn = {
     cardTitle: 'Automating Google Drive Ownership Cleanup with Audit Logs',
     description:
       'A resumable Google Apps Script solution that rebuilt third-party folder trees, replaced externally owned files with user-owned copies, and logged every action for auditability.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/google_drive_logo.webp',
+    detailImage: '/portfolio/google_drive_logo.webp',
     imageFit: 'contain',
     tags: ['Automation', 'Google Apps Script', 'Google Drive', 'Migration'],
     about: [
@@ -138,8 +138,8 @@ export const projectsEn = {
     cardTitle: 'Reviewing and Upgrading an Existing Lovable-Built Platform',
     description:
       'A consulting and implementation engagement focused on reviewing, modernizing, and extending an existing startup monitoring platform and its AI-generated reporting workflow.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/lovable_logo.webp',
+    detailImage: '/portfolio/lovable_logo.webp',
     imageFit: 'contain',
     tags: ['Consulting', 'AI', 'Platform Improvement', 'Reporting'],
     about: [
