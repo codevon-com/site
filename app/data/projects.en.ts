@@ -77,8 +77,8 @@ export const projectsEn = {
     cardTitle: 'Building a Social Network for Investors with Cartera',
     description:
       'A full investment social network and platform where users follow portfolios, discuss trades, and discover opportunities through the activity of friends and professionals.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/cartera.jpeg',
+    detailImage: '/portfolio/cartera.jpeg',
     imageFit: 'contain',
     tags: ['Fintech', 'Consumer App', 'Social Network', 'Investing'],
     about: [
@@ -175,8 +175,8 @@ export const projectsEn = {
     cardTitle: 'Unblocking AI Workflows for Technical Documentation',
     description:
       'A consulting engagement focused on technical manuals, document AI, RAG, OCR strategy, and the right model architecture for large and complex PDFs.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/ltk.jpeg',
+    detailImage: '/portfolio/ltk.jpeg',
     imageFit: 'contain',
     tags: ['Consulting', 'AI', 'RAG', 'Document Intelligence'],
     about: [
@@ -209,8 +209,8 @@ export const projectsEn = {
     cardTitle: 'Autonomous Proposal Generation for Commercial Teams',
     description:
       'An AI SDR-style agent built to accelerate, standardize, and personalize commercial proposals after client meetings.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/sdr_agent.jpeg',
+    detailImage: '/portfolio/sdr_agent.jpeg',
     imageFit: 'contain',
     tags: ['AI Agent', 'Sales Automation', 'Commercial Ops', 'Proposal Generation'],
     about: [
@@ -239,8 +239,8 @@ export const projectsEn = {
     cardTitle: 'Integrating CBOT, CEPEA, and B3 Commodity Data for Sicoob',
     description:
       'A market-data integration covering crop benchmarks and futures across CEPEA, CBOT, and B3, with both current and historical series.',
-    image: '/portfolio/fintzbot.png',
-    detailImage: '/portfolio/fintzbot.png',
+    image: '/portfolio/sicoob.jpg',
+    detailImage: '/portfolio/sicoob.jpg',
     imageFit: 'contain',
     tags: ['Fintech', 'Market Data', 'Commodities', 'API'],
     about: [
@@ -320,8 +320,8 @@ export const projectsEn = {
     cardTitle: 'Extracting Insights from Massive PDFs with AI',
     description:
       'An AI-powered application that extracts specific information from PDF documents and generates comprehensive reports.',
-    image: '/portfolio/deepdive.png',
-    detailImage: '/portfolio/deepdive.png',
+    image: '/portfolio/pdf_insights_ai.jpeg',
+    detailImage: '/portfolio/pdf_insights_ai.jpeg',
     tags: ['AI', 'Document Analysis', 'PDF Processing', 'Data Extraction'],
     about: [
       'Deepdive is an intelligent document analysis application designed to handle massive PDF documents that would be impractical to review manually. Using advanced AI and natural language processing, the system can process PDFs with thousands of pages and extract specific information, generate summaries, and create detailed reports based on user queries.',
@@ -463,8 +463,8 @@ export const projectsEn = {
     cardTitle: 'Powering Manfing Forecasts with B3 Futures Data',
     description:
       'Data integrations and storage architecture for AI models that help manufacturers and retailers predict demand, optimize inventory, and improve production planning.',
-    image: '/portfolio/manfing_logo.png',
-    detailImage: '/portfolio/manfing_logo.png',
+    image: '/portfolio/manfing_platform.jpeg',
+    detailImage: '/portfolio/manfing_platform.jpeg',
     imageFit: 'contain',
     tags: ['AI', 'Data Infrastructure', 'Market Data', 'Forecasting'],
     about: [
@@ -492,8 +492,8 @@ export const projectsEn = {
     cardTitle: 'Automating YouTube Video and Shorts Production with n8n',
     description:
       'An end-to-end n8n pipeline for generating, assembling, publishing, and tracking YouTube videos and Shorts across multiple languages.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/n8n_logo.svg',
+    detailImage: '/portfolio/n8n_logo.svg',
     imageFit: 'contain',
     tags: ['Automation', 'n8n', 'Generative AI', 'Media Pipeline'],
     about: [
@@ -524,8 +524,8 @@ export const projectsEn = {
     cardTitle: 'Building Stark Sinatra on Top of the Fintz API',
     description:
       'A product and API layer that helped Stark analysts evaluate private companies using CNPJ lookup, B3 comparables, and saved match workflows.',
-    image: '/portfolio/stark_logo.png',
-    detailImage: '/portfolio/stark_logo.png',
+    image: '/portfolio/stark_logo2.png',
+    detailImage: '/portfolio/stark_logo2.png',
     imageFit: 'contain',
     tags: ['Fintech', 'API', 'B3 Data', 'Credit Analysis'],
     about: [

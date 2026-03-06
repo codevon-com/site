@@ -80,8 +80,8 @@ export const projectsPt = {
     cardTitle: 'Construindo uma Rede Social para Investidores com a Cartera',
     description:
       'Uma plataforma completa de investimento social onde usuários acompanham carteiras, discutem movimentações e descobrem oportunidades a partir da atividade de amigos e profissionais.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/cartera.jpeg',
+    detailImage: '/portfolio/cartera.jpeg',
     imageFit: 'contain',
     tags: ['Fintech', 'App de consumo', 'Rede Social', 'Investimentos'],
     about: [
@@ -178,8 +178,8 @@ export const projectsPt = {
     cardTitle: 'Destravando Fluxos de IA para Documentação Técnica',
     description:
       'Uma consultoria focada em manuais técnicos, IA aplicada a documentos, estratégia de RAG, OCR e na arquitetura correta para PDFs grandes e complexos.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/ltk.jpeg',
+    detailImage: '/portfolio/ltk.jpeg',
     imageFit: 'contain',
     tags: ['Consultoria', 'IA', 'RAG', 'Document Intelligence'],
     about: [
@@ -212,8 +212,8 @@ export const projectsPt = {
     cardTitle: 'Geração Autônoma de Propostas para Times Comerciais',
     description:
       'Um agente no estilo AI SDR criado para acelerar, padronizar e personalizar propostas comerciais após reuniões com clientes.',
-    image: '/logo_codevon_centered.png',
-    detailImage: '/logo_codevon_centered.png',
+    image: '/portfolio/sdr_agent.jpeg',
+    detailImage: '/portfolio/sdr_agent.jpeg',
     imageFit: 'contain',
     tags: ['Agente de IA', 'Automação Comercial', 'Ops Comercial', 'Geração de Propostas'],
     about: [
@@ -242,8 +242,8 @@ export const projectsPt = {
     cardTitle: 'Integrando Dados de CBOT, CEPEA e B3 para o Sicoob',
     description:
       'Uma integração de market data cobrindo benchmarks agrícolas e futuros em CEPEA, CBOT e B3, com séries atuais e históricas.',
-    image: '/portfolio/fintzbot.png',
-    detailImage: '/portfolio/fintzbot.png',
+    image: '/portfolio/sicoob.jpg',
+    detailImage: '/portfolio/sicoob.jpg',
     imageFit: 'contain',
     tags: ['Fintech', 'Market Data', 'Commodities', 'API'],
     about: [
@@ -323,8 +323,8 @@ export const projectsPt = {
     cardTitle: 'Extraindo Insights de PDFs Massivos com IA',
     description:
       'Aplicação de IA para extrair informações específicas de PDFs e gerar relatórios completos.',
-    image: '/portfolio/deepdive.png',
-    detailImage: '/portfolio/deepdive.png',
+    image: '/portfolio/pdf_insights_ai.jpeg',
+    detailImage: '/portfolio/pdf_insights_ai.png',
     tags: ['IA', 'Análise de Documentos', 'Processamento de PDF', 'Extração de Dados'],
     about: [
       'O DeepDive é uma aplicação de análise inteligente de documentos criada para lidar com PDFs enormes que seriam impraticáveis de revisar manualmente.',
@@ -465,8 +465,8 @@ export const projectsPt = {
     cardTitle: 'Alimentando Previsões da Manfing com Dados Futuros da B3',
     description:
       'Integrações de dados e consultoria de arquitetura para modelos de IA que ajudam empresas a prever demanda, otimizar estoques e melhorar planejamento produtivo.',
-    image: '/portfolio/manfing_logo.png',
-    detailImage: '/portfolio/manfing_logo.png',
+    image: '/portfolio/manfing_platform.jpeg',
+    detailImage: '/portfolio/manfing_platform.jpeg',
     imageFit: 'contain',
     tags: ['IA', 'Infraestrutura de Dados', 'Market Data', 'Forecasting'],
     about: [
@@ -526,8 +526,8 @@ export const projectsPt = {
     cardTitle: 'Construindo o Stark Sinatra sobre a API da Fintz',
     description:
       'Um produto e camada de API para ajudar analistas da Stark a avaliar empresas via busca por CNPJ, comparáveis da B3 e workflows persistidos de matching.',
-    image: '/portfolio/stark_logo.png',
-    detailImage: '/portfolio/stark_logo.png',
+    image: '/portfolio/stark_logo2.png',
+    detailImage: '/portfolio/stark_logo2.png',
     imageFit: 'contain',
     tags: ['Fintech', 'API', 'Dados da B3', 'Análise de Crédito'],
     about: [
