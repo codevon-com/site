@@ -266,6 +266,35 @@ export const projectsPt = {
       { value: 'Mais forte', label: 'Fundação para decisões operacionais com IA' }
     ]
   },
+  stark: {
+    title: 'Stark - API Sinatra para Análise de Crédito',
+    cardTitle: 'Construindo o Stark Sinatra sobre a API da Fintz',
+    description:
+      'Um produto e camada de API para ajudar analistas da Stark a avaliar empresas via busca por CNPJ, comparáveis da B3 e workflows persistidos de matching.',
+    image: '/portfolio/stark_logo.png',
+    detailImage: '/portfolio/stark_logo.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'API', 'Dados da B3', 'Análise de Crédito'],
+    about: [
+      'Desenvolvemos a base de API por trás do Stark Sinatra, um produto desenhado para ajudar analistas da Stark na avaliação de empresas em busca de crédito.',
+      'O fluxo começava com uma busca por CNPJ, retornava os dados de identificação da empresa e, em seguida, apresentava uma lista de companhias abertas na B3 com classificação setorial comparável, além de métricas financeiras relevantes para apoiar o valuation.',
+      'Também construímos a camada de persistência que permitia ao analista salvar os matches selecionados, incluir empresas comparáveis manualmente quando necessário, adicionar observações e recuperar essa análise depois, sempre com acesso autorizado da Stark.'
+    ],
+    features: [
+      'API REST para busca por CNPJ retornando dados cadastrais e CNAE',
+      'Descoberta de comparáveis com base em classificação setorial e empresas listadas na B3',
+      'Entrega de métricas financeiras como EBITDA, market cap, dívida, receita e caixa para comparáveis públicos',
+      'Salvamento e recuperação de matches, empresas adicionadas manualmente e observações do analista',
+      'Suporte a workflows que combinam matching automático com julgamento do analista'
+    ],
+    technologies: ['REST API', 'JSON', 'Dados da B3', 'Mapeamento CNAE', 'Infraestrutura Fintz'],
+    results: [
+      { value: 'Mais rápido', label: 'Fluxo de busca e confirmação da empresa' },
+      { value: 'Estruturado', label: 'Processo de comparáveis e apoio ao valuation' },
+      { value: 'Persistente', label: 'Histórico salvo de matches por empresa cliente' },
+      { value: 'Mais simples', label: 'Camada de integração para o produto Sinatra' }
+    ]
+  },
   rightticker: {
     title: 'Etiqueta Certa - Consultoria Técnica para Crescimento',
     cardTitle: 'Guiando a Etiqueta Certa na Próxima Etapa de Escala',

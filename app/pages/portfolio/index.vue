@@ -74,6 +74,7 @@ const { t, locale } = useI18n();
 const localePath = useLocalePath();
 
 const projectOrder = [
+  'stark',
   'rightticker',
   'credeal',
   'manfing',

@@ -264,6 +264,35 @@ export const projectsEn = {
       { value: 'Stronger', label: 'Foundation for AI-driven operational decisions' }
     ]
   },
+  stark: {
+    title: 'Stark - Sinatra Credit Analysis API',
+    cardTitle: 'Building Stark Sinatra on Top of the Fintz API',
+    description:
+      'A product and API layer that helped Stark analysts evaluate private companies using CNPJ lookup, B3 comparables, and saved match workflows.',
+    image: '/portfolio/stark_logo.png',
+    detailImage: '/portfolio/stark_logo.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'API', 'B3 Data', 'Credit Analysis'],
+    about: [
+      'We developed the API foundation behind Stark Sinatra, a product designed to help Stark analysts assess companies seeking credit.',
+      'The workflow started with a CNPJ search, returned company identification data, and then surfaced a list of public companies on B3 with comparable sector classification, along with relevant financial metrics used in valuation analysis.',
+      'We also built the persistence layer that allowed analysts to save selected matches, manually add extra listed comparables when needed, attach observations, and retrieve that analysis later through authorized Stark access.'
+    ],
+    features: [
+      'REST API for CNPJ lookup returning company identification and CNAE data',
+      'Comparable-company discovery based on sector classification and B3-listed companies',
+      'Delivery of financial metrics such as EBITDA, market cap, debt, revenue, and cash for public comparables',
+      'Persistence and retrieval of saved matches, analyst-added companies, and observations',
+      'Support for analyst workflows that combine automated matches with manual judgment'
+    ],
+    technologies: ['REST API', 'JSON', 'B3 Data', 'CNAE Mapping', 'Fintz Infrastructure'],
+    results: [
+      { value: 'Faster', label: 'Analyst workflow for company search and confirmation' },
+      { value: 'Structured', label: 'Comparable-company selection and valuation support' },
+      { value: 'Persistent', label: 'Saved match history per client company' },
+      { value: 'Simpler', label: 'Integration layer for Stark Sinatra product workflows' }
+    ]
+  },
   rightticker: {
     title: 'LabelPRO - Technical Growth Consulting',
     cardTitle: 'Guiding LabelPRO Through Technical Scale-Up',
