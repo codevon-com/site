@@ -75,6 +75,104 @@ export const projectsPt = {
       { value: 'Único', label: 'Ponto de conexão para múltiplos datasets' }
     ]
   },
+  cartera: {
+    title: 'Cartera - Rede Social de Investimentos',
+    cardTitle: 'Construindo uma Rede Social para Investidores com a Cartera',
+    description:
+      'Uma plataforma completa de investimento social onde usuários acompanham carteiras, discutem movimentações e descobrem oportunidades a partir da atividade de amigos e profissionais.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'App de consumo', 'Rede Social', 'Investimentos'],
+    about: [
+      'Construímos a Cartera como um produto de investimento social voltado a reunir descoberta de carteiras, interação entre usuários e visibilidade de mercado em uma única plataforma.',
+      'Os usuários podiam seguir amigos e profissionais, acompanhar movimentações de compra e venda em ações e cripto, comentar operações e descobrir oportunidades a partir dos movimentos e da composição das carteiras de pessoas em quem confiam.',
+      'O produto também combinava acompanhamento de carteiras com notícias de mercado, rankings de carteiras mais rentáveis e controles de privacidade pensados para investidores, permitindo compartilhar composição enquanto mantém o valor absoluto da carteira privado.'
+    ],
+    features: [
+      'Feed social centrado em movimentações de carteira e atividade de investidores',
+      'Acompanhamento de carteiras de amigos e profissionais',
+      'Comentários, curtidas e discussões sobre decisões de compra e venda',
+      'Descoberta de carteiras mais rentáveis e novidades relevantes do mercado',
+      'Suporte a movimentações em ações e cripto',
+      'Modelo de privacidade que oculta valores absolutos e exibe apenas percentuais'
+    ],
+    technologies: ['Plataforma Fintech', 'Feed Social', 'Acompanhamento de Carteiras', 'Agregação de Notícias'],
+    results: [
+      { value: 'Social', label: 'Descoberta e discussão de investimentos em um só produto' },
+      { value: 'Melhor', label: 'Visibilidade sobre carteiras e movimentos relevantes' },
+      { value: 'Privado', label: 'Proteção de valores sensíveis da carteira' },
+      { value: 'Integrado', label: 'Carteiras, notícias e oportunidades na mesma experiência' }
+    ]
+  },
+  'google-drive-migration': {
+    title: 'Automação de Migração de Propriedade no Google Drive',
+    cardTitle: 'Automatizando a Limpeza de Propriedade no Google Drive com Auditoria',
+    description:
+      'Uma solução resumível em Google Apps Script que recriou árvores de pastas de terceiros, substituiu arquivos externos por cópias próprias e registrou cada ação para auditoria.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Automação', 'Google Apps Script', 'Google Drive', 'Migração'],
+    about: [
+      'Construímos uma ferramenta de migração no Google Drive para um cliente que precisava resolver problemas de propriedade antes de mover uma estrutura grande de pastas para um Drive Compartilhado.',
+      'O principal desafio era que o Google Drive permite copiar arquivos, mas não pastas. Sempre que uma subpasta pertencia a terceiros, o script precisava recriá-la manualmente, transplantar seu conteúdo para uma nova estrutura de posse do usuário e preservar a hierarquia de forma recursiva.',
+      'Para tornar o processo utilizável em migrações reais, desenhamos a solução como um fluxo resumível, com prevenção de duplicidade, log detalhado em planilha, captura de erros e proteção explícita da própria planilha de auditoria.'
+    ],
+    features: [
+      'Processamento recursivo de pastas, subpastas e arquivos',
+      'Substituição automática de arquivos de terceiros por cópias de propriedade do usuário',
+      'Reconstrução manual de árvores de pastas quando a cópia direta não era possível',
+      'Planilha de auditoria com proprietário original, caminho, ID do item e status',
+      'Execução resumível para migrações grandes sob limites de tempo do Google Apps Script',
+      'Rastreamento de progresso para evitar retrabalho entre múltiplas execuções',
+      'Tratamento seguro para arquivos nativos do Google e arquivos binários'
+    ],
+    technologies: ['Google Apps Script', 'Google Drive', 'Google Sheets', 'Lógica Recursiva de Migração'],
+    results: [
+      { value: 'Própria', label: 'Cópia controlada pelo usuário da estrutura de pastas' },
+      { value: 'Auditável', label: 'Trilha completa de migração para revisão' },
+      { value: 'Resumível', label: 'Execução em grandes pastas sem reiniciar do zero' },
+      { value: 'Mais segura', label: 'Migração para Drive Compartilhado com menos bloqueios' }
+    ]
+  },
+  'startup-monitoring-platform': {
+    title: 'Plataforma de Monitoramento de Startups - Revisão e Melhorias',
+    cardTitle: 'Revisando e Evoluindo uma Plataforma Feita em Lovable',
+    description:
+      'Uma consultoria com implementação focada em revisar, modernizar e expandir uma plataforma já existente de monitoramento de startups e seu fluxo de geração de relatórios com IA.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Consultoria', 'IA', 'Melhoria de Plataforma', 'Reporting'],
+    about: [
+      'Fomos chamados para melhorar uma plataforma de monitoramento de startups que havia sido construída anteriormente por outro time em Lovable. Nosso papel não foi criar o produto do zero, e sim revisar a implementação existente, entender seu funcionamento em produção e evoluí-la com segurança.',
+      'Isso envolveu analisar o código responsável pela geração dos relatórios, investigar o ambiente no Firebase e seus gatilhos, revisar o relatório gerado pela versão antiga e estudar os materiais do project charter que orientavam a nova versão.',
+      'A partir dessa análise, implementamos uma nova camada de relatórios que combinava os melhores pontos do documento anterior com a nova estrutura do project charter, ao mesmo tempo em que modernizava o visual e tornava o layout mais robusto para textos gerados por IA com tamanhos variáveis.',
+      'Também entregamos melhorias pontuais na própria plataforma, incluindo a volta de um gráfico que havia sumido na nova versão do relatório, a adição de novos campos no Tally para considerações do gestor e arquivo de transcrição, e uma nova página para edição dos campos textuais do PDF com geração de uma nova versão do relatório após as alterações.'
+    ],
+    features: [
+      'Revisão técnica de uma plataforma existente construída em Lovable e do código de geração de relatórios',
+      'Análise do ambiente em produção no Firebase para entender gatilhos e fluxo de deploy',
+      'Avaliação do relatório legado para preservar o que fazia sentido e melhorar o restante',
+      'Implementação de um novo relatório combinando inputs do Tally com novas seções geradas por IA',
+      'Restauração do gráfico que faltava para recuperar a completude visual do relatório',
+      'Novos campos no Tally para observações obrigatórias do gestor e upload opcional de DOCX de transcrição',
+      'Ampliação do contexto enviado à IA com notas do gestor e conteúdo da transcrição',
+      'Nova página de edição textual do PDF com fluxo de regeneração do relatório',
+      'Uso de structured outputs para tornar as respostas da IA mais previsíveis e fáceis de formatar',
+      'Refinamento das chamadas de IA para resumo do diagnóstico, resultados esperados, escopo, cronograma, premissas e restrições',
+      'Redesign visual do documento para acomodar melhor parágrafos e tabelas de tamanho variável'
+    ],
+    technologies: ['Lovable', 'Firebase', 'Tally', 'Structured Outputs de IA', 'Geração de Documentos'],
+    results: [
+      { value: 'Melhor', label: 'Estrutura e usabilidade do relatório' },
+      { value: 'Mais confiável', label: 'Consistência do conteúdo gerado por IA' },
+      { value: 'Editável', label: 'Campos textuais do PDF com nova geração de versão' },
+      { value: 'Mais clara', label: 'Compreensão do fluxo em produção e deploy' },
+      { value: 'Modernizado', label: 'Visual do documento e tratamento de conteúdo variável' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:

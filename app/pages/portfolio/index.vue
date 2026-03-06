@@ -74,6 +74,9 @@ const { t, locale } = useI18n();
 const localePath = useLocalePath();
 
 const projectOrder = [
+  'startup-monitoring-platform',
+  'google-drive-migration',
+  'cartera',
   'fintz-api',
   'video-automation',
   'stark',

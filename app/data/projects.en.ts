@@ -72,6 +72,104 @@ export const projectsEn = {
       { value: 'Single', label: 'Connection point for multiple market datasets' }
     ]
   },
+  cartera: {
+    title: 'Cartera - Social Investing Network',
+    cardTitle: 'Building a Social Network for Investors with Cartera',
+    description:
+      'A full investment social network and platform where users follow portfolios, discuss trades, and discover opportunities through the activity of friends and professionals.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Consumer App', 'Social Network', 'Investing'],
+    about: [
+      'We built Cartera as a social investing product designed to bring portfolio discovery, community interaction, and market visibility into a single platform.',
+      'Users could follow friends and professionals, track buy and sell activity in stocks and crypto, comment on transactions, and discover opportunities through the movements and portfolio composition of people they trust.',
+      'The product also combined portfolio tracking with market news, rankings of top-performing portfolios, and investor-focused privacy controls so users could share composition while keeping absolute portfolio values private.'
+    ],
+    features: [
+      'Social feed centered on portfolio movements and investor activity',
+      'Portfolio following for friends and investment professionals',
+      'Comments, likes, and discussion around buy and sell decisions',
+      'Discovery of top-performing portfolios and relevant market updates',
+      'Support for both stock and crypto investing activity',
+      'Privacy model that kept portfolio values hidden while exposing allocation percentages'
+    ],
+    technologies: ['Fintech Platform', 'Social Feed', 'Portfolio Tracking', 'News Aggregation'],
+    results: [
+      { value: 'Social', label: 'Investor discovery and discussion in one product' },
+      { value: 'Better', label: 'Visibility into trusted portfolios and market moves' },
+      { value: 'Private', label: 'Protection of sensitive portfolio values' },
+      { value: 'Integrated', label: 'Portfolio, market news, and opportunity discovery' }
+    ]
+  },
+  'google-drive-migration': {
+    title: 'Google Drive Ownership Migration Automation',
+    cardTitle: 'Automating Google Drive Ownership Cleanup with Audit Logs',
+    description:
+      'A resumable Google Apps Script solution that rebuilt third-party folder trees, replaced externally owned files with user-owned copies, and logged every action for auditability.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Automation', 'Google Apps Script', 'Google Drive', 'Migration'],
+    about: [
+      'We built a Google Drive migration utility for a client that needed to clean ownership issues before moving a large folder structure into a Shared Drive.',
+      'The main challenge was that Google Drive can copy files, but not folders. Whenever a subfolder belonged to a third party, the script had to recreate that folder manually, transplant its contents into a new user-owned structure, and preserve the effective hierarchy recursively.',
+      'To make the process usable in real-world migrations, we designed it as a resumable workflow with duplicate avoidance, explicit audit logging, error capture, and protections for the reporting sheet itself.'
+    ],
+    features: [
+      'Recursive processing of folders, subfolders, and files',
+      'Automatic replacement of third-party-owned files with user-owned copies',
+      'Manual reconstruction of third-party folder trees where direct copy was impossible',
+      'Detailed spreadsheet audit log with original owner, path, item ID, and status',
+      'Resumable execution model for large migrations under Google Apps Script time limits',
+      'Progress tracking to avoid duplicate work across multiple runs',
+      'Safe handling of both native Google files and non-Google files'
+    ],
+    technologies: ['Google Apps Script', 'Google Drive', 'Google Sheets', 'Recursive Migration Logic'],
+    results: [
+      { value: 'Owned', label: 'User-controlled copy of the folder structure' },
+      { value: 'Auditable', label: 'Full migration trail for review and compliance' },
+      { value: 'Resumable', label: 'Execution across large folders without restarting' },
+      { value: 'Safer', label: 'Path to Shared Drive migration with fewer blockers' }
+    ]
+  },
+  'startup-monitoring-platform': {
+    title: 'Startup Monitoring Platform - Audit and Improvement Work',
+    cardTitle: 'Reviewing and Upgrading an Existing Lovable-Built Platform',
+    description:
+      'A consulting and implementation engagement focused on reviewing, modernizing, and extending an existing startup monitoring platform and its AI-generated reporting workflow.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Consulting', 'AI', 'Platform Improvement', 'Reporting'],
+    about: [
+      'We were brought in to improve a startup monitoring platform that had originally been built by another team using Lovable. Our role was not to create the product from scratch, but to review the existing implementation, understand how it worked in production, and evolve it safely.',
+      'That included analyzing the code used to generate reports, investigating the Firebase environment and trigger flow, reviewing the report that the existing code was producing, and studying the project charter materials that informed the new version.',
+      'Based on that analysis, we implemented a new reporting layer that combined the strongest parts of the old report with the newer project-charter structure, while modernizing the document design and making the layout more resilient to variable-length AI-generated content.',
+      'We also shipped targeted product improvements on top of the platform itself, including restoring a missing chart from the previous report version, adding new Tally inputs for manager considerations and an optional transcription file, and creating an editing page where users could revise textual PDF fields and regenerate a new report version from those edits.'
+    ],
+    features: [
+      'Technical review of an existing Lovable-built platform and report-generation code',
+      'Firebase production analysis to understand generation triggers and deployment behavior',
+      'Assessment of legacy report output to preserve useful sections and improve weak points',
+      'Implementation of a redesigned report combining Tally inputs with new AI-generated sections',
+      'Restoration of the missing chart so the new report matched the expected visual completeness',
+      'New Tally fields for mandatory manager notes and optional DOCX transcription upload',
+      'Expanded AI context using manager observations and transcription content',
+      'New PDF text-editing page with regeneration flow for edited report versions',
+      'Structured outputs for more predictable AI responses and easier formatting of tables and paragraphs',
+      'Refinement of AI calls for diagnosis summary, expected results, scope, macro timeline, assumptions, and constraints',
+      'Visual redesign of the generated document for more modern presentation and variable text sizing'
+    ],
+    technologies: ['Lovable', 'Firebase', 'Tally', 'AI Structured Outputs', 'Document Generation'],
+    results: [
+      { value: 'Better', label: 'Report structure and usability' },
+      { value: 'More reliable', label: 'AI output consistency and formatting' },
+      { value: 'Editable', label: 'Textual PDF fields with regenerated report versions' },
+      { value: 'Clearer', label: 'Production trigger and deployment understanding' },
+      { value: 'Modernized', label: 'Document visual design and dynamic layout handling' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:
