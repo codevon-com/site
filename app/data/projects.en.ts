@@ -200,6 +200,36 @@ export const projectsEn = {
       { value: 'Adoptable', label: 'Commercial workflow ready for team usage and iteration' }
     ]
   },
+  'sicoob-commodities': {
+    title: 'Sicoob - Commodities and Benchmark Data Integration',
+    cardTitle: 'Integrating CBOT, CEPEA, and B3 Commodity Data for Sicoob',
+    description:
+      'A market-data integration covering crop benchmarks and futures across CEPEA, CBOT, and B3, with both current and historical series.',
+    image: '/portfolio/fintzbot.png',
+    detailImage: '/portfolio/fintzbot.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Market Data', 'Commodities', 'API'],
+    about: [
+      'We developed a commodities data integration project for Sicoob to expand access to agricultural benchmarks and futures data.',
+      'The solution combined CEPEA benchmark series, B3 futures data, and CBOT market data so the client could work with both daily and historical coverage across a wide set of crop-related assets and references.',
+      'Coverage included datasets around products such as soybeans, corn, cattle, coffee, ethanol, sugar, cotton, rice, wheat, and dollar-linked references, giving the client a richer base for agribusiness analysis and monitoring.'
+    ],
+    features: [
+      'CEPEA benchmark integration across dozens of agricultural assets',
+      'B3 futures integration for products such as soybeans, corn, cattle, coffee, and ethanol',
+      'CBOT integration for grains and related commodity references',
+      'Current and historical data delivery',
+      'API and recurring file-access options for client consumption',
+      'Foundation for agribusiness-oriented analytics, monitoring, and benchmarking'
+    ],
+    technologies: ['CEPEA Data', 'CBOT Data', 'B3 Futures', 'REST API', 'Historical Market Data'],
+    results: [
+      { value: 'Broader', label: 'Commodity and benchmark coverage' },
+      { value: 'Historical', label: 'Time series available for monitoring and analysis' },
+      { value: 'Unified', label: 'Access across multiple market-data sources' },
+      { value: 'Ready', label: 'Data layer for agribusiness-focused platform use' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:

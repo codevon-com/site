@@ -203,6 +203,36 @@ export const projectsPt = {
       { value: 'Aderente', label: 'Fluxo comercial pronto para uso e iteração pelo time' }
     ]
   },
+  'sicoob-commodities': {
+    title: 'Sicoob - Integração de Commodities e Benchmarks',
+    cardTitle: 'Integrando Dados de CBOT, CEPEA e B3 para o Sicoob',
+    description:
+      'Uma integração de market data cobrindo benchmarks agrícolas e futuros em CEPEA, CBOT e B3, com séries atuais e históricas.',
+    image: '/portfolio/fintzbot.png',
+    detailImage: '/portfolio/fintzbot.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'Market Data', 'Commodities', 'API'],
+    about: [
+      'Desenvolvemos um projeto de integração de dados de commodities para o Sicoob ampliar o acesso a benchmarks agrícolas e dados de mercado futuro.',
+      'A solução reuniu séries da CEPEA, futuros da B3 e dados da CBOT, permitindo ao cliente trabalhar com cobertura diária e histórica para um conjunto amplo de ativos e referências ligados ao agronegócio.',
+      'A cobertura incluiu datasets ligados a soja, milho, boi, café, etanol, açúcar, algodão, arroz, trigo e referências relacionadas ao dólar, oferecendo uma base mais rica para análises e monitoramento no contexto agro.'
+    ],
+    features: [
+      'Integração de benchmarks CEPEA para dezenas de ativos agrícolas',
+      'Integração com futuros da B3 para produtos como soja, milho, boi, café e etanol',
+      'Integração com a CBOT para grãos e referências relacionadas',
+      'Entrega de dados atuais e históricos',
+      'Acesso via API e via arquivos recorrentes para consumo do cliente',
+      'Base para analytics, monitoramento e benchmarking voltados ao agronegócio'
+    ],
+    technologies: ['Dados CEPEA', 'Dados CBOT', 'Futuros B3', 'REST API', 'Dados Históricos de Mercado'],
+    results: [
+      { value: 'Mais ampla', label: 'Cobertura de commodities e benchmarks' },
+      { value: 'Histórica', label: 'Séries temporais para análise e monitoramento' },
+      { value: 'Unificada', label: 'Camada de acesso a múltiplas fontes de dados' },
+      { value: 'Pronta', label: 'Base de dados para uso em plataforma focada no agro' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:
