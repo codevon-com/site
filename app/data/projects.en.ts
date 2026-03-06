@@ -235,6 +235,35 @@ export const projectsEn = {
       { value: 'Multi-area', label: 'Operational roadmap delivered' }
     ]
   },
+  manfing: {
+    title: 'Manfing - Market Data Infrastructure for Predictive Models',
+    cardTitle: 'Powering Manfing Forecasts with B3 Futures Data',
+    description:
+      'Data integrations and storage architecture for AI models that help manufacturers and retailers predict demand, optimize inventory, and improve production planning.',
+    image: '/portfolio/manfing_logo.png',
+    detailImage: '/portfolio/manfing_logo.png',
+    imageFit: 'contain',
+    tags: ['AI', 'Data Infrastructure', 'Market Data', 'Forecasting'],
+    about: [
+      'Manfing uses AI to help clients optimize sales, production, and logistics through predictive analytics. One of the practical use cases is demand planning for apparel, such as deciding the right stock levels by size, color, or product mix.',
+      'For one of their forecasting models, they needed reliable historical data on crop futures and currency futures. We partnered with them to build a series of integrations, primarily with B3, to ingest historical datasets for soybeans, corn, and dollar futures.',
+      'Beyond the integrations themselves, we also advised on how that larger volume of time-series market data should be stored and accessed so the prediction pipeline could remain efficient, reliable, and ready to scale.'
+    ],
+    features: [
+      'Historical market-data integrations focused on futures contracts',
+      'B3 connectivity for soybean, corn, and dollar futures datasets',
+      'Data ingestion flows designed for predictive-model usage',
+      'Storage and access architecture guidance for large historical datasets',
+      'Support for AI-driven forecasting in sales, inventory, production, and logistics workflows'
+    ],
+    technologies: ['B3 Integrations', 'Time-Series Data', 'Data Pipelines', 'AI Forecasting Infrastructure'],
+    results: [
+      { value: 'Richer', label: 'External data inputs for prediction models' },
+      { value: 'Better', label: 'Forecasting support for inventory and demand planning' },
+      { value: 'Scalable', label: 'Storage and access model for historical datasets' },
+      { value: 'Stronger', label: 'Foundation for AI-driven operational decisions' }
+    ]
+  },
   rightticker: {
     title: 'LabelPRO - Technical Growth Consulting',
     cardTitle: 'Guiding LabelPRO Through Technical Scale-Up',

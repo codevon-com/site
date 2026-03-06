@@ -237,6 +237,35 @@ export const projectsPt = {
       { value: 'Multiárea', label: 'Roadmap operacional entregue' }
     ]
   },
+  manfing: {
+    title: 'Manfing - Infraestrutura de Dados para Modelos Preditivos',
+    cardTitle: 'Alimentando Previsões da Manfing com Dados Futuros da B3',
+    description:
+      'Integrações de dados e consultoria de arquitetura para modelos de IA que ajudam empresas a prever demanda, otimizar estoques e melhorar planejamento produtivo.',
+    image: '/portfolio/manfing_logo.png',
+    detailImage: '/portfolio/manfing_logo.png',
+    imageFit: 'contain',
+    tags: ['IA', 'Infraestrutura de Dados', 'Market Data', 'Forecasting'],
+    about: [
+      'A Manfing usa IA para ajudar clientes a otimizar vendas, produção e logística com análises preditivas. Um dos casos práticos é o planejamento de demanda no varejo de moda, como decidir melhor níveis de estoque por tamanho, cor e mix de produto.',
+      'Para um de seus modelos preditivos, a empresa precisava de dados históricos confiáveis de futuros agrícolas e câmbio. Entramos como parceiros para desenvolver uma série de integrações, principalmente com a B3, voltadas à ingestão de históricos de soja, milho e dólar futuro.',
+      'Além das integrações em si, também orientamos sobre a melhor forma de armazenar e acessar esse volume maior de dados de séries temporais, garantindo uma base eficiente, confiável e pronta para escalar o pipeline de previsão.'
+    ],
+    features: [
+      'Integrações históricas de market data com foco em contratos futuros',
+      'Conectividade com a B3 para históricos de soja, milho e dólar futuro',
+      'Fluxos de ingestão preparados para uso em modelos preditivos',
+      'Consultoria sobre armazenamento e acesso de grandes volumes de dados históricos',
+      'Base de suporte para previsões de vendas, estoque, produção e logística com IA'
+    ],
+    technologies: ['Integrações B3', 'Séries Temporais', 'Data Pipelines', 'Infraestrutura para IA Preditiva'],
+    results: [
+      { value: 'Mais rica', label: 'Base externa de dados para os modelos' },
+      { value: 'Melhor', label: 'Suporte às previsões de demanda e estoque' },
+      { value: 'Escalável', label: 'Arquitetura de armazenamento e acesso' },
+      { value: 'Mais forte', label: 'Fundação para decisões operacionais com IA' }
+    ]
+  },
   rightticker: {
     title: 'Etiqueta Certa - Consultoria Técnica para Crescimento',
     cardTitle: 'Guiando a Etiqueta Certa na Próxima Etapa de Escala',

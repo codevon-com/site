@@ -76,6 +76,7 @@ const localePath = useLocalePath();
 const projectOrder = [
   'rightticker',
   'credeal',
+  'manfing',
   'sicredi',
   'catalunya',
   'aawz',
