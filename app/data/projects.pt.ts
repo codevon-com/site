@@ -266,6 +266,38 @@ export const projectsPt = {
       { value: 'Mais forte', label: 'Fundação para decisões operacionais com IA' }
     ]
   },
+  'video-automation': {
+    title: 'Pipeline de Automação para Vídeos com IA',
+    cardTitle: 'Automação de Vídeos e Shorts no YouTube com n8n',
+    description:
+      'Um pipeline ponta a ponta em n8n para gerar, montar, publicar e acompanhar vídeos e Shorts no YouTube em múltiplos idiomas.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Automação', 'n8n', 'IA Generativa', 'Pipeline de Mídia'],
+    about: [
+      'Desenhamos e implementamos um pipeline totalmente automatizado para criar e publicar vídeos e Shorts no YouTube em torno de um tema definido.',
+      'O fluxo orquestrava geração de ideias com ChatGPT, criação de imagens com o modelo Nano Banana do Google, voz com ElevenLabs, música com Suno e montagem final com ffmpeg, tudo coordenado pelo n8n.',
+      'Também construímos a camada de persistência e rastreamento para registrar o que já havia sido gerado e publicado, evitar repetição e permitir uma camada de tradução capaz de produzir o mesmo conteúdo em outros idiomas.'
+    ],
+    features: [
+      'Orquestração ponta a ponta em n8n para produção de vídeos e Shorts',
+      'Geração de ideias e roteiros com ChatGPT em torno de um tema definido',
+      'Workflow de imagens com Nano Banana guiado por style guide visual',
+      'Geração de voz com curadoria de voz e cadência no ElevenLabs',
+      'Geração de música com Suno seguindo restrições de estilo consistentes',
+      'Montagem de mídia com ffmpeg para saída pronta para publicação',
+      'Controle de publicação para evitar temas duplicados e manter histórico',
+      'Camada de tradução para geração multilíngue de vídeos'
+    ],
+    technologies: ['n8n', 'ChatGPT', 'Nano Banana', 'ElevenLabs', 'Suno', 'ffmpeg'],
+    results: [
+      { value: 'Automatizado', label: 'Fluxo de ideação até publicação' },
+      { value: 'Consistente', label: 'Estilo de thumbnails, voz e música' },
+      { value: 'Maior', label: 'Potencial de CTR via títulos e thumbnails melhores' },
+      { value: 'Menor', label: 'Churn da audiência com hooks e ritmo melhores' }
+    ]
+  },
   stark: {
     title: 'Stark - API Sinatra para Análise de Crédito',
     cardTitle: 'Construindo o Stark Sinatra sobre a API da Fintz',

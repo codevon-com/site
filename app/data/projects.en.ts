@@ -264,6 +264,38 @@ export const projectsEn = {
       { value: 'Stronger', label: 'Foundation for AI-driven operational decisions' }
     ]
   },
+  'video-automation': {
+    title: 'AI Video Automation Pipeline',
+    cardTitle: 'Automating YouTube Video and Shorts Production with n8n',
+    description:
+      'An end-to-end n8n pipeline for generating, assembling, publishing, and tracking YouTube videos and Shorts across multiple languages.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Automation', 'n8n', 'Generative AI', 'Media Pipeline'],
+    about: [
+      'We designed and implemented a fully automated content pipeline for creating and publishing YouTube videos and Shorts around a chosen theme.',
+      'The workflow orchestrated idea generation with ChatGPT, image creation with Google\'s Nano Banana model, voice generation with ElevenLabs, music generation with Suno, and video assembly with ffmpeg, all coordinated through n8n.',
+      'We also built persistence and tracking layers so the system could record what had already been generated and published, avoid repetition, and support a translation layer capable of producing the same content in additional languages.'
+    ],
+    features: [
+      'n8n orchestration for end-to-end video and Shorts production',
+      'ChatGPT-powered idea generation and scripting around a defined content theme',
+      'Image generation workflow using Nano Banana with a defined visual style guide',
+      'Voice generation with curated ElevenLabs voice selection and cadence tuning',
+      'Music generation with Suno guided by consistent style constraints',
+      'ffmpeg-based media assembly and publishing-ready video output',
+      'Publication tracking to avoid duplicate topics and preserve content history',
+      'Translation layer for multilingual video generation'
+    ],
+    technologies: ['n8n', 'ChatGPT', 'Nano Banana', 'ElevenLabs', 'Suno', 'ffmpeg'],
+    results: [
+      { value: 'Automated', label: 'Video ideation-to-publishing workflow' },
+      { value: 'Consistent', label: 'Thumbnails, voice, and music style across outputs' },
+      { value: 'Higher', label: 'CTR potential through title and thumbnail optimization' },
+      { value: 'Lower', label: 'Audience churn through better hooks and pacing' }
+    ]
+  },
   stark: {
     title: 'Stark - Sinatra Credit Analysis API',
     cardTitle: 'Building Stark Sinatra on Top of the Fintz API',
