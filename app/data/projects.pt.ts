@@ -4,8 +4,8 @@ export const projectsPt = {
     cardTitle: 'Assistente de IA no WhatsApp com SmartZap',
     description:
       'Assistente de WhatsApp com IA que traz o poder dos LLMs para conversas do dia a dia.',
-    image: '/portfolio/smartzap_logo.webp',
-    detailImage: '/portfolio/smartzap_logo.webp',
+    image: '/portfolio/smartzap.jpeg',
+    detailImage: '/portfolio/smartzap.jpeg',
     tags: ['IA', 'Automação', 'WhatsApp Bot', 'SaaS'],
     about: [
       'O SmartZap transforma o WhatsApp em um assistente poderoso ao integrar modelos de linguagem de ponta em uma interface de conversa simples. Em vez de trocar de app, o usuário recebe ajuda no mensageiro que já usa diariamente.',
@@ -235,6 +235,37 @@ export const projectsPt = {
       { value: 'Maior', label: 'Conversão com resposta mais rápida' },
       { value: 'Muito mais rápido', label: 'Processo de triagem e preenchimento no RH' },
       { value: 'Multiárea', label: 'Roadmap operacional entregue' }
+    ]
+  },
+  rightticker: {
+    title: 'Etiqueta Certa - Consultoria Técnica para Crescimento',
+    cardTitle: 'Guiando a Etiqueta Certa na Próxima Etapa de Escala',
+    description:
+      'Consultoria técnica e de produto para uma plataforma SaaS em rápido crescimento que automatiza a criação de etiquetas em conformidade para mercados globais.',
+    image: '/portfolio/etiquetacerta.png',
+    detailImage: '/portfolio/etiquetacerta.png',
+    imageFit: 'contain',
+    tags: ['Consultoria', 'SaaS', 'Arquitetura', 'Liderança Técnica'],
+    about: [
+      'Trabalhamos com a Etiqueta Certa para avaliar produto, arquitetura, capacidade de entrega e prioridades de escala em uma empresa SaaS de alto crescimento focada em conformidade regulatória de etiquetas.',
+      'A plataforma cria etiquetas automaticamente para diferentes tipos de produtos, em conformidade com regulamentações e normas como INMETRO, ABNT, padrões internacionais e manuais de etiquetagem de varejistas de moda, calçados e acessórios para casa.',
+      'A empresa já havia conquistado tração comercial relevante e atendia marcas importantes, então a necessidade principal não era validar produto, mas fortalecer a base técnica para sustentar a próxima etapa de crescimento.',
+      'Nosso trabalho analisou a plataforma atual, a transição do produto legado para a nova arquitetura, a maturidade operacional, as escolhas de infraestrutura e os riscos de execução de um roadmap ambicioso que incluía internacionalização, suporte com IA e novas camadas de inteligência de produto.'
+    ],
+    features: [
+      'Diagnóstico técnico de arquitetura, infraestrutura e capacidade de entrega',
+      'Revisão do escopo regulatório do produto para conformidade nacional e internacional',
+      'Revisão da estratégia de transição entre versões legadas e a nova plataforma',
+      'Direcionamento sobre maturidade operacional, observabilidade, analytics e suporte',
+      'Recomendações para sequenciamento de roadmap, prontidão para internacionalização e estratégia de IA',
+      'Apoio consultivo para fortalecer liderança técnica, governança e clareza de execução na fase de escala'
+    ],
+    technologies: ['C#/.NET', 'React', 'TypeScript', 'MySQL', 'AWS', 'Azure'],
+    results: [
+      { value: '200+', label: 'Fornecedores usando a plataforma em conformidade' },
+      { value: '1.100+', label: 'Marcas vendendo com a etiqueta correta' },
+      { value: '400k+', label: 'Modelos de etiquetas desenvolvidos na plataforma' },
+      { value: 'Mais claro', label: 'Roadmap de escala e prioridades técnicas' }
     ]
   },
   sicredi: {

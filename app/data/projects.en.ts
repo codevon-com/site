@@ -4,8 +4,8 @@ export const projectsEn = {
     cardTitle: 'AI Assistant Inside WhatsApp with SmartZap',
     description:
       'An AI-powered WhatsApp assistant that brings the intelligence of modern LLMs directly into everyday conversations.',
-    image: '/portfolio/smartzap_logo.webp',
-    detailImage: '/portfolio/smartzap_logo.webp',
+    image: '/portfolio/smartzap.jpeg',
+    detailImage: '/portfolio/smartzap.jpeg',
     tags: ['AI', 'Automation', 'WhatsApp Bot', 'SaaS'],
     about: [
       'SmartZap turns WhatsApp into a powerful AI assistant by integrating state-of-the-art language models into a simple conversational interface. Instead of switching apps, users can get help directly in the messaging platform they use daily.',
@@ -233,6 +233,37 @@ export const projectsEn = {
       { value: 'Higher', label: 'Conversion through faster response times' },
       { value: 'Much faster', label: 'HR intake and form-filling workflows' },
       { value: 'Multi-area', label: 'Operational roadmap delivered' }
+    ]
+  },
+  rightticker: {
+    title: 'LabelPRO - Technical Growth Consulting',
+    cardTitle: 'Guiding LabelPRO Through Technical Scale-Up',
+    description:
+      'A technical and product consulting engagement for a fast-growing SaaS platform that automates compliant care-label creation for global markets.',
+      image: '/portfolio/labelpro.png',
+      detailImage: '/portfolio/labelpro.png',
+    imageFit: 'contain',
+    tags: ['Consulting', 'SaaS', 'Architecture', 'Technical Leadership'],
+    about: [
+      'We worked with LabelPRO to assess product, architecture, delivery readiness, and scaling priorities for a high-growth SaaS business focused on compliant product labeling.',
+      'The platform automatically creates care labels in compliance with Brazilian and international labeling standards, including requirements tied to organizations such as INMETRO, ABNT, and global retail labeling manuals.',
+      'The company had already achieved strong commercial traction and was serving relevant brands, so the main need was not validating product-market fit, but strengthening the technical foundation required for the next stage of growth.',
+      'Our work reviewed the current platform, the transition from the legacy product to the new generation architecture, operational maturity, infrastructure choices, and the execution risks behind an ambitious roadmap that included internationalization, AI-assisted support, and deeper product intelligence.'
+    ],
+    features: [
+      'Technical due diligence on platform architecture, infrastructure, and delivery readiness',
+      'Review of regulatory-compliance product scope across local and global labeling standards',
+      'Review of the transition path from legacy product versions to the new platform architecture',
+      'Guidance on operational maturity, observability, analytics, and support processes',
+      'Recommendations for roadmap sequencing, internationalization readiness, and AI integration strategy',
+      'Advisory support to strengthen technical leadership, governance, and execution clarity during scale-up'
+    ],
+    technologies: ['C#/.NET', 'React', 'TypeScript', 'MySQL', 'AWS', 'Azure'],
+    results: [
+      { value: '200+', label: 'Suppliers using the platform for compliant delivery' },
+      { value: '1,100+', label: 'Brands selling with the right label' },
+      { value: '400k+', label: 'Label models developed on the platform' },
+      { value: 'Clearer', label: 'Scale-up roadmap and technical priorities' }
     ]
   },
   sicredi: {
