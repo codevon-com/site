@@ -173,6 +173,40 @@ export const projectsPt = {
       { value: 'Modernizado', label: 'Visual do documento e tratamento de conteúdo variável' }
     ]
   },
+  'ltk-ai-consulting': {
+    title: 'LTK - Consultoria de IA para Documentação Técnica',
+    cardTitle: 'Destravando Fluxos de IA para Documentação Técnica',
+    description:
+      'Uma consultoria focada em manuais técnicos, IA aplicada a documentos, estratégia de RAG, OCR e na arquitetura correta para PDFs grandes e complexos.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Consultoria', 'IA', 'RAG', 'Document Intelligence'],
+    about: [
+      'Trabalhamos com um cliente que redige, revisa e traduz manuais altamente técnicos, incluindo PDFs grandes de equipamentos industriais e agrícolas com diagramas, ícones, tabelas e conteúdo técnico estruturado.',
+      'O time já havia iniciado um pipeline de IA para esses documentos, mas havia um gargalo arquitetural logo na entrada: uma abordagem local baseada em IBM Granite e inferência self-hosted em uma máquina dedicada. Para esse caso de uso, essa escolha adicionava complexidade sem entregar a qualidade, a velocidade e a compreensão multimodal necessárias.',
+      'Em uma consultoria curta, conseguimos destravar um time que estava há meses empacado ao reenquadrar o problema: em vez de insistir em um modelo local fraco para um fluxo exigente de documentos, recomendamos uma abordagem API-first com Gemini 2.5 Flash, muito mais adequada para PDFs com OCR, workflows de retrieval e confiabilidade em produção.',
+      'A partir daí, a atuação se expandiu para a orientação técnica mais ampla sobre arquitetura de RAG, estratégia de chunking, configuração de overlap, uso corporativo mais seguro de IA, structured outputs e definição de onde a IA deve acelerar o trabalho dos revisores humanos sem substituir a validação técnica.'
+    ],
+    features: [
+      'Diagnóstico rápido do gargalo central em um pipeline existente de IA para documentos técnicos',
+      'Recomendação de troca da inferência self-hosted com IBM Granite por Gemini 2.5 Flash via API',
+      'Orientação sobre por que hospedagem local não fazia sentido para o workload e a estrutura do cliente',
+      'Direcionamento técnico para Q&A de manuais e acesso a conhecimento interno com RAG',
+      'Recomendações sobre chunking, overlap, embeddings e qualidade de retrieval',
+      'Orientação para OCR e leitura de PDFs complexos, especialmente diagramas, tabelas e páginas com layout misto',
+      'Avaliação de quando fine-tuning era desnecessário e prompt mais structured outputs resolviam melhor',
+      'Diretrizes para uso corporativo mais seguro de IA com provedores confiáveis e capacitação do time',
+      'Recomendações para usar IA como assistente de revisão em fluxos de documentação técnica, e não como substituto cego da validação humana'
+    ],
+    technologies: ['Gemini 2.5 Flash', 'RAG', 'OCR', 'Structured Outputs', 'Consultoria em IA Corporativa'],
+    results: [
+      { value: '<1h', label: 'Tempo para identificar o gargalo arquitetural central' },
+      { value: 'Destravado', label: 'Direcionamento do time após meses de impasse' },
+      { value: 'Mais aderente', label: 'Estratégia de modelo e hospedagem para PDFs complexos' },
+      { value: 'Mais seguro', label: 'Caminho para adoção corporativa e revisão assistida por IA' }
+    ]
+  },
   'ai-sdr-proposals': {
     title: 'Agente de IA para Propostas e Orçamentos',
     cardTitle: 'Geração Autônoma de Propostas para Times Comerciais',

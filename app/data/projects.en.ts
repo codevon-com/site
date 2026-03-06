@@ -170,6 +170,40 @@ export const projectsEn = {
       { value: 'Modernized', label: 'Document visual design and dynamic layout handling' }
     ]
   },
+  'ltk-ai-consulting': {
+    title: 'LTK - AI Consulting for Technical Documentation',
+    cardTitle: 'Unblocking AI Workflows for Technical Documentation',
+    description:
+      'A consulting engagement focused on technical manuals, document AI, RAG, OCR strategy, and the right model architecture for large and complex PDFs.',
+    image: '/logo_codevon_centered.png',
+    detailImage: '/logo_codevon_centered.png',
+    imageFit: 'contain',
+    tags: ['Consulting', 'AI', 'RAG', 'Document Intelligence'],
+    about: [
+      'We worked with a client that writes, reviews, and translates highly technical manuals, including large PDF documents for industrial and agricultural equipment with diagrams, icons, tables, and structured technical content.',
+      'Their team had already started building an AI pipeline for these documents, but the stack had an architectural bottleneck right at the beginning: a local setup built around IBM Granite and self-hosted inference on a dedicated machine. For this use case, that approach introduced unnecessary complexity while still falling short on quality, speed, and multimodal document understanding.',
+      'In a short consulting session, we helped unblock a team that had been stuck for months by reframing the problem: instead of trying to force a weak local model into a demanding document workflow, we recommended an API-first approach with Gemini 2.5 Flash, which was far better suited for OCR-heavy PDFs, retrieval workflows, and production reliability.',
+      'From there, the work expanded into broader technical guidance around RAG architecture, chunking strategy, overlap configuration, safer enterprise AI adoption, structured outputs, and where AI should assist human reviewers rather than replace them.'
+    ],
+    features: [
+      'Rapid diagnosis of the bottleneck in an existing technical-document AI pipeline',
+      'Recommendation to replace self-hosted IBM Granite inference with Gemini 2.5 Flash via API',
+      'Guidance on when local hosting made no sense for the client workload and team structure',
+      'Technical direction for RAG-based manual Q&A and internal knowledge access',
+      'Recommendations around chunking, overlap, embeddings, and retrieval quality',
+      'Advice for OCR and complex PDF handling, especially for diagrams, tables, and mixed-layout pages',
+      'Evaluation of when fine-tuning was unnecessary and prompt plus structured outputs were enough',
+      'Guidance on safer enterprise AI usage through trusted providers and team enablement',
+      'Recommendations for using AI as a review assistant in technical documentation workflows instead of a blind replacement for human validation'
+    ],
+    technologies: ['Gemini 2.5 Flash', 'RAG', 'OCR', 'Structured Outputs', 'Enterprise AI Consulting'],
+    results: [
+      { value: '<1h', label: 'Time to identify the core architectural bottleneck' },
+      { value: 'Unblocked', label: 'Team direction after months of stalled development' },
+      { value: 'Better fit', label: 'Model and hosting strategy for complex PDFs' },
+      { value: 'Safer', label: 'Path for enterprise AI adoption and review workflows' }
+    ]
+  },
   'ai-sdr-proposals': {
     title: 'AI Proposal and Quoting Agent',
     cardTitle: 'Autonomous Proposal Generation for Commercial Teams',

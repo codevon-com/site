@@ -75,6 +75,7 @@ const localePath = useLocalePath();
 
 const projectOrder = [
   'sicoob-commodities',
+  'ltk-ai-consulting',
   'ai-sdr-proposals',
   'startup-monitoring-platform',
   'google-drive-migration',
