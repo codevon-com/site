@@ -41,6 +41,37 @@ export const projectsEn = {
       { value: '3s', label: 'Average response time' }
     ]
   },
+  'fintz-api': {
+    title: 'Fintz - Financial Market Data API',
+    cardTitle: 'Building the Fintz API for Financial Platforms at Scale',
+    description:
+      'A financial market data API product covering stocks, FIIs, treasury, funds, and more, built to power apps, platforms, BI workflows, and operational systems.',
+    image: '/portfolio/fintzbot.png',
+    detailImage: '/portfolio/fintzbot.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'API', 'Market Data', 'SaaS'],
+    about: [
+      'We built Fintz as a financial data API product designed to give companies and developers a single connection point for Brazilian market data.',
+      'The platform covered data across Bolsa B3, funds, treasury, indices, rates, logos, and related utility datasets, with historical coverage built for production use cases such as apps, internal platforms, backtesting, Power BI, and operational tooling.',
+      'The product was able to win large clients in Brazil, including firms such as Varos and DicaDeHoje, and also grew to more than 500 paying API subscribers.'
+    ],
+    features: [
+      'APIs for stocks, FIIs, ETFs, BDRs, treasury, indices, rates, and funds',
+      'Historical end-of-day pricing and adjusted price series',
+      'Corporate actions, dividends, interest on equity, splits, and bonuses',
+      'Fundamental indicators and financial statement line history',
+      'Treasury pricing and yield data, including current and historical curves',
+      'Asset logos and icons for product and dashboard integration',
+      'Backtest-ready datasets with bias controls for more reliable analysis'
+    ],
+    technologies: ['REST API', 'JSON', 'B3 Data', 'Fund Data', 'Treasury Data', 'Backtest Infrastructure'],
+    results: [
+      { value: '500+', label: 'Paying API customers' },
+      { value: 'Enterprise', label: 'Clients such as Varos and DicaDeHoje' },
+      { value: '20k+', label: 'Funds covered in the platform' },
+      { value: 'Single', label: 'Connection point for multiple market datasets' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:

@@ -44,6 +44,37 @@ export const projectsPt = {
       { value: '3s', label: 'Tempo médio de resposta' }
     ]
   },
+  'fintz-api': {
+    title: 'Fintz - API de Dados do Mercado Financeiro',
+    cardTitle: 'Construindo a API da Fintz para Plataformas Financeiras em Escala',
+    description:
+      'Um produto de API de dados do mercado financeiro cobrindo ações, FIIs, Tesouro, fundos e mais, criado para alimentar apps, plataformas, BI e fluxos operacionais.',
+    image: '/portfolio/fintzbot.png',
+    detailImage: '/portfolio/fintzbot.png',
+    imageFit: 'contain',
+    tags: ['Fintech', 'API', 'Market Data', 'SaaS'],
+    about: [
+      'Construímos a Fintz como um produto de API de dados financeiros para oferecer a empresas e desenvolvedores um ponto único de conexão com o mercado brasileiro.',
+      'A plataforma cobria dados de Bolsa B3, fundos, Tesouro, índices, taxas, logos e utilitários relacionados, com histórico completo para casos de uso em apps, plataformas internas, backtests, Power BI e sistemas operacionais.',
+      'O produto conseguiu fechar contratos com clientes relevantes no Brasil, incluindo empresas como Varos e DicaDeHoje, além de atingir mais de 500 assinantes pagantes da API.'
+    ],
+    features: [
+      'APIs para ações, FIIs, ETFs, BDRs, Tesouro, índices, taxas e fundos',
+      'Histórico de cotações fim de dia e séries ajustadas',
+      'Eventos corporativos, dividendos, JCP, desdobramentos e bonificações',
+      'Indicadores fundamentalistas e histórico de linhas dos balanços',
+      'Dados de preços e taxas do Tesouro, atuais e históricos',
+      'Logos e ícones de ativos para integração em produtos e dashboards',
+      'Bases preparadas para backtest com controle de vieses'
+    ],
+    technologies: ['REST API', 'JSON', 'Dados da B3', 'Dados de Fundos', 'Dados de Tesouro', 'Infraestrutura para Backtest'],
+    results: [
+      { value: '500+', label: 'Clientes pagantes da API' },
+      { value: 'Enterprise', label: 'Clientes como Varos e DicaDeHoje' },
+      { value: '20k+', label: 'Fundos cobertos na plataforma' },
+      { value: 'Único', label: 'Ponto de conexão para múltiplos datasets' }
+    ]
+  },
   'take-pics': {
     title: 'TakePics.AI',
     description:
