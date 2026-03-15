@@ -291,23 +291,22 @@ export const projectsEn = {
     ]
   },
   'rma-express': {
-    title: 'Automatic MORs (Monthly Operating Reports) Generator',
-    cardTitle: 'Automating Monthly Operating Reports at Scale',
-    description: "A system that automatically generates Monthly Operating Reports (MOR) from a company’s balance sheet.",
-    image: '/portfolio/rmaexpress.webp',
-    detailImage: '/portfolio/rmaexpress.webp',
+    title: 'Automatic Operating Reports Generator',
+    cardTitle: 'Automating Operating Reports at Scale',
+    description: "A system that automatically generates operating reports from a company's balance sheet.",
+    image: '/portfolio/relatorio_express.webp',
+    detailImage: '/portfolio/relatorio_express.webp',
     imageFit: 'contain',
     tags: ['Data Automation', 'Financial Analysis', 'LegalTech'],
     about: [
-      'The Automatic MOR Generator is a specialized system designed to transform a company’s trial balance into a complete Monthly Operating Report (MOR) used in judicial recovery cases. The MOR is reviewed by a judge to monitor the financial health and operational status of the company.',
-      'The tool uses deterministic logic and structured financial rules to interpret accounting data and produce a fully formatted, standardized, and consistent PowerPoint report. This eliminates manual work, reduces errors, and greatly speeds up document preparation.'
+      "The Automatic Operating Reports Generator is a specialized system designed to transform a company's trial balance into a complete operating report used in cases like due dilligence, credit analysis, judicial recovery, etc.",
+      "Uses a robust processing pipeline and automated validations to generate standardized, consistent presentations, reducing manual effort and minimizing errors."
     ],
     features: [
       'Automatic extraction and processing of trial balance data',
-      'Deterministic logic for interpreting financial indicators',
-      'Fully generated PowerPoint RMA reports',
-      'Error reduction through rule-based transformations',
-      'Support for legal compliance in judicial recovery cases'
+      'Deterministic logic for interpreting financial data and indicators',
+      'Fully generated PowerPoint, Word and PDF reports',
+      'Support for legal compliance'
     ],
     technologies: ['Python', 'Pandas', 'NumPy'],
     results: [
@@ -434,8 +433,8 @@ export const projectsEn = {
     tags: ['Consulting', 'Automation', 'ERP Integration', 'Operations'],
     about: [
       'We worked with Credeal, a leading notebook manufacturer in Latin America, to map cross-functional automation opportunities and reduce manual operational bottlenecks.',
-      'A key bottleneck was HR onboarding. Because turnover is relatively high in the industry, screening candidates, storing application data, and manually re-entering information into internal systems and government workflows such as eSocial consumed significant time.',
-      'For that HR workflow, we proposed an AI-assisted flow to digitize applications, extract structured data from documents, and auto-fill both internal and external forms.',
+      'HR onboarding emerged as a valuable automation opportunity. We identified a way to streamline candidate intake, centralize application data, and reduce manual entry across internal systems and external workflows such as eSocial.',
+      'For this workflow, we proposed an AI-assisted process to digitize applications, extract structured data from documents, and automatically populate both internal and external forms, improving efficiency and reducing operational costs.',
       'A second subproject focused on quote verification. We designed a new rules and automatic verification layer to triage straightforward cases, reduce manual review, and accelerate approvals and rejections in the targeted commercial flow.',
       'That quote workflow moved from a multi-day turnaround to roughly one hour in the improved path, which also increased conversion by making responses meaningfully faster.'
     ],
@@ -448,9 +447,8 @@ export const projectsEn = {
       'Faster approvals, rejections, and escalation paths in the commercial workflow',
       'Assessment of existing vendor capabilities before recommending custom builds',
       'Prioritized roadmap of quick wins and higher-impact initiatives',
-      'Integration strategy covering systems such as CIGAM, Senior, Octadesk, Serasa, and internal BI tools'
     ],
-    technologies: ['CIGAM', 'Senior', 'Octadesk', 'Serasa API', 'BI Systems', 'Process Automation'],
+    technologies: ['ERP Integration', 'HR Platform', 'WhatsApp Integration', 'Credit Bureau API', 'BI and analytics tools'],
     results: [
       { value: '~1h', label: 'Quote verification turnaround in the improved flow' },
       { value: 'Higher', label: 'Conversion through faster response times' },

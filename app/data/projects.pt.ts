@@ -294,23 +294,22 @@ export const projectsPt = {
     ]
   },
   'rma-express': {
-    title: 'Gerador Automático de RMA (Monthly Operating Reports)',
-    cardTitle: 'Automação de RMAs em Escala',
-    description: 'Sistema que gera relatórios operacionais mensais (MOR/RMA) a partir do balancete da empresa.',
-    image: '/portfolio/rmaexpress.webp',
-    detailImage: '/portfolio/rmaexpress.webp',
+    title: 'Gerador Automático de Relatórios Operacionais',
+    cardTitle: 'Automação de Relatórios Operacionais em Escala',
+    description: 'Sistema que gera relatórios operacionais a partir do balancete da empresa.',
+    image: '/portfolio/relatorio_express.webp',
+    detailImage: '/portfolio/relatorio_express.webp',
     imageFit: 'contain',
     tags: ['Automação de Dados', 'Análise Financeira', 'LegalTech'],
     about: [
-      'Transforma o balancete em um relatório operacional completo usado em recuperação judicial. O relatório é revisado pelo juiz para acompanhar saúde financeira e operacional.',
-      'Usa lógica determinística e regras financeiras estruturadas para produzir um PPT padronizado e consistente, eliminando trabalho manual e reduzindo erros.'
+      'Transforma o balancete em um relatório operacional completo, usado em casos como due dilligence, análise de crédito, recuperação judicial, etc.',
+      'Utiliza um pipeline robusto de processamento e validações automáticas para gerar apresentações padronizadas e consistentes, reduzindo esforço manual e minimizando erros.'
     ],
     features: [
-      'Extração e processamento automáticos do balancete',
-      'Lógica determinística para interpretar indicadores',
-      'Relatórios RMA em PowerPoint gerados automaticamente',
-      'Redução de erros com transformações baseadas em regras',
-      'Apoio à conformidade legal em casos de recuperação judicial'
+      'Extração e processamento automáticos de dados do balancete',
+      'Lógica determinística para interpretar dados financeiros e indicadores',
+      'Relatórios em PowerPoint, Word e PDF gerados automaticamente',
+      'Apoio à conformidade legal'
     ],
     technologies: ['Python', 'Pandas', 'NumPy'],
     results: [
@@ -436,8 +435,8 @@ export const projectsPt = {
     tags: ['Consultoria', 'Automação', 'Integração ERP', 'Operações'],
     about: [
       'Trabalhamos com a Credeal, uma das principais fabricantes de notebooks da América Latina, para mapear oportunidades de automação entre diferentes áreas e reduzir gargalos operacionais manuais.',
-      'Um dos principais gargalos identificados estava no RH. Como o turnover tende a ser alto na indústria, a triagem de candidatos, o armazenamento das fichas e a digitação manual das informações em sistemas internos e fluxos governamentais, como o eSocial, consumiam muito tempo.',
-      'Para esse fluxo de RH, propusemos um processo com IA para digitalizar fichas, extrair dados estruturados de documentos e preencher automaticamente formulários internos e externos.',
+      'Uma frente com forte potencial de ganho foi o onboarding de RH. Identificamos uma forma de tornar mais eficiente a entrada de candidatos, centralizar os dados das candidaturas e reduzir lançamentos manuais entre sistemas internos e fluxos externos, como o eSocial.',
+      'Para esse processo, propusemos um fluxo com apoio de IA para digitalizar candidaturas, extrair dados estruturados de documentos e preencher automaticamente formulários internos e externos, aumentando a eficiência e reduzindo custos operacionais.',
       'Um segundo subprojeto foi focado na verificação de cotações. Desenhamos uma nova camada de regras e verificações automáticas para tratar casos mais simples, reduzir análise manual e acelerar aprovações e negativas no fluxo comercial.',
       'Esse fluxo de cotações saiu de um prazo de dias para cerca de uma hora no caminho melhorado, o que também elevou a conversão ao tornar a resposta muito mais rápida.'
     ],
@@ -452,7 +451,7 @@ export const projectsPt = {
       'Roadmap priorizado com quick wins e iniciativas de maior impacto',
       'Estratégia de integração envolvendo sistemas como CIGAM, Senior, Octadesk, Serasa e BI interno'
     ],
-    technologies: ['CIGAM', 'Senior', 'Octadesk', 'API Serasa', 'Sistemas de BI', 'Automação de Processos'],
+    technologies: ['Sistema ERP', 'Plataforma de RH', 'Integração WhatsApp', 'API de Crédito', 'Ferramentas de BI e Analytics'],
     results: [
       { value: '~1h', label: 'Prazo de verificação de cotações no fluxo melhorado' },
       { value: 'Maior', label: 'Conversão com resposta mais rápida' },
