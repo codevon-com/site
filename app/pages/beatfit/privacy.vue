@@ -11,12 +11,23 @@
 const sections = [
   {
     title: 'Dados coletados',
-    body: 'Coletamos dados fornecidos pelo usuário, como nome, e-mail, data de nascimento, sexo, peso, altura, objetivo de treino, preferências e informações de uso do app.',
+    body: 'Coletamos dados fornecidos pelo usuário, como nome, e-mail, data de nascimento, sexo, peso, altura, objetivo de treino, preferências, dados necessários para conta, assinatura e informações de uso do app.',
     icon: 'database',
   },
   {
     title: 'Uso dos dados',
-    body: 'Usamos os dados para personalizar treinos, acompanhar progresso, melhorar sua experiência, enviar comunicações importantes e proteger a segurança do app.',
+    body: 'Usamos os dados para personalizar treinos, acompanhar progresso, melhorar sua experiência, enviar comunicações importantes, proteger a segurança do app e tomar decisões de melhoria do produto.',
+    icon: 'activity',
+  },
+  {
+    title: 'Analytics de produto',
+    wide: true,
+    body: [
+      'Usamos o PostHog para analytics de produto. Esses dados nos ajudam a entender o uso do app, retenção, onboarding, paywall, treinos, rotinas e oportunidades de melhoria do produto.',
+      'Para isso, podemos coletar e-mail da conta, identificadores internos da conta, plataforma, versão do app, tipo de dispositivo, informações técnicas do app/dispositivo e eventos de uso.',
+      'Não usamos analytics para publicidade direcionada, venda de dados ou rastreamento entre apps ou sites. Também não enviamos localização, IP, timezone, dados de saúde, peso, medidas corporais, lesões, condições médicas, respostas livres, observações, nomes customizados ou conteúdo digitado.',
+      'Session replay, captura automática de toques e enriquecimento por localização ficam desativados. Você pode desativar analytics nas configurações do app.',
+    ],
     icon: 'activity',
   },
   {
@@ -26,7 +37,7 @@ const sections = [
   },
   {
     title: 'Assinaturas e pagamentos',
-    body: 'As assinaturas são processadas pelas lojas Google Play e App Store. Não armazenamos dados completos de pagamento.',
+    body: 'As assinaturas são processadas pela App Store e pelo Google Play, com apoio de serviços como RevenueCat para status, histórico de assinatura e validação de acesso. Não armazenamos dados completos de pagamento.',
     icon: 'credit-card',
   },
   {
@@ -36,13 +47,27 @@ const sections = [
   },
   {
     title: 'Compartilhamento com terceiros',
-    body: 'Não vendemos seus dados. Podemos compartilhar informações com serviços essenciais para autenticação, infraestrutura, pagamentos, análise e segurança.',
+    body: 'Não vendemos seus dados. Podemos compartilhar informações com fornecedores e serviços essenciais, incluindo PostHog para analytics, Supabase para autenticação e banco de dados, e RevenueCat, App Store e Google Play para assinaturas e pagamentos.',
     icon: 'share-2',
+  },
+  {
+    title: 'Escolhas do usuário',
+    body: [
+      'Você pode desativar o compartilhamento de dados de uso e analytics nas configurações do app.',
+      'A desativação não afeta treinos, assinatura ou acesso à conta.',
+      'Eventos enviados antes da desativação podem permanecer armazenados conforme nossa política de retenção.',
+    ],
+    icon: 'shield-check',
   },
   {
     title: 'Retenção e exclusão de dados',
     body: 'Mantemos dados enquanto sua conta estiver ativa ou conforme necessário por lei, segurança ou prevenção de fraude. Você pode solicitar a exclusão da conta.',
     icon: 'trash-2',
+  },
+  {
+    title: 'Google Play Data Safety',
+    body: 'Para fins de declaração de segurança de dados, o app pode tratar e-mail, identificadores internos da conta, interações no app e histórico/status de assinatura quando necessário para conta, analytics, assinaturas e acesso a recursos pagos.',
+    icon: 'info',
   },
   {
     title: 'Contato',

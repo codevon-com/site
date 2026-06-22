@@ -2,8 +2,9 @@
 defineProps<{
   sections: Array<{
     title: string
-    body: string
+    body: string | string[]
     icon: string
+    wide?: boolean
   }>
 }>();
 </script>
@@ -14,6 +15,7 @@ defineProps<{
       v-for="(section, index) in sections"
       :key="section.title"
       class="rounded-lg border border-black/10 bg-white p-6 shadow-sm shadow-black/[0.03]"
+      :class="{ 'md:col-span-2': section.wide }"
     >
       <div class="mb-4 flex items-center gap-3">
         <div class="flex h-11 w-11 items-center justify-center rounded-lg border border-[#EF1515]/20 bg-red-50 text-[#EF1515]">
@@ -23,7 +25,10 @@ defineProps<{
           {{ index + 1 }}. {{ section.title }}
         </h2>
       </div>
-      <p class="text-sm leading-7 text-neutral-700">{{ section.body }}</p>
+      <div v-if="Array.isArray(section.body)" class="space-y-3 text-sm leading-7 text-neutral-700">
+        <p v-for="paragraph in section.body" :key="paragraph">{{ paragraph }}</p>
+      </div>
+      <p v-else class="text-sm leading-7 text-neutral-700">{{ section.body }}</p>
     </article>
   </div>
 </template>
