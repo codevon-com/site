@@ -1,0 +1,72 @@
+<script setup lang="ts">
+import { ArrowUpRight, ChartNoAxesCombined, Package, ReceiptText, ShieldCheck, TrendingUp } from 'lucide-vue-next'
+
+const { locale } = useI18n()
+const copy = computed(() => locale.value === 'pt-BR' ? {
+  eyebrow: 'Um produto da Codevon • Amazon Brasil', title: 'Vender é só o começo.', highlight: 'Entenda o que sobra.',
+  intro: 'MargemVerde é a plataforma de análise financeira para pequenas e médias empresas que vendem na Amazon Brasil. Uma leitura clara de vendas, custos e margem por produto.',
+  contact: 'Conheça o MargemVerde', explore: 'Explore a demonstração', status: 'Preparando o lançamento',
+  statusBody: 'A demonstração está disponível com dados fictícios. As integrações com Amazon Seller e Amazon Ads aguardam aprovação; ainda não importamos dados reais de sellers.',
+  preview: 'Uma venda, do faturamento ao resultado', sample: 'Exemplo ilustrativo • valores fictícios', revenue: 'Faturamento', fees: 'Tarifas e logística Amazon', cost: 'Custo dos produtos', ads: 'Investimento em anúncios', result: 'Resultado pós-ads', margin: 'margem pós-ads', note: 'Antes de impostos e despesas operacionais. No DRE, esses valores completam a leitura do resultado.',
+  featuresTitle: 'Cada decisão começa com um número confiável.', features: [
+    ['Visão geral da operação', 'Acompanhe faturamento, líquido do marketplace, lucro pós-ads e TACOS em um só painel.'],
+    ['Margem por SKU e ASIN', 'Compare preço médio, unidades, custo e resultado por produto. Identifique custos ausentes e produtos que precisam de atenção.'],
+    ['DRE simplificado', 'Entenda o caminho da receita ao resultado, considerando tarifas, devoluções, custo dos produtos, anúncios, despesas e impostos estimados.'],
+  ],
+  dataTitle: 'Duas fontes. Uma visão financeira.', seller: 'Amazon Selling Partner API', sellerBody: 'A integração planejada consulta listings, SKU/ASIN, pedidos, estoque, transações financeiras e relatórios de vendas e tráfego.', advertising: 'Amazon Ads API', advertisingBody: 'A integração planejada consulta custos de publicidade e métricas de atribuição para mostrar o impacto dos anúncios na margem. Não cria, altera ou pausa campanhas.',
+  trustTitle: 'Os dados da sua operação, para a sua operação.', trust: 'Cada seller autorizará suas próprias contas via OAuth da Amazon. Os custos de compra e despesas operacionais serão informados pelo seller. O escopo não inclui nomes, endereços ou mensagens dos compradores.',
+  handling: 'Supabase fornece banco de dados e autenticação; Hetzner hospeda a aplicação. O produto foi projetado com isolamento por empresa e autenticação em duas etapas. Os dados serão usados para entregar as análises ao seller autorizado, sem venda de dados ou uso para publicidade de terceiros.',
+  company: 'Desenvolvido e operado pela Codevon Software LTDA, Brasil.', disclaimer: 'MargemVerde é uma solução independente, sem afiliação ou endosso da Amazon. As análises gerenciais e estimativas tributárias não substituem a orientação contábil.',
+  closing: 'Mais clareza para a próxima decisão.', closingBody: 'Fale com a Codevon sobre o produto, o piloto ou o tratamento dos seus dados.',
+} : {
+  eyebrow: 'A Codevon product • Amazon Brazil', title: 'Sales are just the start.', highlight: 'See what stays.',
+  intro: 'MargemVerde is a financial analytics platform for small and medium-sized businesses selling on Amazon Brazil. A clear view of sales, costs, and profit margins by product.',
+  contact: 'Talk about MargemVerde', explore: 'Explore the demo', status: 'Preparing for launch',
+  statusBody: 'The demo is available with fictional data. Amazon Seller and Amazon Ads integrations are awaiting approval; we do not yet import real seller data.',
+  preview: 'From revenue to the result', sample: 'Illustrative example • fictional figures', revenue: 'Revenue', fees: 'Amazon fees and logistics', cost: 'Cost of goods sold', ads: 'Advertising spend', result: 'Profit after ads', margin: 'margin after ads', note: 'Before taxes and operating expenses. The P&L includes these amounts to complete the picture.',
+  featuresTitle: 'Better decisions start with clearer numbers.', features: [
+    ['Business overview', 'Review revenue, marketplace proceeds, profit after ads, and TACOS in one dashboard.'],
+    ['Margins by SKU and ASIN', 'Compare average selling prices, units, costs, and profit by product. Identify missing costs and products that need attention.'],
+    ['Simplified P&L', 'Understand the path from revenue to profit, including fees, refunds, product costs, advertising, operating expenses, and estimated taxes.'],
+  ],
+  dataTitle: 'Two sources. One financial view.', seller: 'Amazon Selling Partner API', sellerBody: 'The planned integration reads listings, SKUs/ASINs, orders, inventory, financial transactions, and Sales and Traffic reports.', advertising: 'Amazon Ads API', advertisingBody: 'The planned integration reads advertising costs and attribution metrics to show how ads affect margins. It does not create, modify, or pause campaigns.',
+  trustTitle: 'Your business data, for your business.', trust: 'Each seller will authorize their own accounts through Amazon OAuth. Product purchase costs and operating expenses will be provided by the seller. The scope excludes buyer names, addresses, and messages.',
+  handling: 'Supabase provides database and authentication infrastructure; Hetzner hosts the application. The product is designed with organization-level data isolation and two-factor authentication. Data will be used to deliver analytics to the authorizing seller, without selling data or using it for third-party advertising.',
+  company: 'Developed and operated by Codevon Software LTDA, Brazil.', disclaimer: 'MargemVerde is an independent solution, not affiliated with or endorsed by Amazon. Management reports and tax estimates do not replace professional accounting advice.',
+  closing: 'Clarity for your next decision.', closingBody: 'Contact Codevon about the product, the pilot, or how your data is handled.',
+})
+const icons = [ChartNoAxesCombined, Package, ReceiptText]
+useSeoMeta({ title: () => `MargemVerde — ${copy.value.title} ${copy.value.highlight}`, description: () => copy.value.intro, ogTitle: 'MargemVerde by Codevon', ogDescription: () => copy.value.intro })
+useHead({ link: [{ rel: 'canonical', href: () => `https://codevon.com${locale.value === 'pt-BR' ? '/pt-BR' : ''}/margemverde` }] })
+</script>
+
+<template>
+  <main class="mv-page">
+    <section class="mv-hero mv-wrap">
+      <div class="mv-intro">
+        <p class="mv-eyebrow">{{ copy.eyebrow }}</p>
+        <div class="mv-brand"><TrendingUp :size="25" aria-hidden="true" /> Margem<span>Verde</span></div>
+        <h1>{{ copy.title }} <em>{{ copy.highlight }}</em></h1>
+        <p class="mv-lead">{{ copy.intro }}</p>
+        <a class="mv-button" href="mailto:bueno@codevon.com?subject=MargemVerde">{{ copy.contact }} <ArrowUpRight :size="18" aria-hidden="true" /></a>
+        <a class="mv-demo" href="https://margemverde.178-156-150-86.sslip.io/">{{ copy.explore }} <span aria-hidden="true">→</span></a>
+      </div>
+      <figure class="mv-preview">
+        <figcaption><span>{{ copy.preview }}</span><small>{{ copy.sample }}</small></figcaption>
+        <div class="mv-revenue"><span>{{ copy.revenue }}</span><strong>R$ 100.000</strong><div class="mv-bar" aria-hidden="true"><i /><i /><i /><i /></div></div>
+        <dl class="mv-breakdown"><div><dt>{{ copy.fees }}</dt><dd>− R$ 20.000</dd></div><div><dt>{{ copy.cost }}</dt><dd>− R$ 45.000</dd></div><div><dt>{{ copy.ads }}</dt><dd>− R$ 10.000</dd></div></dl>
+        <div class="mv-result"><div><span>{{ copy.result }}</span><strong>R$ 25.000</strong></div><div class="mv-margin"><strong>25%</strong><span>{{ copy.margin }}</span></div></div>
+        <p class="mv-note">{{ copy.note }}</p>
+      </figure>
+    </section>
+    <div class="mv-wrap"><aside class="mv-status"><span class="mv-dot" aria-hidden="true" /><div><strong>{{ copy.status }}</strong><p>{{ copy.statusBody }}</p></div></aside></div>
+    <section class="mv-wrap mv-features"><h2>{{ copy.featuresTitle }}</h2><div class="mv-feature-grid"><article v-for="(feature, index) in copy.features" :key="feature[0]"><component :is="icons[index]" :size="26" aria-hidden="true" /><span class="mv-number">0{{ index + 1 }}</span><h3>{{ feature[0] }}</h3><p>{{ feature[1] }}</p></article></div></section>
+    <section class="mv-data"><div class="mv-wrap"><p class="mv-eyebrow">Amazon Brasil</p><h2>{{ copy.dataTitle }}</h2><div class="mv-source-grid"><article><span>01 / SP-API</span><h3>{{ copy.seller }}</h3><p>{{ copy.sellerBody }}</p></article><article><span>02 / ADS API</span><h3>{{ copy.advertising }}</h3><p>{{ copy.advertisingBody }}</p></article></div></div></section>
+    <section class="mv-wrap mv-trust"><div><ShieldCheck :size="30" aria-hidden="true" /><h2>{{ copy.trustTitle }}</h2></div><div><p>{{ copy.trust }}</p><p>{{ copy.handling }}</p><p class="mv-company">{{ copy.company }}</p></div></section>
+    <section class="mv-wrap mv-closing"><h2>{{ copy.closing }}</h2><p>{{ copy.closingBody }}</p><a href="mailto:bueno@codevon.com">bueno@codevon.com <ArrowUpRight :size="20" aria-hidden="true" /></a><small>{{ copy.disclaimer }}</small></section>
+  </main>
+</template>
+
+<style scoped>
+.mv-page{background:#f5f6f0;color:#173a2c;font-family:inherit}.mv-wrap{max-width:1200px;margin:auto;padding-left:32px;padding-right:32px}.mv-hero{display:grid;grid-template-columns:1.1fr 1fr;gap:65px;align-items:center;padding-top:85px;padding-bottom:70px}.mv-eyebrow{font-size:11px;letter-spacing:.15em;text-transform:uppercase;font-weight:700;color:#547b53}.mv-brand{display:flex;align-items:center;font-size:22px;font-weight:750;letter-spacing:-1px;margin:27px 0}.mv-brand svg{margin-right:10px}.mv-brand span{color:#608b50}h1{font-size:clamp(44px,4.6vw,64px);line-height:1.06;letter-spacing:-2.5px;font-weight:550}h1 em{display:block;font-family:Georgia,serif;font-weight:400;color:#5d7d3e;margin-top:8px}.mv-lead{color:#58695d;font-size:17px;line-height:1.75;margin:26px 0}.mv-button{display:inline-flex;align-items:center;gap:18px;background:#214b37;color:white;padding:16px 20px;border-radius:6px;font-size:14px;font-weight:650}.mv-button:hover{background:#326345}.mv-demo{display:flex;align-items:center;gap:12px;margin-top:20px;width:fit-content;font-size:14px;text-decoration:underline;text-underline-offset:5px}.mv-preview{background:#fffef9;border:1px solid #d8dfd2;border-radius:12px;padding:28px;box-shadow:0 24px 65px #203b2110;transform:rotate(1deg)}figcaption{display:flex;flex-direction:column;gap:7px;border-bottom:1px solid #e4e7df;padding-bottom:20px;font-size:15px;font-weight:650}figcaption small{font-size:11px;color:#72796c;font-weight:400}.mv-revenue{padding:24px 0 15px}.mv-revenue>span,.mv-result span{display:block;font-size:12px}.mv-revenue>strong{display:block;font-size:39px;letter-spacing:-1.5px;margin-top:4px}.mv-bar{height:9px;display:flex;gap:3px;margin-top:19px}.mv-bar i:nth-child(1){width:20%;background:#b2bfab}.mv-bar i:nth-child(2){width:45%;background:#d2d7bb}.mv-bar i:nth-child(3){width:10%;background:#c6a35c}.mv-bar i:nth-child(4){width:25%;background:#3d6c46}.mv-breakdown>div{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:12px 0;border-bottom:1px solid #edf0e7}.mv-breakdown dt{color:#66735f}.mv-breakdown dd{font-variant-numeric:tabular-nums}.mv-result{display:flex;justify-content:space-between;align-items:center;margin-top:23px;padding:19px;background:#eaf0df;border-radius:7px;gap:10px}.mv-result strong{font-size:29px;letter-spacing:-1px}.mv-margin{text-align:right}.mv-margin strong{font-family:Georgia,serif;font-size:34px}.mv-margin span{font-size:10px}.mv-note{font-size:11px;color:#70786a;line-height:1.6;margin-top:15px}.mv-status{display:flex;align-items:flex-start;gap:14px;padding:20px 24px;border:1px solid #d8dfd2;border-radius:7px}.mv-dot{width:8px;height:8px;background:#af904e;border-radius:100%;margin-top:7px;flex-shrink:0}.mv-status strong{font-size:13px}.mv-status p{font-size:13px;line-height:1.7;color:#687361;margin-top:4px}h2{font-size:clamp(29px,3vw,40px);letter-spacing:-1.2px;line-height:1.17;font-weight:550;max-width:650px}.mv-features{padding-top:90px;padding-bottom:85px}.mv-feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:35px;margin-top:44px}.mv-feature-grid article{position:relative;border-top:1px solid #cad5c4;padding-top:24px}.mv-number{position:absolute;right:0;top:26px;color:#8a997e;font-size:12px}h3{font-size:19px;font-weight:600;letter-spacing:-.4px;margin:22px 0 12px}.mv-feature-grid p,.mv-source-grid p,.mv-trust p{font-size:15px;line-height:1.8;color:#64705f}.mv-data{background:#193d2c;color:#f2f4e9;padding:65px 0}.mv-data .mv-eyebrow{color:#b7cd91;margin-bottom:17px}.mv-source-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;margin-top:40px}.mv-source-grid article{border-top:1px solid #45634b;padding-top:22px}.mv-source-grid article>span{color:#b7cd91;font-size:11px;letter-spacing:.1em}.mv-source-grid p{color:#c4d0c0}.mv-trust{display:grid;grid-template-columns:1fr 1.3fr;gap:70px;padding-top:80px;padding-bottom:75px}.mv-trust h2{margin-top:20px}.mv-trust p+p{margin-top:18px}.mv-trust .mv-company{color:#294d35;font-weight:600;font-size:13px}.mv-closing{border-top:1px solid #d5decc;text-align:center;padding-top:65px;padding-bottom:65px}.mv-closing h2{margin:auto}.mv-closing>p{color:#64705f;margin:18px 0}.mv-closing>a{display:inline-flex;align-items:center;gap:9px;font-size:20px;text-decoration:underline;text-underline-offset:6px}.mv-closing small{display:block;max-width:680px;margin:42px auto 0;font-size:11px;line-height:1.7;color:#78816f}a:focus-visible{outline:3px solid #8ca55f;outline-offset:5px}@media(max-width:950px){.mv-hero{gap:30px;grid-template-columns:1fr 1fr}.mv-preview{padding:20px;transform:none}.mv-result{padding:13px}.mv-result strong{font-size:24px}.mv-trust{gap:35px}}@media(max-width:700px){.mv-wrap{padding-left:22px;padding-right:22px}.mv-hero{grid-template-columns:1fr;padding-top:45px;padding-bottom:35px;gap:40px}h1{font-size:46px}.mv-preview{padding:23px}.mv-feature-grid,.mv-source-grid,.mv-trust{grid-template-columns:1fr;gap:30px}.mv-features{padding-top:55px;padding-bottom:55px}.mv-trust{padding-top:50px;padding-bottom:50px}.mv-status{padding:17px}.mv-closing{padding-top:45px;padding-bottom:45px}}
+</style>

@@ -15,6 +15,7 @@
         <div>
           <div class="mb-3 text-sm font-medium">{{ t('footer.links') }}</div>
           <ul class="space-y-2 text-sm">
+            <li><NuxtLink :to="localePath('/margemverde')" class="text-muted-foreground hover:text-foreground">MargemVerde</NuxtLink></li>
             <li><NuxtLink :to="homeHash('services')" class="text-muted-foreground hover:text-foreground">{{ t('footer.linksList.services') }}</NuxtLink></li>
             <li><NuxtLink :to="homeHash('pricing')" class="text-muted-foreground hover:text-foreground">{{ t('footer.linksList.pricing') }}</NuxtLink></li>
             <li><NuxtLink :to="homeHash('how-we-work')" class="text-muted-foreground hover:text-foreground">{{ t('footer.linksList.how') }}</NuxtLink></li>

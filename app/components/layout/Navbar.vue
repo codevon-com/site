@@ -1,10 +1,10 @@
 <template>
   <header class="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
     <div class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4">
-      <NuxtLink :to="localePath('/')" class="flex items-center">
+      <NuxtLink :to="localePath('/')" class="flex shrink-0 items-center">
         <NuxtImg src="/logo_codevon_centered.png" alt="codevon" class="h-8 w-auto" />
       </NuxtLink>
-      <nav class="hidden items-center gap-6 text-sm md:flex">
+      <nav class="hidden items-center gap-5 text-sm xl:flex">
         <NuxtLink :to="homeHash('services')" class="text-muted-foreground transition-colors hover:text-foreground">
           {{ t('nav.services') }}
         </NuxtLink>
@@ -22,6 +22,7 @@
         </NuxtLink>
       </nav>
       <div class="flex items-center gap-3">
+        <NuxtLink :to="localePath('/margemverde')" class="hidden text-sm font-medium text-green-800 hover:underline md:inline">MargemVerde</NuxtLink>
         <label class="sr-only" for="lang-switch">{{ t('nav.language') }}</label>
         <select
           id="lang-switch"
@@ -32,13 +33,16 @@
             {{ item.name }}
           </option>
         </select>
-        <NuxtLink :to="homeHash('contact')">
+        <NuxtLink :to="homeHash('contact')" class="hidden sm:block">
           <Button size="sm" class="gap-1">
             {{ t('nav.cta') }}
             <Icon name="lucide:arrow-right" class="h-4 w-4" />
           </Button>
         </NuxtLink>
       </div>
+    </div>
+    <div class="border-t border-border/40 px-4 py-2 text-center text-sm md:hidden">
+      <NuxtLink :to="localePath('/margemverde')" class="font-medium text-green-800 hover:underline">MargemVerde · Amazon Brasil →</NuxtLink>
     </div>
   </header>
 </template>
@@ -69,4 +73,3 @@ const currentLocale = computed({
   }
 });
 </script>
-
