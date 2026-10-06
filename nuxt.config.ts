@@ -19,6 +19,12 @@ export default defineNuxtConfig({
 
   // Enable static site generation for GitHub Pages
   ssr: true,
+
+  nitro: {
+    prerender: {
+      routes: ['/margemverde', '/pt-BR/margemverde']
+    }
+  },
   
   app: {
     // Use custom domain as base URL

@@ -22,7 +22,7 @@
         </NuxtLink>
       </nav>
       <div class="flex items-center gap-3">
-        <NuxtLink :to="localePath('/margemverde')" class="hidden text-sm font-medium text-green-800 hover:underline md:inline">MargemVerde</NuxtLink>
+        <a href="https://lucro10.com.br" class="hidden text-sm font-medium text-green-800 hover:underline md:inline">Lucro10</a>
         <label class="sr-only" for="lang-switch">{{ t('nav.language') }}</label>
         <select
           id="lang-switch"
@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="border-t border-border/40 px-4 py-2 text-center text-sm md:hidden">
-      <NuxtLink :to="localePath('/margemverde')" class="font-medium text-green-800 hover:underline">MargemVerde · Amazon Brasil →</NuxtLink>
+      <a href="https://lucro10.com.br" class="font-medium text-green-800 hover:underline">Lucro10 · Amazon Brasil →</a>
     </div>
   </header>
 </template>
